@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/grunt"
+    "start": "node ./bin/www"
   },
 
   "dependencies": {
@@ -16,8 +15,8 @@
   },
   "main": "app.js",
   "engines": {
-    "node": "0.10.26",
-    "npm": "1.4.3"
+    "node": "10.15.3",
+    "npm": "6.9.0"
   }
 }
 
