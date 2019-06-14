@@ -95,6 +95,7 @@ var noMenu = function (state) {
     document.getElementById('filterMenu').style.display = state;
 };
 
+
 var disableSendButtons = function () {
     $('.btn-send').each(function() {
         $(this).addClass('disabled');
