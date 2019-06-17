@@ -19,6 +19,7 @@
   },
   "name": "web-zholud",
   "scripts": {
+   "start": "node ./bin/www"
   },
   "stack": "heroku-18"
 }
