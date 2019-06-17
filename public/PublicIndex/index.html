@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, maximum-scale=1.0">
+	<title>ZHOLUD</title>
+
+	<!-- images -->
+	<link rel="shortcut icon" type="image/png" href="../Img/Zholud_favicon.png" />
+
+	<!-- libs -->
+	<script src="../lib/jquery-3.3.1.js"></script>
+	<script src="../lib/jquery.tmpl.min.js" type="text/javascript"></script>
+	<script src="../lib/wow.js"></script>
+
+	<!-- templates
+	<link rel="import" href="templates/ukr.html" /> -->
+	<script src="../templates/ukr.js"></script>
+	<script src="../templates/en.js"></script>
+	<script src="../templates/pl.js"></script>
+	<script src="../templates/rus.js"></script>
+	<script id="sendForm" type="text/x-custom-template">
+		<form class="form-identity formValid" name="forms" autocomplete="off">
+			<div class="em emeil">
+				<input class="emailForm filde required" type="email" name="email"  id="email_input" placeholder="">
+				<label for="email_input">
+					<span>${emailText}</span>
+				</label>
+			</div>
+
+			<div class="em name">
+				<input class="nameForm filde required" type="text" name="name" id="name_input">
+				<label for="name_input">
+					<span>${nameText}</span>
+				</label>
+			</div>
+
+			<div class="input_block">
+				<textarea class="calass filde required" type="text" name="text" id="phone_input"
+						  placeholder="${messageText}" maxlength="800"></textarea>
+			</div>
+			<div class="send">
+				<input type="button" value="${buttonText}" onclick="sendDataToServer()" class="btn-send">
+			</div>
+		</form>
+	</script>
+	<script id="modalHeader" type="text/x-custom-template">
+		<h1>${headerText}</h1>
+		<h4>${subHeaderText}</h4>
+	</script>
+	<script id="modalmenuText" type="text/x-custom-template">
+		<div onclick="noMenu('none')" class="numMenu"><h3 class="smoll">01.</h3><h3><a href="#golovna">${menuMain}</a></h3></div>
+		<div onclick="noMenu('none')" class="numMenu"><h3 class="smoll">02.</h3><h3><a href="#poslygu">${menuServices}</a></h3></div>
+		<div onclick="noMenu('none')" class="numMenu"><h3 class="smoll">03.</h3><h3><a href="#project">${menuProjects}</a></h3></div>
+		<div onclick="noMenu('none')" class="numMenu"><h3 class="smoll">04.</h3><h3><a href="#contact">${menuContacts}</a></h3></div>
+	</script>
+	<script id="description" type="text/x-custom-template">
+		<div class="discript-h2">
+			<h2>${descriptionHeaderText}</h2>
+		</div>
+		<div class="discript-h4">
+			<h4>${descriptionSubHeaderText}</h4>
+		</div>
+		<div class="btn-price">
+			<input onclick="show('block')" id="price" type="button" value="${priceButtonText}">
+		</div>
+	</script>
+	<script id="orderButton" type="text/x-custom-template">
+		<input onclick="show('block')" class="btn-phone " type="button" value="${orderButtonText}">
+	</script>
+
+ 	<!-- custom scripts -->
+	<script src="../javascripts/script.js"></script>
+	<script src="../javascripts/form.js"></script>
+
+	<!-- css -->
+	<link type="text/css" rel="stylesheet" href="../CSS/style.css">
+	<link rel="stylesheet" rel="stylesheet" href="../CSS/adaptive.css">
+	<link rel="stylesheet" href="../CSS/animate.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		  integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="../CSS/normalize.css">
+
+	<script>
+		$(function () {
+			new WOW().init();
+			//setLanguage('en');
+			initPage('en');
+		})
+	</script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+
+			<div id="filter" onclick="show('none')"></div>
+			<div id="modalForm">
+
+				<div class="modalHeder">
+					<div class="leftLogo">
+						<img src="../Img/logo-dark.png" alt="logo">
+					</div>
+					<div class="rigth"><i class="fas fa-times" onclick="show('none')"></i></div>
+				</div>
+
+				<div class="Modaldiscript-forms">
+				</div>
+				<div class="Modal_boxs">
+					<section>
+						<div class="form">
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<div id="golovna" class="conteiner-one">
+				<div class="header">
+					<div class="left-header">
+						<div class="logo">
+							<img src="../Img/logo.png" alt="logo">
+						</div>
+						<div class="wrapper" onclick="menu('block')">
+							<input type="checkbox" id="check-menu">
+							<label class='checkbox-label' for="check-menu"></label>
+							<div class="burger-line first"></div>
+							<div class="burger-line second"></div>
+							<div class="burger-line fourth"></div>
+						</div>
+						<!-- Початок випадаючого меню -->
+
+						<div id="filterMenu"></div>
+						<div id="modalMenu">
+
+							<div class="modalHeder">
+								<div class="leftLogo">
+									<img src="../Img/logo-dark.png" alt="logo">
+								</div>
+								<div class="rigthmenu"><i class="fas fa-times" onclick="menu('none')"></i></div>
+							</div>
+
+							<div class="boxis">
+								<div class="modalmenu">
+
+								</div>
+
+								<div class="social-modal">
+
+
+									<a href="#"><i class="fab fabi fa-youtube"></i></a>
+									<a href=""> <i class="fab fabi fa-facebook-f"></i></a>
+									<a href="https://www.behance.net/tarastykhyy"><i class="fab fabi fa-behance"></i></a>
+									<a href=""><i class="fab fabi fa-instagram"></i></a>
+
+								</div>
+							</div>
+
+						</div>
+						<!-- Кінець випадаючого меню -->
+					</div>
+					<div class="right-header">
+						<div class="dropholder">
+							<div class="dropdown">
+							</div>
+							<ul id="ul" class="menu">
+								<li onclick="initPage('ua')">UA</li>
+								<li onclick="initPage('pl')">PL</li>
+								<li onclick="initPage('en')">EN</li>
+								<li onclick="initPage('ru')">RU</li>
+
+							</ul>
+						</div>
+						<!-- </div>				 -->
+						<span class="orderButton">
+
+						</span>
+					</div>
+				</div>
+				<!-- Кінець хедеру -->
+				<div class="discript">
+
+				</div>
+			</div>
+		<div id="content">
+		</div>
+		</div>
+	</div>
+</body>
+
+</html>

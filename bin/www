@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('t-m:server');
+var debug = require('debug')('web-zholud:server');
 var http = require('http');
 
 /**
@@ -69,7 +69,7 @@ function onError(error) {
       process.exit(1);
       break;
     case 'EADDRINUSE':
-      console.error(bind + ' is already in use');
+      console.error(bind + ' is already PublicIndex use');
       process.exit(1);
       break;
     default:
@@ -87,6 +87,4 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
-
-  console.log('Listening on ' + bind);
 }
