@@ -1,15 +1,23 @@
 {
-  "name": "untitled",
-  "version": "0.0.0",
-  "private": true,
+  "name": "web-zholud",
+  "version": "1.0.0",
+  "main": "web.js",
   "scripts": {
     "start": "node ./bin/www"
   },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "taras-tykhyy",
+  "license": "MIT",
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "morgan": "~1.9.0",
     "nodemailer": "^6.1.0"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
