@@ -23,7 +23,7 @@ var getPlContent = function () {
     <div id="block3">
         <div class="box2discript1">
             <h4>Proponujemy</h4>
-            <h1>Efektywne usługi dla Twojej firmy</h1>
+            <h1>Efektywne usługi dla Twojej firmy.</h1>
 
             <div class="inline-list">
 
@@ -67,13 +67,13 @@ var getPlContent = function () {
     <div id="block5">
         <div class="box2discript1">
             <h4>Nasze podejście</h4>
-            <h1>Szanujemy naszych klientów</h1>
+            <h1>Szanujemy naszych klientów.</h1>
             <div class="inline-list ">
 
                 <div class="numb wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
                      data-wow-iteration="1">
                     <h3>01.</h3>
-                    <p>Rozwiązywanie zadań, dosłuchamysię do Twoich życzeń</p>
+                    <p>Rozwiązywanie zadań, dostosujemy się do Twoich życzeń</p>
                 </div>
                 <div class="numb wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
                      data-wow-iteration="1">
@@ -83,7 +83,7 @@ var getPlContent = function () {
                 <div class="numb wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
                      data-wow-iteration="1">
                     <h3>03.</h3>
-                    <p>Nie dzielimy klientów na „ważne” i „nieważne”</p>
+                    <p>Nie dzielimy klientów na „ważnych” i mniej „ważnych”</p>
                 </div>
 
             </div>
@@ -92,7 +92,7 @@ var getPlContent = function () {
     <div id="poslygu" class="block6">
         <div class="discriptblock6">
             <h4>Nasze Oferty</h4>
-            <h1>Specjalizujemy się</h1>
+            <h1>Specjalizujemy się.</h1>
         </div>
 
         <div class="containerBlock6">
@@ -121,20 +121,20 @@ var getPlContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>02.</h3>
-                    <h1>Web Development</h1>
+                    <h1>Photo i Retouch</h1>
                 </div>
                 <div class="service">
                     <div class="p">
-                        <p>Aby zadowolnić potrzebom klientów, elastyczne tworzenie stron internetowych daje nam
-                            możliwość tworzenia stron internetowych o dowolnej złożoności i funkcji.</p>
+                        <p>Poczuj z nami wspaniałą atmosferę i zdobądź wspomnienia odzwierciedlone na zdjęciu. 
+                        Profesjonalne podejście do pracy i dobry nastrój — gwarantujemy.</p>
                     </div>
                 </div>
                 <ul class="service">
-                    <li> Roczna obsługa strony internetowej</li>
-                    <li>Gotowy decyzje "full cycle"</li>
-                    <li> Indywidualne projekty</li>
-                    <li>Strona internetowa </li>
-                    <li>Strona wizytówki</li>
+                    <li> Sesja portretowa</li>
+                    <li>Rodzinna sesja zdjęciowa</li>
+                    <li> Sesja ważnych wydarzeń</li>
+                    <li>Sesja productu do katalogu </li>
+                    
                 </ul>
             </div>
 
@@ -142,16 +142,17 @@ var getPlContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>03.</h3>
-                    <h1>Projektowanie</h1>
+                    <h1>Web-Development i Projektowanie</h1>
                 </div>
                 <div class="service">
                     <div class="p">
-                        <p>W Zholud oferujemy unikalne projekty Web Design i prototypy UI/UX.</p>
+                        <p>Aby zadowolić potrzebom klientów, oferujemy elastyczne tworzenie stron internetowych daje nam
+                        możliwość tworzenia stron internetowych o dowolnej złożoności i funkcji.</p>
                     </div>
                 </div>
                 <ul class="service">
                     <li>Сstworzenie prototypuw UI/UX</li>
-                    <li>  Projektowanie stron internetowych "Desktop only" </li>
+                    <li>  Gotowy decyzje "full cycle" </li>
                     <li> Indywidualne projekty</li>
                     <li>Adaptacyjny designe</li>
                 </ul>
@@ -215,8 +216,8 @@ var getPlContent = function () {
                 <div class="gallery-label">
 
                     <label id='gallery' for="branding" class="branding active">Branding </label>
-                    <label id='gallery' for="web" class="web">Web Development</label>
-                    <label id='gallery' for="design" class="design">Projektowanie</label>
+                    <label id='gallery' for="web" class="web">Photo and Retouch</label>
+                    <label id='gallery' for="design" class="design">Web-Development i Projektowanie</label>
                 </div>
             </div>
             <!--  flex-container -->
@@ -229,7 +230,7 @@ var getPlContent = function () {
                             <h4>Branding</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Agencja nieruchomości Lazulit </h1>
+                            <h1>Lazulit </h1>
                         </div>
                     </div>
                 </div>
@@ -243,7 +244,7 @@ var getPlContent = function () {
                                 <h4>Branding</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Firma konsultingowa Cobrit</h1>
+                                <h1>Cobrit</h1>
                             </div>
                             </a>
                         </div>
@@ -257,7 +258,7 @@ var getPlContent = function () {
                                 <h4>Branding</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Firma budowlana Edificem</h1>
+                                <h1>Edificem</h1>
                             </div>
                             </a>
                         </div>
@@ -265,25 +266,29 @@ var getPlContent = function () {
                     
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-branding content3" id="g4">
+                <a href="https://www.behance.net/gallery/53959135/Design-logo-photographer-Marta-Smilka">
+                    <div class="tab-item tab-branding content3" id="photographer">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>Брендування</h4>
+                                <h4>Branding</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Marta Smilka </h1>
                             </div>
                         </div>
+                        </a>
                     </div>
-                    <div class="tab-item tab-branding content3" id="g5">
+                    <a href="https://www.behance.net/gallery/82314909/Zholud-Company">
+                    <div class="tab-item tab-branding content3" id="zholud">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>Брендування</h4>
+                                <h4>Branding</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Zholud </h1>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
 
@@ -296,7 +301,7 @@ var getPlContent = function () {
                             <h4>Projektowanie</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Strona internetowa Casio Pro Trek </h1>
+                            <h1>Casio Pro Trek </h1>
                         </div>
                     </div>
                 </div>
@@ -310,7 +315,7 @@ var getPlContent = function () {
                                 <h4>UI/UX-Projektowanie</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Terminal płatniczy Finroot </h1>
+                                <h1>Finroot </h1>
                             </div>
                         </div>
                         </a>
@@ -323,85 +328,87 @@ var getPlContent = function () {
                                 <h4>Projektowanie</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Strona internetowa BitBox </h1>
+                                <h1>BitBox </h1>
                             </div>
                         </div>
                         </a>
                     </div>
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-design content3" id="g4">
+                <a href="https://www.behance.net/gallery/82314909/Zholud-Company">
+                    <div class="tab-item tab-design content3" id="webzholud">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>design</h4>
+                                <h4>Web-Development & Projektowanie</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Zholud </h1>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="tab-item tab-design content3" id="g5">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>design</h4>
+                                <h4>Projektowanie</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Here may be your project </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--  tab-web -->
-                <div class="tab-item tab-web content1">
+                <div class="tab-item tab-web content1" id="roman">
                     <div class="tabs-contentc1">
                         <div class="tabs-content-h4">
-                            <h4>tab-web</h4>
+                            <h4>Photo & Retouch</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Створення логотипу для агенції </h1>
+                            <h1>Personal </h1>
                         </div>
                     </div>
                 </div>
                 <div class="tabs-content2">
-                    <div class="tab-item tab-web content2" id="g2">
+                    <div class="tab-item tab-web content2" id="family">
                         <div class="tabs-contentc2">
                             <div class="tabs-content-h4">
-                                <h4>tab-web</h4>
+                                <h4>Photo & Retouch</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Family </h1>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-item tab-web content2" id="g3">
+                    <div class="tab-item tab-web content2" id="nine_years">
                         <div class="tabs-contentc2">
                             <div class="tabs-content-h4">
-                                <h4>tab-web</h4>
+                                <h4>Photo & Retouch</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Kids  </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-web content2" id="g4">
+                    <div class="tab-item tab-web content2" id="veranda">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>tab-web</h4>
+                                <h4>Photo & Retouch</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Pregnant </h1>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-item tab-web content2" id="g5">
+                    <div class="tab-item tab-web content2" id="love">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>tab-web</h4>
+                                <h4>Photo & Retouch</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Love Story </h1>
                             </div>
                         </div>
                     </div>
@@ -426,7 +433,7 @@ var getPlContent = function () {
 
             <div class="social-info">
                 <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href=""> <i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/ZholudWebStudio/"> <i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.behance.net/tarastykhyy"><i class="fab fa-behance"></i></a>
                 <a href=""><i class="fab fa-instagram"></i></a>
             </div>

@@ -23,7 +23,7 @@ var getRuContent = function () {
     <div id="block3">
         <div class="box2discript1">
             <h4>Мы предлагаем</h4>
-            <h1>Эффективные услуги для вашего бизнеса</h1>
+            <h1>Эффективные услуги для вашего бизнеса.</h1>
 
             <div class="inline-list">
 
@@ -67,7 +67,7 @@ var getRuContent = function () {
     <div id="block5">
         <div class="box2discript1">
             <h4>Наш подход</h4>
-            <h1>Бережно относимся к своим клиентам</h1>
+            <h1>Бережно относимся к своим клиентам.</h1>
             <div class="inline-list">
 
                 <div class='numb wow zoomIn' data-wow-duration="2s" data-wow-offset="100"
@@ -93,7 +93,7 @@ var getRuContent = function () {
     <div id="poslygu" class="block6">
         <div class="discriptblock6">
             <h4>Наши услуги</h4>
-            <h1>Мы специализируемся</h1>
+            <h1>Мы специализируемся.</h1>
         </div>
 
         <div class="containerBlock6">
@@ -122,20 +122,20 @@ var getRuContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>02.</h3>
-                    <h1>Веб-Разработка</h1>
+                    <h1>Фото и Ретушь</h1>
                 </div>
                 <div class="service">
                     <div class="p">
-                        <p>Чтобы удовлетворить потребности клиентов, гибкая Веб-Разработка дает нам возможность
-                            создать веб-сайты любой сложности и фунционала.</p>
+                        <p>Почувствуйте с нами прекрасную атмосферу и получите воспоминания отражены в фото. 
+                        Профессиональный подход и хорошее настроение — гарантируем.</p>
                     </div>
                 </div>
                 <ul class="service">
-                    <li>Годовая поддержка сайта</li>
-                    <li>Готовые решения "full cycle"</li>
-                    <li>Индивидуальные проекты</li>
-                    <li>Landing Page </li>
-                    <li>Сайт визитка</li>
+                    <li>Портретная фотосессия</li>
+                    <li>Семейная фотосъемка</li>
+                    <li>Фотосъемка важных событий</li>
+                    <li>Предметная фотосъемка</li>
+                   
                 </ul>
             </div>
 
@@ -143,19 +143,21 @@ var getRuContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>03.</h3>
-                    <h1>Дизайн</h1>
+                    <h1>Веб-разработка и Дизайн</h1>
                 </div>
                 <div class="service">
                     <div class="p">
-                        <p>В Zholud мы предлагаем уникальные проекты по Веб-дизайну и созданию UI/UX прототипов.
+                        <p>Чтобы удовлетворить потребности клиентов, гибкая Веб-Разработка дает нам возможность
+                        создать веб-сайты любой сложности и фунционала.
                         </p>
                     </div>
                 </div>
                 <ul class="service">
-                    <li>Создание прототипов UI / UX</li>
-                    <li>Веб-дизайн [ Desktop only]</li>
-                    <li>Индивидуальные проекты</li>
-                    <li>Адаптивный дизайн</li>
+                    <li>Сайты визитки и Landing Page</li>
+                    <li>Готовые решения "Full cycle" </li>
+                    <li>Веб-дизайн и UI / UX-дизайн</li>
+                    <li>Прототипирование</li>
+                    <li> Индивидуальные проекты </ li>
                 </ul>
             </div>
 
@@ -169,7 +171,7 @@ var getRuContent = function () {
     <div id="block7">
         <div class="discript7">
             <h4>Прямо сейчас</h4>
-            <h1>Получите скидку - 10% <br> на вторую услугу гарантировано!</h1>
+            <h1>Получите скидку — 10% <br> на вторую услугу гарантировано!</h1>
             <input onclick="show('block')" type="button" value="Оформить заявку" class="request">
         </div>
     </div>
@@ -214,8 +216,8 @@ var getRuContent = function () {
                 <div class="gallery-label">
 
                     <label id='gallery' for="branding" class="branding active">Брендинг </label>
-                    <label id='gallery' for="web" class="web">Веб-Разработка</label>
-                    <label id='gallery' for="design" class="design">Дизайн</label>
+                    <label id='gallery' for="web" class="web">Фото и Ретушь</label>
+                    <label id='gallery' for="design" class="design">Веб-Разработка и Дизайн</label>
                 </div>
             </div>
             <!--  flex-container -->
@@ -228,7 +230,7 @@ var getRuContent = function () {
                             <h4>Брендинг</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Агентство недвижимости Лазулит </h1>
+                            <h1>Lazulit </h1>
                         </div>
                     </div>
                 </div>
@@ -242,7 +244,7 @@ var getRuContent = function () {
                                 <h4>Брендинг</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Консалтинг компания Cobrit </h1>
+                                <h1>Cobrit </h1>
                             </div>
                         </div>
                         </a>
@@ -256,7 +258,7 @@ var getRuContent = function () {
                                 <h4>Брендинг</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Строительная компания Edificem </h1>
+                                <h1>Edificem </h1>
                             </div>
                         </div>
                         </a>
@@ -264,25 +266,29 @@ var getRuContent = function () {
                     
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-branding content3" id="g4">
+                <a href="https://www.behance.net/gallery/53959135/Design-logo-photographer-Marta-Smilka">
+                    <div class="tab-item tab-branding content3" id="photographer">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>Брендування</h4>
+                                <h4>Брендинг</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Marta Smilka </h1>
                             </div>
                         </div>
+                        </a>
                     </div>
-                    <div class="tab-item tab-branding content3" id="g5">
+                    <a href="https://www.behance.net/gallery/82314909/Zholud-Company">
+                    <div class="tab-item tab-branding content3" id="zholud">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>Брендування</h4>
+                                <h4>Брендинг</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Zholud </h1>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
 
@@ -295,7 +301,7 @@ var getRuContent = function () {
                             <h4>Дизайн</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Лендинг Casio Pro Trek </h1>
+                            <h1>Casio Pro Trek </h1>
                         </div>
                     </div>
                 </div>
@@ -309,7 +315,7 @@ var getRuContent = function () {
                                 <h4>UI/UX-Дизайн</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Платежный терминал Finroot </h1>
+                                <h1>Finroot </h1>
                             </div>
                         </div>
                     </a>
@@ -322,85 +328,87 @@ var getRuContent = function () {
                                 <h4>Дизайн</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Лендинг BitBox </h1>
+                                <h1>BitBox </h1>
                             </div>
                         </div>
                         </a>
                     </div>
                 </div>
+                <a href="https://www.behance.net/gallery/82314909/Zholud-Company">
                 <div class="tabs-content3">
-                    <div class="tab-item tab-design content3" id="g4">
+                    <div class="tab-item tab-design content3" id="webzholud">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>design</h4>
+                                <h4>Веб-Разработка и Дизайн</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Zholud</h1>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="tab-item tab-design content3" id="g5">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>design</h4>
+                                <h4>Дизайн</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Here may be your project </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--  tab-web -->
-                <div class="tab-item tab-web content1">
+                <div class="tab-item tab-web content1" id="roman">
                     <div class="tabs-contentc1">
                         <div class="tabs-content-h4">
-                            <h4>tab-web</h4>
+                            <h4>Фото и Ретушь</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Створення логотипу для агенції </h1>
+                            <h1>Personal </h1>
                         </div>
                     </div>
                 </div>
                 <div class="tabs-content2">
-                    <div class="tab-item tab-web content2" id="g2">
+                    <div class="tab-item tab-web content2" id="family">
                         <div class="tabs-contentc2">
                             <div class="tabs-content-h4">
-                                <h4>tab-web</h4>
+                                <h4>Фото и Ретушь</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Family </h1>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-item tab-web content2" id="g3">
+                    <div class="tab-item tab-web content2" id="nine_years">
                         <div class="tabs-contentc2">
                             <div class="tabs-content-h4">
-                                <h4>tab-web</h4>
+                                <h4>Фото и Ретушь</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Kids  </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-web content2" id="g4">
+                    <div class="tab-item tab-web content2" id="veranda">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>tab-web</h4>
+                                <h4>Фото и Ретушь</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Pregnant </h1>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-item tab-web content2" id="g5">
+                    <div class="tab-item tab-web content2" id="love">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>tab-web</h4>
+                                <h4>Фото и Ретушь</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Love Story </h1>
                             </div>
                         </div>
                     </div>
@@ -423,7 +431,7 @@ var getRuContent = function () {
         <div class="social">
             <div class="social-info">
                 <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href=""> <i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/ZholudWebStudio/"> <i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.behance.net/tarastykhyy"><i class="fab fa-behance"></i></a>
                 <a href=""><i class="fab fa-instagram"></i></a>
             </div>

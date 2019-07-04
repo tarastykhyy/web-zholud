@@ -23,7 +23,7 @@ var getUkrContent = function () {
     <div id="block3">
         <div class="box2discript1">
             <h4>Ми пропонуємо</h4>
-            <h1>Ефективні послуги для вашого бізнесу</h1>
+            <h1>Ефективні послуги для вашого бізнесу.</h1>
         </div>
         <div class="inline-list">
 
@@ -63,7 +63,7 @@ var getUkrContent = function () {
     <div id="block5">
         <div class="box2discript1">
             <h4>Наш підхід</h4>
-            <h1>Дбайливо відносимось до своїх клієнтів</h1>
+            <h1>Дбайливо відносимось до своїх клієнтів.</h1>
         </div>
         <div class="inline-list">
             <div class='numb wow zoomIn' data-wow-duration="2s" data-wow-offset="100" data-wow-iteration="1">
@@ -84,7 +84,7 @@ var getUkrContent = function () {
     <div id="poslygu"class="block6">
         <div class="discriptblock6">
             <h4>Наші послуги</h4>
-            <h1>Ми спеціалізуємося</h1>
+            <h1>Ми спеціалізуємося.</h1>
         </div>
 
         <div class="containerBlock6">
@@ -114,21 +114,20 @@ var getUkrContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>02.</h3>
-                    <h1>Веб-Розробка</h1>
+                    <h1>Фото та Ретуш</h1>
                 </div>
                 <div class="service">
                     <div class="p">
-                        <p>Щоб задовільнити потреби клієнтів, гнучка Web-розробка дає нам можливість створити
-                            веб-сайти
-                            будь-якої складності та фунціоналу.</p>
+                        <p>Відчуйте з нами  чудову атмосферу та отримайте спогади відображені у фото. 
+                        Професійний підхід та хороший настрій — гарантуємо.</p>
                     </div>
                 </div>
                 <ul class="service">
-                    <li>Однорічна підтримка сайту</li>
-                    <li>Готові рішення “full cycle”</li>
-                    <li>Індивідуальні проекти</li>
-                    <li>Landing Page </li>
-                    <li>Сайт візитка</li>
+                    <li>Портретна фотосесія</li>
+                    <li>Сімейна фотозйомка</li>
+                    <li>Зйомка важливих подій</li>
+                    <li>Предметна зйомка </li>
+                   
                 </ul>
             </div>
 
@@ -136,19 +135,21 @@ var getUkrContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>03.</h3>
-                    <h1>Дизайн</h1>
+                    <h1>Веб-розробка та Дизайн</h1>
                 </div>
                 <div class="service">
                     <div class="p">
-                        <p>У Zholud ми пропонуємо унікальні проекти по Веб-Дизайну та створенню UI / UX
-                            прототипів.</p>
+                        <p>Щоб задовільнити потреби клієнтів, гнучка Web-розробка дає нам можливість створити
+                        веб-сайти
+                        будь-якої складності та фунціоналу.</p>
                     </div>
                 </div>
                 <ul class="service">
-                    <li>Створення прототипів UI/UX</li>
-                    <li>Веб-дизайн [ Desktop only]</li>
+                    <li>Сайти візитки та Landing Page</li>
+                    <li>Готові рішення "Full cycle"</li>
+                    <li>Веб-дизайн та UI/UX-дизайн</li>
+                    <li>Прототипування</li>
                     <li>Індивідуальні проекти</li>
-                    <li>Адаптивний дизайн</li>
                 </ul>
             </div>
 
@@ -161,7 +162,7 @@ var getUkrContent = function () {
     <div id="block7">
         <div class="discript7">
             <h4>Прямо зараз</h4>
-            <h1>Отримайте знижку - 10%<br> на другу послугу гарантовано!</h1>
+            <h1>Отримайте знижку — 10%<br> на другу послугу гарантовано!</h1>
             <input onclick="show('block')" type="button" value="Оформити заявку" class="request">
         </div>
     </div>
@@ -208,8 +209,8 @@ var getUkrContent = function () {
                 <div class="gallery-label">
 
                     <label id='gallery' for="branding" class="branding active">Брендування </label>
-                    <label id='gallery' for="web" class="web">Веб-Розробка</label>
-                    <label id='gallery' for="design" class="design">Дизайн</label>
+                    <label id='gallery' for="web" class="web">Фото та Ретуш</label>
+                    <label id='gallery' for="design" class="design">Веб-Розробка та Дизайн</label>
                 </div>
             </div>
             <!--  flex-container -->
@@ -222,7 +223,7 @@ var getUkrContent = function () {
                             <h4>Брендування</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Агенція нерухомості Лазуліт </h1>
+                            <h1>Lazulit </h1>
                         </div>
                     </div>
                 </div>
@@ -236,7 +237,7 @@ var getUkrContent = function () {
                                 <h4>Брендування</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Консалтинг компанія Cobrit </h1>
+                                <h1>Cobrit </h1>
                             </div>
                             </a>
                         </div>
@@ -250,7 +251,7 @@ var getUkrContent = function () {
                                 <h4>Брендування</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Будівельна компанія Edificem</h1>
+                                <h1>Edificem</h1>
                             </div>
                             </a>
                         </div>
@@ -258,25 +259,29 @@ var getUkrContent = function () {
                     
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-branding content3" id="g4">
+                <a href="https://www.behance.net/gallery/53959135/Design-logo-photographer-Marta-Smilka">
+                    <div class="tab-item tab-branding content3" id="photographer">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
                                 <h4>Брендування</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Marta Smilka </h1>
                             </div>
                         </div>
+                        </a>
                     </div>
-                    <div class="tab-item tab-branding content3" id="g5">
+                    <a href="https://www.behance.net/gallery/82314909/Zholud-Company">
+                    <div class="tab-item tab-branding content3" id="zholud">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
                                 <h4>Брендування</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект</h1>
+                                <h1>Zholud</h1>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
 
@@ -289,7 +294,7 @@ var getUkrContent = function () {
                             <h4>Дизайн</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Лендінг Casio Pro Trek </h1>
+                            <h1>Casio Pro Trek </h1>
                         </div>
                     </div>
                 </div>
@@ -303,7 +308,7 @@ var getUkrContent = function () {
                                 <h4>UI/UX-Дизайн</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Платіжний термінал Finroot </h1>
+                                <h1>Finroot </h1>
                             </div>
                         </div>
                     </a>
@@ -316,22 +321,24 @@ var getUkrContent = function () {
                                 <h4>Дизайн</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Лендінг BitBox </h1>
+                                <h1>BitBox </h1>
                             </div>
                         </div>
                         </a>
                     </div>
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-design content3" id="g4">
+                <a href="https://www.behance.net/gallery/82314909/Zholud-Company">
+                    <div class="tab-item tab-design content3" id="webzholud">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>design</h4>
+                                <h4>Веб-Разробка та Дизай</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Zholud </h1>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="tab-item tab-design content3" id="g5">
                         <div class="tabs-contentc3">
@@ -339,63 +346,63 @@ var getUkrContent = function () {
                                 <h4>Дизайн</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
+                                <h1>Here may be your project </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--  tab-web -->
-                <div class="tab-item tab-web content1">
-                    <div class="tabs-contentc1">
+                <div class="tab-item tab-web content1" id="roman">
+                <div class="tabs-contentc1">
+                    <div class="tabs-content-h4">
+                        <h4>Фото та Ретуш</h4>
+                    </div>
+                    <div class="tabs-content-h1">
+                        <h1>Personal </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs-content2">
+                <div class="tab-item tab-web content2" id="family">
+                    <div class="tabs-contentc2">
                         <div class="tabs-content-h4">
-                            <h4>tab-web</h4>
+                            <h4>Фото та Ретуш</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Створення логотипу для агенції </h1>
+                            <h1>Family </h1>
                         </div>
                     </div>
                 </div>
-                <div class="tabs-content2">
-                    <div class="tab-item tab-web content2" id="g2">
-                        <div class="tabs-contentc2">
-                            <div class="tabs-content-h4">
-                                <h4>Веб-Розробка</h4>
-                            </div>
-                            <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
-                            </div>
+                <div class="tab-item tab-web content2" id="nine_years">
+                    <div class="tabs-contentc2">
+                        <div class="tabs-content-h4">
+                            <h4>Фото та Ретуш</h4>
                         </div>
-                    </div>
-                    <div class="tab-item tab-web content2" id="g3">
-                        <div class="tabs-contentc2">
-                            <div class="tabs-content-h4">
-                                <h4>Веб-Розробка</h4>
-                            </div>
-                            <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
-                            </div>
+                        <div class="tabs-content-h1">
+                            <h1>Kids  </h1>
                         </div>
                     </div>
                 </div>
-                <div class="tabs-content3">
-                    <div class="tab-item tab-web content2" id="g4">
-                        <div class="tabs-contentc3">
-                            <div class="tabs-content-h4">
-                                <h4>Веб-Розробка</h4>
-                            </div>
-                            <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
-                            </div>
+            </div>
+            <div class="tabs-content3">
+                <div class="tab-item tab-web content2" id="veranda">
+                    <div class="tabs-contentc3">
+                        <div class="tabs-content-h4">
+                            <h4>Фото та Ретуш</h4>
+                        </div>
+                        <div class="tabs-content-h1">
+                            <h1>Pregnant </h1>
                         </div>
                     </div>
-                    <div class="tab-item tab-web content2" id="g5">
-                        <div class="tabs-contentc3">
-                            <div class="tabs-content-h4">
-                                <h4>Веб-Розробка</h4>
-                            </div>
-                            <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
-                            </div>
+                </div>
+                <div class="tab-item tab-web content2" id="love">
+                    <div class="tabs-contentc3">
+                        <div class="tabs-content-h4">
+                            <h4>Фото та Ретуш</h4>
+                        </div>
+                        <div class="tabs-content-h1">
+                            <h1>Love Story </h1>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -417,7 +424,7 @@ var getUkrContent = function () {
             <div class="social">
                 <div class="social-info">
                     <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href=""> <i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/ZholudWebStudio/"> <i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.behance.net/tarastykhyy"><i class="fab fa-behance"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>
                 </div>

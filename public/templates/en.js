@@ -23,7 +23,7 @@ var getEnContent = function () {
     <div id="block3">
         <div class="box2discript1">
             <h4>We offer</h4>
-            <h1>Effective services for your business</h1>
+            <h1>Effective services for your business.</h1>
 
             <div class="inline-list">
 
@@ -67,7 +67,7 @@ var getEnContent = function () {
     <div id="block5">
         <div class="box2discript1">
             <h4>Our approach</h4>
-            <h1>We carefully take care of our clients</h1>
+            <h1>We carefully take care of our clients.</h1>
             <div class="inline-list">
 
                 <div class='numb wow zoomIn' data-wow-duration="2s" data-wow-offset="100"
@@ -92,7 +92,7 @@ var getEnContent = function () {
     <div id="poslygu" class="block6">
         <div class="discriptblock6">
             <h4>Our services</h4>
-            <h1>We specialize</h1>
+            <h1>We specialize.</h1>
         </div>
 
         <div class="containerBlock6">
@@ -121,20 +121,20 @@ var getEnContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>02.</h3>
-                    <h1>Web Development<h1>
+                    <h1>Photo & Retouch<h1>
                 </div>
                 <div class="service">
                     <div class="p">
-                        <p>In order to meet the needs of our clients, flexible web development gives us the
-                            ability to create websites of any complexity and functionality.</p>
+                        <p>Feel wonderful atmosphere with us and get the memories shown in the photo. 
+                        Professional approach and good mood — we guarantee.</p>
                     </div>
                 </div>
                 <ul class="service">
-                    <li>One year support</li>
-                    <li>Ready solutions "full cycle"</li>
-                    <li>Individual projects</li>
-                    <li>Landing Page </li>
-                    <li>Business website</li>
+                    <li>Portrait photo session</li>
+                    <li>Family photo session </li>
+                    <li>Photo session of important events</li>
+                    <li>Subjects photo session </li>
+               
                 </ul>
             </div>
 
@@ -142,18 +142,20 @@ var getEnContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>03.</h3>
-                    <h1>Design</h1>
+                    <h1>Web-Development & Design</h1>
                 </div>
                 <div class="service">
                     <div class="p">
-                        <p>At Zholud we offer unique designs from web design and creation UI/UX prototypes.</p>
+                        <p>In order to meet the needs of our clients, flexible web development gives us the
+                        ability to create websites of any complexity and functionality.</p>
                     </div>
                 </div>
                 <ul class="service">
-                    <li>Prototype UI / UX</li>
-                    <li>Web Design [Desktop only]</li>
-                    <li>Individual projects</li>
-                    <li>Adaptive design</li>
+                    <li>Business site and Landing Page</li>
+                    <li>Full cycle solutions</li>
+                    <li>Web Design and UI/UX Design</li>
+                    <li>Prototyping </li>
+                    <li>Individual projects </li>
                 </ul>
             </div>
 
@@ -167,7 +169,7 @@ var getEnContent = function () {
     <div id="block7">
         <div class="discript7">
             <h4>Right now</h4>
-            <h1>Get a discount - 10% <br> for the other service is guaranteed!</h1>
+            <h1>Get a discount — 10% <br> for the other service is guaranteed!</h1>
             <input onclick="show('block')" type="button" value="Place an order" class="request">
         </div>
     </div>
@@ -214,8 +216,8 @@ var getEnContent = function () {
                 <div class="gallery-label">
 
                     <label id='gallery' for="branding" class="branding active">Branding</label>
-                    <label id='gallery' for="web" class="web">Web Development</label>
-                    <label id='gallery' for="design" class="design">Design</label>
+                    <label id='gallery' for="web" class="web">Photo & Retouch</label>
+                    <label id='gallery' for="design" class="design">Web-Development & Design</label>
                 </div>
             </div>
             <!--  flex-container -->
@@ -229,7 +231,7 @@ var getEnContent = function () {
                             <h4>Branding</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Real estate agencies Lazulite</h1>
+                            <h1>Lazulite</h1>
                         </div>
                     </div>
                 </div>
@@ -243,7 +245,7 @@ var getEnContent = function () {
                                 <h4>Branding</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Consulting company Cobrit</h1>
+                                <h1>Cobrit</h1>
                             </div>
                             </a>
                         </div>
@@ -256,33 +258,38 @@ var getEnContent = function () {
                                 <h4>Branding</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Construction company Edificem</h1>
+                                <h1>Edificem</h1>
                             </div>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-branding content3" id="g4">
+                <a href="https://www.behance.net/gallery/53959135/Design-logo-photographer-Marta-Smilka">
+                    <div class="tab-item tab-branding content3" id="photographer">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
                                 <h4>Branding</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Creating a logo for real estate agencies Lazulite</h1>
+                                <h1>Marta Smilka</h1>
                             </div>
                         </div>
+                        </a>
                     </div>
-                    <div class="tab-item tab-branding content3" id="g5">
+                    <a href="https://www.behance.net/gallery/82314909/Zholud-Company">
+                    <div class="tab-item tab-branding content3" id="zholud">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
                                 <h4>Branding</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Creating a logo for real estate agencies Lazulite</h1>
+                                <h1>Zholud</h1>
                             </div>
                         </div>
+                        </a>
                     </div>
+                   
                 </div>
 
                 <!--  tab-design -->
@@ -294,7 +301,7 @@ var getEnContent = function () {
                             <h4>Design</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Landing Casio Pro Trek</h1>
+                            <h1>Casio Pro Trek</h1>
                         </div>
                     </div>
                 </div>
@@ -308,7 +315,7 @@ var getEnContent = function () {
                                 <h4>UX/UI-Design</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Payment terminal Finroot </h1>
+                                <h1>Finroot </h1>
                             </div>
                             </div>
                         </a>
@@ -320,85 +327,87 @@ var getEnContent = function () {
                                 <h4>Design</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Landing BitBox </h1>
+                                <h1>BitBox </h1>
                             </div>
                         </div>
                         </a>
                     </div>
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-design content3" id="g4">
+                <a href="https://www.behance.net/gallery/82314909/Zholud-Company">
+                    <div class="tab-item tab-design content3" id="webzholud">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>design</h4>
+                                <h4>Web-Development & Design</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Zholud </h1>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="tab-item tab-design content3" id="g5">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>design</h4>
+                                <h4>Design</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Створення логотипу для агенції </h1>
+                                <h1>Here may be your project </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--  tab-web -->
-                <div class="tab-item tab-web content1">
+                <div class="tab-item tab-web content1" id="roman">
                     <div class="tabs-contentc1">
                         <div class="tabs-content-h4">
-                            <h4>tab-web</h4>
+                            <h4>Photo & Retouch</h4>
                         </div>
                         <div class="tabs-content-h1">
-                            <h1>Створення логотипу для агенції </h1>
+                            <h1>Personal </h1>
                         </div>
                     </div>
                 </div>
                 <div class="tabs-content2">
-                    <div class="tab-item tab-web content2" id="g2">
+                    <div class="tab-item tab-web content2" id="family">
                         <div class="tabs-contentc2">
                             <div class="tabs-content-h4">
-                                <h4>Веб-Розробка</h4>
+                                <h4>Photo & Retouch</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
+                                <h1>Family </h1>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-item tab-web content2" id="g3">
+                    <div class="tab-item tab-web content2" id="nine_years">
                         <div class="tabs-contentc2">
                             <div class="tabs-content-h4">
-                                <h4>Веб-Розробка</h4>
+                                <h4>Photo & Retouch</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
+                                <h1>Kids  </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tabs-content3">
-                    <div class="tab-item tab-web content2" id="g4">
+                    <div class="tab-item tab-web content2" id="veranda">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>Веб-Розробка</h4>
+                                <h4>Photo & Retouch</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
+                                <h1>Pregnant </h1>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-item tab-web content2" id="g5">
+                    <div class="tab-item tab-web content2" id="love">
                         <div class="tabs-contentc3">
                             <div class="tabs-content-h4">
-                                <h4>Веб-Розробка</h4>
+                                <h4>Photo & Retouch</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Тут може бути ваш проект </h1>
+                                <h1>Love Story </h1>
                             </div>
                         </div>
                     </div>
@@ -422,7 +431,7 @@ var getEnContent = function () {
             <div class="social">
                 <div class="social-info">
                     <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href=""> <i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/ZholudWebStudio/"> <i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.behance.net/tarastykhyy"><i class="fab fa-behance"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>
 
