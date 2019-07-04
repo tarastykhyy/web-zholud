@@ -1,3 +1,14 @@
+/*Style-css Variables*/
+
+:root {
+  --font-size-h1: 40px;
+  --font-size-h2: 48px;
+  --font-size-h3: 48px;
+  --font-size-h4: 20px;
+  --padding-element-left: 80px;
+}
+
+
 /* забираємо відступи від головного блоку */
 * {
   padding: 0;
@@ -8,10 +19,11 @@
 
 body {
   scroll-behavior: smooth;
-  min-height:100%;
-  position:relative; 
+  min-height: 100%;
+  position: relative;
 }
-a{
+
+a {
   text-decoration: none;
 }
 
@@ -26,7 +38,6 @@ a{
   src: url(../Font/OpenSans/OpenSans-Regular.ttf);
 }
 
-/*  */
 
 
 /* Модальне вікно початок */
@@ -48,11 +59,10 @@ a{
 /* початок переробленлї форми  */
 
 .form {
-  /* position: absolute;
-    left:50%; */
+
   width: 700px;
   height: 340px;
-  /* transform: translate(-50%,-50%); */
+
 }
 
 .em {
@@ -62,7 +72,7 @@ a{
   background: none;
   font-family: TTNorms-Medium;
   font-size: 20px;
-  color: #323238;
+  color: #161619;
   outline: none;
 }
 
@@ -76,11 +86,11 @@ a{
   width: 344px;
   height: 64px;
   border: none;
-  border-bottom: 2px solid #323238;
+  border-bottom: 2px solid #161619;
   background: none;
   font-family: TTNorms-Medium;
   font-size: 20px;
-  color: #323238;
+  color: #161619;
   outline: none;
 }
 
@@ -88,7 +98,7 @@ a{
 .input_block input:focus,
 .em input:focus {
 
-  border-bottom: 2px solid #323238;
+  border-bottom: 2px solid #161619;
 
 }
 
@@ -96,7 +106,7 @@ a{
 .input_block input.has_value,
 .em input.has_value {
 
-  border-bottom: 2px solid #323238;
+  border-bottom: 2px solid #161619;
   font-size: 20px;
 
 }
@@ -109,16 +119,10 @@ a{
   position: absolute;
   top: 0;
   left: 0;
-  color: #323238;
+  color: #161619;
 }
 
-/* .em label {
-  display: block;
-  width: 344px;
-  position: absolute;
-  top: -13px;
-  left: 0;
-} */
+
 
 
 .input_block label span,
@@ -131,7 +135,7 @@ a{
   font-family: TTNorms-Medium;
   font-size: 20px;
   line-height: 24px;
-  color: #323238;
+  color: #161619;
   position: absolute;
   top: 21px;
   left: 0;
@@ -146,7 +150,7 @@ a{
   font-family: TTNorms-Medium;
   font-size: 20px;
   line-height: 24px;
-  color: #323238;
+  color: #161619;
   position: absolute;
   top: 21px;
   left: 0;
@@ -155,7 +159,7 @@ a{
 /* focus input placeholder*/
 .input_block input:focus+label span,
 .em input:focus+label span {
-  color: #323238;
+  color: #161619;
   font-size: 10px;
   text-transform: uppercase;
   top: -10px;
@@ -163,7 +167,7 @@ a{
 
 /* value */
 .has_value+label span {
-  color: #323238;
+  color: #161619;
   font-size: 10px;
   text-transform: uppercase;
   top: -10px;
@@ -171,8 +175,8 @@ a{
 
 
 .area {
-  color: #323238;
-  border: 2px solid #323238;
+  color: #161619;
+  border: 2px solid #161619;
   line-height: 32px;
 }
 
@@ -187,7 +191,7 @@ section div {
 section div input {
   background: transparent;
   border: none;
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 30px;
@@ -196,7 +200,7 @@ section div input {
 }
 
 section div label {
-  color: #323238;
+  color: #161619;
   font-size: 22px;
   left: 0;
   letter-spacing: 1px;
@@ -222,13 +226,13 @@ section div label {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  /* padding-top: 126px; */
+
 }
 
 .send input[type="button"] {
 
-  border: 2px solid #323238;
-  color: #323238;
+  border: 2px solid #161619;
+  color: #161619;
   cursor: pointer;
   font-family: TTNorms-Medium;
   font-size: 18px;
@@ -238,8 +242,8 @@ section div label {
 
 .send input[type="button"]:hover {
   color: #fce205;
-  background-color: #323238;
-  border: 2px solid #323238;
+  background-color: #161619;
+  border: 2px solid #161619;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
@@ -272,7 +276,6 @@ section div label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* justify-content: space-between; */
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -282,9 +285,7 @@ section div label {
 }
 
 .leftLogo {
-  padding-left: 115px;
-  /* position: absolute;
-      top: 55px; */
+  padding-left: var(--padding-element-left);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,7 +309,7 @@ section div label {
 }
 
 .fas {
-  color: #323238;
+  color: #161619;
   font-size: 40px;
   cursor: pointer;
   position: absolute;
@@ -346,15 +347,15 @@ section div label {
 }
 
 .Modaldiscript-forms>h1 {
-  font-size: 56px;
-  color: #323238;
+  font-size: var(--font-size-h1);
+  color: #161619;
   text-align: center;
   font-family: TTNorms-Medium;
 }
 
 .Modaldiscript-forms>h4 {
-  font-size: 26px;
-  color: #323238;
+  font-size: var(--font-size-h4);
+  color: #161619;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   box-sizing: border-box;
@@ -393,7 +394,6 @@ section div label {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  /* height: 30%; */
   -ms-flex-preferred-size: 30%;
   flex-basis: 30%;
   width: 100%;
@@ -440,12 +440,8 @@ section div label {
 }
 
 .logo {
-  top: 24px;
-  padding-left: 115px;
-  font-size: 27px;
-  text-transform: uppercase;
-  font-family: TTNorms-Medium;
-  /* margin-left: 115px; */
+  top: 26px;
+  padding-left: var(--padding-element-left);
   position: absolute;
 }
 
@@ -454,6 +450,8 @@ section div label {
   width: 200px;
   position: absolute;
 }
+
+
 
 /* Початок Модального меню */
 .modalHeder {
@@ -467,11 +465,12 @@ section div label {
   color: #080808;
 }
 
-.numMenu a{
+.numMenu a {
   text-decoration: none;
   color: #080808;
   /* padding: 0 0 0 400px; */
 }
+
 .numMenu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -487,7 +486,7 @@ section div label {
 }
 
 .modalmenu>.numMenu:hover,
-.numMenu:hover a{
+.numMenu:hover a {
   height: 100px;
   width: 100%;
   background: #080808;
@@ -495,13 +494,13 @@ section div label {
 }
 
 .modalmenu .numMenu>.smoll {
-  font-size: 20px;
-  font-family: "TT Norms";
+  font-size: var(--font-size-h4);
+  font-family: "TTNorms-Medium";
 }
 
 .modalmenu .numMenu>h3 {
-  font-size: 56px;
-  font-family: "TT Norms";
+  font-size: var(--font-size-h3);
+  font-family: "TTNorms-Medium";
 }
 
 .smoll {
@@ -587,14 +586,6 @@ section div label {
   height: 100px;
 }
 
-.leftLogo {
-  padding-left: 115px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50%;
-  padding-top: 55px;
-}
 
 .rigthmenu {
   width: 50%;
@@ -611,7 +602,7 @@ section div label {
 
 .wrapper {
   top: 34px;
-  left: 340px;
+  left: 300px;
   width: 100px;
   background-color: rgba(0, 0, 0, .0);
   cursor: pointer;
@@ -638,6 +629,7 @@ section div label {
   -o-transition: .5s all;
   transition: .5s all;
 }
+
 /* бургер при hover */
 .wrapper:hover .burger-line {
   right: 10px;
@@ -667,11 +659,11 @@ section div label {
 .btn-phone {
   padding: 10px 20px;
   top: 32px;
-  right: 115px;
+  right: 85px;
   font-size: 14px;
   background-color: rgba(0, 0, 0, .1);
   color: #fff;
-  border: 2px solid #323238;
+  border: 2px solid #161619;
   /* box-shadow: 0 8px 16px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.19); */
   text-transform: uppercase;
   font-family: TTNorms-Medium;
@@ -681,8 +673,8 @@ section div label {
 
 .btn-phone:hover {
   color: #fce205;
-  background-color: #323238;
-  border: 2px solid #323238;
+  background-color: #161619;
+  border: 2px solid #161619;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
@@ -692,7 +684,7 @@ section div label {
   width: 133px;
   height: 0px;
   top: 22px;
-  right: 260px;
+  right: 220px;
   font-size: 14px;
   font-family: TTNorms-Medium;
   color: #fff;
@@ -777,7 +769,8 @@ section div label {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  border: 2px solid #323238;
+  /* background: #161619; */
+  border: 2px solid #161619;
   font-family: TTNorms-Medium;
   font-size: 14px;
 }
@@ -792,24 +785,6 @@ section div label {
   transition: all 300ms linear 0s;
 }
 
-.menu li>a {
-
-  text-decoration: none;
-  font-family: TTNorms-Medium;
-  font-size: 14px;
-  color: #e8f8ff;
-}
-
-.menu li>a:hover {
-  display: inline-block;
-  position: relative;
-  padding: 2em;
-  margin: -2em;
-  color: #323238;
-  font-family: TTNorms-Medium;
-  font-size: 14px;
-
-}
 
 .showMenu {
   opacity: 1;
@@ -846,7 +821,7 @@ section div label {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-size: 58px;
+  font-size: var(--font-size-h2);
   text-align: center;
   color: #fff;
   line-height: 125%;
@@ -857,7 +832,7 @@ section div label {
 
 .discript-h4>h4 {
   margin-top: 40px;
-  font-size: 30px;
+  font-size: var(--font-size-h4);
   color: #fff;
   text-align: center;
   -webkit-box-pack: center;
@@ -919,33 +894,33 @@ section div label {
 
 .box2discript1 h4 {
   color: #fce205;
-  font-size: 20px;
+  font-size: var(--font-size-h4);
   padding-top: 185px;
-  padding-left: 115px;
+  padding-left: var(--padding-element-left);
   font-family: TTNorms-Medium;
   text-transform: uppercase;
 }
 
 .box2discript1 h1 {
   color: #ffffff;
-  font-size: 56px;
-  padding-left: 115px;
+  font-size: var(--font-size-h1);
+  padding-left: var(--padding-element-left);
   font-family: TTNorms-Medium;
 }
 
 .box2discript2 h4 {
   color: #fce205;
-  font-size: 20px;
+  font-size: var(--font-size-h4);
   padding-top: 126px;
-  padding-left: 115px;
+  padding-left: var(--padding-element-left);
   font-family: TTNorms-Medium;
   text-transform: uppercase;
 }
 
 .box2discript2 h1 {
   color: #ffffff;
-  font-size: 56px;
-  padding-left: 115px;
+  font-size: var(--font-size-h1);
+  padding-left: var(--padding-element-left);
   font-family: TTNorms-Medium;
   margin-bottom: 62px;
 }
@@ -968,7 +943,7 @@ section div label {
 
 .video-screen {
   position: relative;
-  top: -5%;
+  top: 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -976,8 +951,9 @@ section div label {
   /* background-color: #323238; */
   /* -webkit-box-shadow: 0 8px 16px 0 #fce205, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 8px 16px 0 #fce205, 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  max-width: 90%;
+  max-width: 92%;
 }
+
 /* .videocenter {
   margin-left: auto;
   margin-right: auto;
@@ -988,10 +964,10 @@ section div label {
 } */
 Video {
   box-shadow: 0 8px 16px 0 #fce205, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   max-width: 100%; 
-  height: 100%; 
-  display:block;
-  margin:0 auto;
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
   object-fit: cover;
 }
 
@@ -1057,6 +1033,7 @@ Video {
   background-image: url(../Img/forms.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1082,19 +1059,19 @@ Video {
 }
 
 .discript-forms>h1 {
-  font-size: 56px;
-  color: #323238;
+  font-size: var(--font-size-h1);
+  color: #161619;
   text-align: center;
   font-family: TTNorms-Medium;
 }
 
 .discript-forms>h4 {
-  font-size: 26px;
-  color: #323238;
+  font-size: var(--font-size-h4);
+  color: #161619;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   box-sizing: border-box;
-  width: 80%;
+  width: 70%;
   text-align: center;
   font-family: OpenSans-Regular;
 }
@@ -1109,7 +1086,7 @@ Video {
 }
 
 /* початок переробленлї форми  */
-.error{
+.error {
   width: 50%;
   display: inline;
   position: absolute;
@@ -1117,9 +1094,11 @@ Video {
   display: inline;
   color: red;
 }
-.fokyspokys{
+
+.fokyspokys {
   padding-top: 1%;
 }
+
 .form {
   position: absolute;
   left: 50%;
@@ -1137,7 +1116,7 @@ Video {
   background: none;
   font-family: TTNorms-Medium;
   font-size: 20px;
-  color: #323238;
+  color: #161619;
   outline: none;
 }
 
@@ -1154,11 +1133,11 @@ Video {
   width: 344px;
   height: 64px;
   border: none;
-  border-bottom: 2px solid #323238;
+  border-bottom: 2px solid #161619;
   background: none;
   font-family: TTNorms-Medium;
   font-size: 20px;
-  color: #323238;
+  color: #161619;
   outline: none;
 }
 
@@ -1166,7 +1145,7 @@ Video {
 .input_block input:focus,
 .em input:focus {
 
-  border-bottom: 2px solid #323238;
+  border-bottom: 2px solid #161619;
 
 }
 
@@ -1174,7 +1153,7 @@ Video {
 .input_block input.has_value,
 .em input.has_value {
 
-  border-bottom: 2px solid #323238;
+  border-bottom: 2px solid #161619;
   font-size: 20px;
 
 }
@@ -1187,7 +1166,7 @@ Video {
   position: absolute;
   top: 0;
   left: 0;
-  color: #323238;
+  color: #161619;
 }
 
 .em label {
@@ -1209,7 +1188,7 @@ Video {
   font-family: TTNorms-Medium;
   font-size: 20px;
   line-height: 24px;
-  color: #323238;
+  color: #161619;
   position: absolute;
   top: 21px;
   left: 0;
@@ -1224,7 +1203,7 @@ Video {
   font-family: TTNorms-Medium;
   font-size: 20px;
   line-height: 24px;
-  color: #323238;
+  color: #161619;
   position: absolute;
   top: 21px;
   left: 0;
@@ -1233,7 +1212,7 @@ Video {
 /* focus input placeholder*/
 .input_block input:focus+label span,
 .em input:focus+label span {
-  color: #323238;
+  color: #161619;
   font-size: 10px;
   text-transform: uppercase;
   top: -10px;
@@ -1241,7 +1220,7 @@ Video {
 
 /* value */
 .has_value+label span {
-  color: #323238;
+  color: #161619;
   font-size: 10px;
   text-transform: uppercase;
   top: -10px;
@@ -1250,25 +1229,25 @@ Video {
 textarea {
   width: 694px;
   height: 200px;
-  border: 2px solid #323238;
-  color: #323238;
+  border: 2px solid #161619;
+  color: #161619;
   background: none;
   font-size: 20px !important;
   font-family: TTNorms-Medium !important;
   padding-left: 10px;
   resize: none !important;
-  outline: #323238;
+  outline: #161619;
 }
 
 textarea:focus {
-  color: #323238;
-  border: 2px solid #323238;
+  color: #161619;
+  border: 2px solid #161619;
   font-size: 24px;
   font-family: TTNorms-Medium;
 }
 
 textarea:focus::-webkit-input-placeholder {
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   font-family: TTNorms-Medium;
   line-height: 32px;
@@ -1276,7 +1255,7 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 textarea:focus:-ms-input-placeholder {
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   font-family: TTNorms-Medium;
   line-height: 32px;
@@ -1284,7 +1263,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 textarea:focus::-ms-input-placeholder {
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   font-family: TTNorms-Medium;
   line-height: 32px;
@@ -1292,7 +1271,7 @@ textarea:focus::-ms-input-placeholder {
 }
 
 textarea:focus::placeholder {
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   font-family: TTNorms-Medium;
   line-height: 32px;
@@ -1300,32 +1279,32 @@ textarea:focus::placeholder {
 }
 
 textarea::-webkit-input-placeholder {
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   font-family: TTNorms-Medium;
 }
 
 textarea:-ms-input-placeholder {
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   font-family: TTNorms-Medium;
 }
 
 textarea::-ms-input-placeholder {
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   font-family: TTNorms-Medium;
 }
 
 textarea::placeholder {
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   font-family: TTNorms-Medium;
 }
 
 .area {
-  color: #323238;
-  border: 2px solid #323238;
+  color: #161619;
+  border: 2px solid #161619;
   line-height: 32px;
 }
 
@@ -1340,7 +1319,7 @@ section div {
 section div input {
   background: transparent;
   border: none;
-  color: #323238;
+  color: #161619;
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 30px;
@@ -1349,7 +1328,7 @@ section div input {
 }
 
 section div label {
-  color: #323238;
+  color: #161619;
   font-size: 22px;
   left: 0;
   letter-spacing: 1px;
@@ -1380,8 +1359,8 @@ section div label {
 
 .send input[type="button"] {
 
-  border: 2px solid #323238;
-  color: #323238;
+  border: 2px solid #161619;
+  color: #161619;
   cursor: pointer;
   font-family: TTNorms-Medium;
   font-size: 18px;
@@ -1391,8 +1370,8 @@ section div label {
 
 .send input[type="button"]:hover {
   color: #fce205;
-  background-color: #323238;
-  border: 2px solid #323238;
+  background-color: #161619;
+  border: 2px solid #161619;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
@@ -1418,7 +1397,7 @@ section div label {
 
 
 .inline-list5 li>h1 {
-  color: #323238;
+  color: #161619;
   font-size: 112px;
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -1495,9 +1474,10 @@ section div label {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-preferred-size: 30%;
+  -ms-flex-preferred-size: 35%;
   flex-basis: 30%;
   margin-top: 85px;
+  
   padding-left: 100px;
   margin-right: -15px;
   margin-left: -15px;
@@ -1514,21 +1494,22 @@ section div label {
 
 .service>h1 {
   color: #ffffff;
-  font-size: 56px;
+  font-size: var(--font-size-h1);
   margin-top: -10px;
   font-family: TTNorms-Medium;
 }
 
 .service li {
-  color: #fff;
+  color: #e4e4e7;
   font-size: 20px;
+  line-height: 160%;
   font-family: OpenSans-Regular;
 }
 
 /* end style .service */
 
 p {
-  color: #fff;
+  color: #e4e4e7;
   font-size: 20px;
   line-height: 160%;
   font-family: OpenSans-Regular;
@@ -1549,15 +1530,15 @@ p {
 .discriptblock6 h4 {
   color: #fce205;
   font-size: 20px;
-  padding-left: 115px;
+  padding-left: var(--padding-element-left);
   font-family: TTNorms-Medium;
   text-transform: uppercase;
 }
 
 .discriptblock6 h1 {
   color: #fff;
-  font-size: 56px;
-  padding-left: 115px;
+  font-size: var(--font-size-h1);
+  padding-left: var(--padding-element-left);
   font-family: TTNorms-Medium;
 }
 
@@ -1597,8 +1578,8 @@ p {
 .discript7>h4 {
   color: #fce205;
   padding-top: 185px;
-  padding-left: 115px;
-  font-size: 20px;
+  padding-left: var(--padding-element-left);
+  font-size: var(--font-size-h4);
   font-family: TTNorms-Medium;
   text-transform: uppercase;
   line-height: 1;
@@ -1607,15 +1588,15 @@ p {
 
 .discript7>h1 {
   color: #ffffff;
-  font-size: 56px;
-  padding-left: 115px;
+  font-size: var(--font-size-h1);
+  padding-left: var(--padding-element-left);
   padding-bottom: 20px;
   font-family: TTNorms-Medium;
 }
 
 .request {
   padding: 14px 40px;
-  margin-left: 115px;
+  margin: 0 80px;
   background: #fce205;
   color: #080808;
   text-align: center;
@@ -1646,6 +1627,7 @@ p {
   background-image: url(../Img/forms.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1691,14 +1673,14 @@ p {
    text-align: center;
   } */
 .discript-forms8>h1 {
-  font-size: 56px;
+  font-size: var(--font-size-h1);
   color: #fff;
   text-align: center;
   font-family: TTNorms-Medium;
 }
 
 .discript-forms8>h4 {
-  font-size: 26px;
+  font-size: var(--font-size-h4);
   color: #fff;
   text-align: center;
   font-family: OpenSans-Regular;
@@ -1774,8 +1756,8 @@ p {
 
 .discript9-h4>h4 {
   color: #fce205;
-  padding-left: 115px;
-  font-size: 20px;
+  padding-left: var(--padding-element-left);
+  font-size: var(--font-size-h4);
   font-family: TTNorms-Medium;
   text-transform: uppercase;
 }
@@ -1784,27 +1766,29 @@ p {
   position: relative;
   margin-top: 10px;
   color: #fff;
-  font-size: 56px;
-  padding-left: 115px;
+  font-size: var(--font-size-h1);
+  padding-left: var(--padding-element-left);
   font-family: TTNorms-Medium;
 }
 
 /*start Шрифти в tabs-content*/
+
+
 .tabs-content-h4>h4 {
   color: #fff;
-  padding-left: 115px;
-  font-size: 20px;
-  font-family: TTNorms-Medium;
-  text-transform: uppercase;
-  padding-top: 300px;
+  padding-left: var(--padding-element-left);
+  font-size: var(--font-size-h4);
+  font-family: OpenSans-Regular;
+  padding-top: 320px;
 }
 
 .tabs-content-h1>h1 {
   position: relative;
   margin-top: 10px;
   color: #fff;
-  font-size: 40px;
-  padding-left: 115px;
+  font-size: var(--font-size-h1);
+  padding-left: var(--padding-element-left);
+  text-transform: uppercase;
   font-family: TTNorms-Medium;
 }
 
@@ -1812,7 +1796,7 @@ p {
 /*end Шрифти в tabs-content*/
 
 .gallery-tab>.gallery-label {
-  width: 40%;
+  width: 60%;
   height: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1826,13 +1810,13 @@ p {
   justify-content: space-between;
   padding-top: 110px;
   position: absolute;
-  right: 115px;
+  right: 40px;
 }
 
 .gallery-label>#gallery {
   width: 40%;
   color: #fff;
-  border-bottom: 2px solid #323238;
+  border-bottom: 2px solid #161619;
   cursor: pointer;
 }
 
@@ -1940,7 +1924,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
- 
+
 }
 
 
@@ -1959,6 +1943,24 @@ p {
   background-size: cover;
   background-position: center center;
 }
+
+#photographer {
+  background-image: url(../Img/photographer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+#zholud {
+  background-image: url(../Img/presentZholud.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} 
+
+
+
 #casio {
   background-image: url(../Img/presentCasio.png);
   background-repeat: no-repeat;
@@ -1966,31 +1968,74 @@ p {
   background-position: center center;
 
 }
+
 #terminal {
   background-image: url(../Img/presentTerminal.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  
+
 }
+
 #bitbox {
   background-image: url(../Img/presentBitbox.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
+#webzholud {
+  background-image: url(../Img/presentwebZholud.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} 
 
 
-#g3 {
-  background-color: red;
+
+
+#roman {
+  background-image: url(../Img/Roman.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-#g4 {
-  background-color: brown;
+#family {
+  background-image: url(../Img/family.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+
+#nine_years {
+  background-image: url(../Img/nie_years.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+#love {
+  background-image: url(../Img/love_story.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#veranda {
+  background-image: url(../Img/veranda.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
 
 #g5 {
-  background-color: green;
+  background-image: url(../Img/Your_project.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;;
 }
 
 
@@ -2009,7 +2054,7 @@ p {
 }
 
 .tabs-contentc1 {
-  padding-top: 300px;
+  padding-top: 400px;
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2024,9 +2069,9 @@ p {
   justify-content: space-around;
 }
 
-.tabs-contentc2 ,
-.tabs-contentc3{
-  padding-top: 300px;
+.tabs-contentc2,
+.tabs-contentc3 {
+  padding-top: 400px;
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2056,7 +2101,7 @@ label.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
- position: relative;
+  position: relative;
 }
 
 .footer {
@@ -2087,10 +2132,9 @@ label.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 30px;
   text-transform: uppercase;
   position: absolute;
-  left: 7%;
+  padding-left: var(--padding-element-left);
   padding-top: 150px;
   width: 20%;
 }
@@ -2120,7 +2164,7 @@ label.active {
   width: 20%;
   height: 20%;
   position: absolute;
-  right: 7%;
+  right: 3%;
   padding-top: 150px;
 }
 
