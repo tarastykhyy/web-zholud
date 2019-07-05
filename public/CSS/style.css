@@ -1097,13 +1097,13 @@ Video {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
+/* font reate input */
 .em {
   display: inline;
   padding: 0;
   border: none;
   background: none;
-  font-family: TTNorms-Medium;
+  font-family: OpenSans-Regular;
   font-size: 20px;
   color: #161619;
   outline: none;
@@ -1189,7 +1189,7 @@ Video {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: OpenSans-Regular;
+  font-family: TTNorms-Medium;
   font-size: 20px;
   line-height: 24px;
   color: #161619;
