@@ -379,7 +379,8 @@
 
 @media only screen and (max-width:868px) {
 
-  body {
+  html, body {
+    overflow: auto;
     overflow-x: hidden;
   }
 
@@ -408,6 +409,12 @@
 
   .logo {
     padding-left: 30px;
+  }
+  .logo img {
+    width: 60%;
+    position: relative;
+    height: 80%;
+    padding-top: 12px;
   }
 
   .list section {
@@ -805,8 +812,8 @@
 
   .logos-info {
     left: -50px;
-    padding-top: 40px;
-    width: 100%;
+    padding-top: 44px;
+    width: 30%;
   }
 
   .social-info {
@@ -959,7 +966,7 @@
   }
 
   .dropholder {
-    right: 90px;
+    right: 100px;
   }
 
   .dropdown>h5 {
