@@ -1118,7 +1118,7 @@
   .box2discript1 h1,
   .box2discript2 h1 {
     font-size: 22px;
-    width: 100%;
+    width: 90%;
     position: relative;
     left: 15px;
     padding-left: 0;
@@ -1139,7 +1139,7 @@
   }
 
   .video-container {
-    height: 120%;
+    height: 140%;
     width: 100%;
     background-color: #090909;
     display: -webkit-box;
@@ -1298,6 +1298,7 @@
   .service h3 {
     color: #fce205;
     font-size: 20px;
+    margin-top: 0px;
 
   }
 
@@ -1330,7 +1331,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     padding-left: 100px;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-right: -15px;
     margin-left: -15px;
   }
