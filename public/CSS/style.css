@@ -1097,13 +1097,13 @@ Video {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* font reate input */
+
 .em {
   display: inline;
   padding: 0;
   border: none;
   background: none;
-  font-family: OpenSans-Regular;
+  font-family: TTNorms-Medium;
   font-size: 20px;
   color: #161619;
   outline: none;
@@ -1222,7 +1222,7 @@ textarea {
   color: #161619;
   background: none;
   font-size: 20px !important;
-  font-family: OpenSans-Regular !important;
+  font-family: TTNorms-Medium !important;
   padding-left: 10px;
   resize: none !important;
   outline: #161619;
