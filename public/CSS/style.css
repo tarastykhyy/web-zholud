@@ -926,7 +926,7 @@ section div label {
 }
 
 .video-container {
-  height: 90%;
+  height: 100%;
   width: 100%;
   background-color: #090909;
   display: -webkit-box;
@@ -947,7 +947,7 @@ section div label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
+  height: 90%;
   max-width: 100%;
 }
 
