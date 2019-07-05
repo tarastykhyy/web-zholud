@@ -363,7 +363,7 @@
 
   .email-info h3 {
     font-size: 16px;
-    left: 32%;
+    left: 36%;
   }
 
   .logos-info {
@@ -373,7 +373,7 @@
   }
 
   .social-info {
-    right: 60px;
+    right: 10%;
   }
 }
 
@@ -818,7 +818,7 @@
 
   .logos-info {
     left: -50px;
-    padding-top: 44px;
+    padding-top: 48px;
     width: 26%;
   }
 
