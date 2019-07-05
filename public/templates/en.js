@@ -352,7 +352,7 @@ var getEnContent = function () {
                                 <h4>Design</h4>
                             </div>
                             <div class="tabs-content-h1">
-                                <h1>Here may be your project </h1>
+                                <h1>Your project </h1>
                             </div>
                         </div>
                     </div>
