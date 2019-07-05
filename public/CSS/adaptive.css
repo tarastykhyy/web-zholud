@@ -419,10 +419,7 @@
 
   .leftLogo img{
     
-      width: 60%;
-      position: relative;
-      height: 80%;
-      padding-top: 12px;
+    display: none;
     
   }
 
