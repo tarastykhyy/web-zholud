@@ -820,7 +820,7 @@
 }
 
 @media only screen and (max-width:666px) {
-  body {
+  html, body {
     overflow-x: hidden;
   }
 
