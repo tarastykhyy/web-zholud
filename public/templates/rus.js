@@ -13,8 +13,9 @@ var getRuContent = function () {
         <div class="video-container">
             <div class="video-screen">
             <video class="videocenter" playsinline="" preload="none" controls="true" tabindex="0">
-            <source src="../Video/Video.webm" type="video/webm">
-            <source src="../Video/Video.mp4" type="video/mp4">
+            <source src="https://youtu.be/Itg33gK-1tY" type="video/webm">
+            // <source src="../Video/Video.webm" type="video/webm">
+            // <source src="../Video/Video.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
@@ -430,10 +431,10 @@ var getRuContent = function () {
 
         <div class="social">
             <div class="social-info">
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/channel/UCefst45UCrmZRhZ1WpJXzIA"><i class="fab fa-youtube"></i></a>
                 <a href="https://www.facebook.com/ZholudCreativeStudio/"> <i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.behance.net/tarastykhyy"><i class="fab fa-behance"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/zholud.creative/"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>
