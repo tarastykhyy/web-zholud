@@ -13,8 +13,9 @@ var getUkrContent = function () {
         <div class="video-container">
             <div class="video-screen">
             <video class="videocenter" playsinline="" preload="none" controls="true" tabindex="0">
-            <source src="../Video/Video.webm" type="video/webm">
-            <source src="../Video/Video.mp4" type="video/mp4">
+            <source src="https://youtu.be/Itg33gK-1tY" type="video/webm">
+            // <source src="../Video/Video.webm" type="video/webm">
+            // <source src="../Video/Video.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
