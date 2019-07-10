@@ -943,7 +943,7 @@ section div label {
 
 .video-screen {
   position: relative;
-  top: 8%;
+  top: 4%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
