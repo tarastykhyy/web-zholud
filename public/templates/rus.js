@@ -11,15 +11,9 @@ var getRuContent = function () {
         </div>
 
         <div class="video-container">
-            <div class="video-screen">
-            <video class="videocenter" playsinline="" preload="none" controls="true" tabindex="0">
-            <source src="https://youtu.be/Itg33gK-1tY" type="video/webm">
-            // <source src="../Video/Video.webm" type="video/webm">
-            // <source src="../Video/Video.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-
+        <iframe class="video-screen"  src="https://www.youtube.com/embed/Itg33gK-1tY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+       </div>
     </div>
     <div id="block3">
         <div class="box2discript1">
