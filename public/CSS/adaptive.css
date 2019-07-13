@@ -1,6 +1,8 @@
 /*   max-width:1440px */
 @media only screen and (max-width:1440px) {
   body {
+    -webkit-overflow-scrolling:touch; 
+    overflow:auto;
     overflow-x: hidden;
   }
 
