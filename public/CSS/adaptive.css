@@ -860,7 +860,6 @@
     position: relative;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    top: 50px;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
     margin: auto;
