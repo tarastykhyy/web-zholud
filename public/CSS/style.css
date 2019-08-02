@@ -440,15 +440,15 @@ section div label {
 }
 
 .logo {
-  top: 26px;
+  top: 32px;
   padding-left: var(--padding-element-left);
   position: absolute;
 }
 
 .logo img {
-  height: 50px;
-  width: 200px;
-  position: absolute;
+  height: 80%;
+  width: 80%;
+  position: relative;
 }
 
 
@@ -602,7 +602,7 @@ section div label {
 
 .wrapper {
   top: 34px;
-  left: 300px;
+  left: 280px;
   width: 100px;
   background-color: rgba(0, 0, 0, .0);
   cursor: pointer;
@@ -2125,7 +2125,7 @@ label.active {
   position: absolute;
   padding-left: var(--padding-element-left);
   padding-top: 150px;
-  width: 20%;
+  width: 15%;
 }
 
 .email-info h3 {
