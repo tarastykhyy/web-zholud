@@ -294,6 +294,7 @@ section div label {
 }
 
 .leftLogo img {
+  display: none;
   position: absolute;
   top: 24px;
 }
