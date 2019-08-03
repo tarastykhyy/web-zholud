@@ -664,7 +664,7 @@ section div label {
   font-size: 14px;
   background-color: rgba(0, 0, 0, .1);
   color: #fff;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   /* box-shadow: 0 8px 16px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.19); */
   text-transform: uppercase;
   font-family: TTNorms-Medium;
@@ -771,7 +771,7 @@ section div label {
   -o-transition: all 0.3s;
   transition: all 0.3s;
   /* background: #161619; */
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   font-family: TTNorms-Medium;
   font-size: 14px;
 }
