@@ -874,6 +874,7 @@
     justify-content: left;
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
+    left: 15px;
   }
 
   .discript-h2>h2 {
@@ -888,6 +889,7 @@
   }
 
   .discript-h4>h4 {
+    text-align: left;
     font-size: 14px;
   }
 
