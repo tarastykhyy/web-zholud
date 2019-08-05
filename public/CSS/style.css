@@ -849,6 +849,7 @@ section div label {
   display: -ms-flexbox;
   display: flex;
   justify-content: left;
+  text-align: left;
 }
 
 #price {
