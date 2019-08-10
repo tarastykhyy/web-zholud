@@ -836,7 +836,7 @@ section div label {
   margin-top: 40px;
   font-size: var(--font-size-h4);
   color: #fff;
-  text-align: center;
+  text-align: left;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
