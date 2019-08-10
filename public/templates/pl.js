@@ -416,9 +416,9 @@ var getPlContent = function () {
         <div id="contact" class="footer">
             <div class="info">
                 <div class="logos-info">
-                    <h2>
+                    
                         <img src="./Img/logo.png" alt="logo">
-                    </h2>
+                    
                 </div>
                 <div class="email-info">
                     <h3>Ukraine, Lviv <br> office.zholud@gmail.com </h3>
