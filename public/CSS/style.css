@@ -841,6 +841,7 @@ section div label {
   -ms-flex-pack: center;
   justify-content: center;
   font-family: OpenSans-Regular;
+  width: 60%;
 }
 
 .discript-h2,
