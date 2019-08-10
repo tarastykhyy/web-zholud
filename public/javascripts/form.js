@@ -72,8 +72,8 @@ var languagesOnHeader = [
     {
         lang: 'ua',
         data: {
-            descriptionHeaderText: 'Створіть дизайн для свого бізнесу під ключ разом з нами',
-            descriptionSubHeaderText: 'Брендування,Фото та Ретуш,Веб-розробка та Дизайн',
+            descriptionHeaderText: 'Простота - це найвищий ступінь мистецтва.',
+            descriptionSubHeaderText: 'Створіть дизайн для свого бізнесу під ключ разом з нами',
             priceButtonText: 'Дізнатися вартість',
             orderButtonText: 'Замовити послугу',
             modalMenu: {
@@ -87,8 +87,8 @@ var languagesOnHeader = [
     {
         lang: 'en',
         data: {
-            descriptionHeaderText: 'Create a design for your business on a turn-key basis with us',
-            descriptionSubHeaderText: 'Branding, Photo & Retouch, Web-Development & Design',
+            descriptionHeaderText: 'Simplicity is the highest level of art.',
+            descriptionSubHeaderText: 'Create a design for your business on a turn-key basis with us',
             priceButtonText: 'Get price',
             orderButtonText: 'Order Services',
             modalMenu: {
@@ -102,8 +102,8 @@ var languagesOnHeader = [
     {
         lang: 'pl',
         data: {
-            descriptionHeaderText: 'Stwórz z nami projekt dla swojej firmy pod klucz',
-            descriptionSubHeaderText: 'Branding,Web Photo i Retouch, Web-Development i Projektowanie',
+            descriptionHeaderText: 'Prostota to najwyższy poziom sztuki.',
+            descriptionSubHeaderText: 'Stwórz z nami projekt dla swojej firmy pod klucz',
             priceButtonText: 'Sprawdź cenę',
             orderButtonText: 'Zamów oferte',
             modalMenu: {
@@ -117,8 +117,8 @@ var languagesOnHeader = [
     {
         lang: 'ru',
         data: {
-            descriptionHeaderText: 'Создайте дизайн для своего бизнеса под ключ вместе с нами',
-            descriptionSubHeaderText: 'Брендинг,Фото и Ретушь,Веб-разработка и Дизайн',
+            descriptionHeaderText: 'Простота — высшая ступень искусства.',
+            descriptionSubHeaderText: 'Создайте дизайн для своего бизнеса под ключ вместе с нами',
             priceButtonText: 'Узнать стоимость',
             orderButtonText: 'Заказать услугу',
             modalMenu: {

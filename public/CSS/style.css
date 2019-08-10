@@ -34,6 +34,11 @@ a {
 }
 
 @font-face {
+  font-family: PT Root UI_Web;
+  src: url(../Font/PTRootUI_Web/PT\ Root\ UI_Bold.ttf);
+}
+
+@font-face {
   font-family: OpenSans-Regular;
   src: url(../Font/OpenSans/OpenSans-Regular.ttf);
 }
@@ -70,7 +75,7 @@ a {
   padding: 0;
   border: none;
   background: none;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   font-size: 20px;
   color: #161619;
   outline: none;
@@ -88,7 +93,7 @@ a {
   border: none;
   border-bottom: 2px solid #161619;
   background: none;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   font-size: 20px;
   color: #161619;
   outline: none;
@@ -132,7 +137,7 @@ a {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   font-size: 20px;
   line-height: 24px;
   color: #161619;
@@ -147,7 +152,7 @@ a {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   font-size: 20px;
   line-height: 24px;
   color: #161619;
@@ -211,7 +216,7 @@ section div label {
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
 
 }
 
@@ -234,7 +239,7 @@ section div label {
   border: 2px solid #161619;
   color: #161619;
   cursor: pointer;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   font-size: 18px;
   padding: 14px 60px;
   text-transform: uppercase;
@@ -351,7 +356,7 @@ section div label {
   font-size: var(--font-size-h1);
   color: #161619;
   text-align: center;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
 }
 
 .Modaldiscript-forms>h4 {
@@ -496,12 +501,12 @@ section div label {
 
 .modalmenu .numMenu>.smoll {
   font-size: var(--font-size-h4);
-  font-family: "TTNorms-Medium";
+  font-family: "PT Root UI_Web";
 }
 
 .modalmenu .numMenu>h3 {
   font-size: var(--font-size-h3);
-  font-family: "TTNorms-Medium";
+  font-family: "PT Root UI_Web";
 }
 
 .smoll {
@@ -653,7 +658,7 @@ section div label {
   color: #fce205;
   border: 2px solid #fce205;
 
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   font-size: 18px;
 }
 
@@ -667,7 +672,7 @@ section div label {
   border: 1px solid #fff;
   /* box-shadow: 0 8px 16px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.19); */
   text-transform: uppercase;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   position: absolute;
 
 }
@@ -687,7 +692,7 @@ section div label {
   top: 22px;
   right: 220px;
   font-size: 14px;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -772,14 +777,14 @@ section div label {
   transition: all 0.3s;
   /* background: #161619; */
   border: 1px solid #fff;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   font-size: 14px;
 }
 
 .menu li:hover {
   background-color: #fce205;
   border: 2px solid #fce205;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   font-size: 14px;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
@@ -826,7 +831,7 @@ section div label {
   text-align: left;
   color: #fff;
   line-height: 125%;
-  font-family: TTNorms-Medium;
+  font-family: PT Root UI_Web;
   width: 60%;
   height: 35%;
 }
