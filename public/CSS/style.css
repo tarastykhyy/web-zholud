@@ -924,6 +924,7 @@ section div label {
   padding-left: var(--padding-element-left);
   font-family: PT Root UI_Web;
   margin-bottom: 62px;
+  width: 80%;
 }
 
 .video-container {
