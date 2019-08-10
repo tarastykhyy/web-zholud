@@ -72,7 +72,7 @@ var languagesOnHeader = [
     {
         lang: 'ua',
         data: {
-            descriptionHeaderText: 'Простота - це найвищий ступінь мистецтва.',
+            descriptionHeaderText: 'Простота — це найвищий ступінь мистецтва.',
             descriptionSubHeaderText: 'Створіть дизайн для свого бізнесу під ключ разом з нами',
             priceButtonText: 'Дізнатися вартість',
             orderButtonText: 'Замовити послугу',
@@ -87,7 +87,7 @@ var languagesOnHeader = [
     {
         lang: 'en',
         data: {
-            descriptionHeaderText: 'Simplicity is the highest level of art.',
+            descriptionHeaderText: 'Simplicity — highest level of art.',
             descriptionSubHeaderText: 'Create a design for your business on a turn-key basis with us',
             priceButtonText: 'Get price',
             orderButtonText: 'Order Services',
@@ -102,7 +102,7 @@ var languagesOnHeader = [
     {
         lang: 'pl',
         data: {
-            descriptionHeaderText: 'Prostota to najwyższy poziom sztuki.',
+            descriptionHeaderText: 'Prostota — najwyższy poziom sztuki.',
             descriptionSubHeaderText: 'Stwórz z nami projekt dla swojej firmy pod klucz',
             priceButtonText: 'Sprawdź cenę',
             orderButtonText: 'Zamów oferte',
