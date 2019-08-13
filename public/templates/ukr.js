@@ -89,7 +89,7 @@ var getUkrContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>01.</h3>
-                    <h1>Брендування</h1>
+                    <h1>Branding</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -110,7 +110,7 @@ var getUkrContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>02.</h3>
-                    <h1>Фото та Ретуш</h1>
+                    <h1>Photo & Retouch</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -123,6 +123,8 @@ var getUkrContent = function () {
                     <li>Сімейна фотозйомка</li>
                     <li>Зйомка важливих подій</li>
                     <li>Предметна зйомка </li>
+                    <li>high-end ретушь фотографій </li>
+                    
                    
                 </ul>
             </div>
@@ -131,7 +133,7 @@ var getUkrContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>03.</h3>
-                    <h1>Веб-розробка та Дизайн</h1>
+                    <h1>Digital</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -145,7 +147,7 @@ var getUkrContent = function () {
                     <li>Готові рішення "Full cycle"</li>
                     <li>Веб-дизайн та UI/UX-дизайн</li>
                     <li>Прототипування</li>
-                    <li>Індивідуальні проекти</li>
+                    <li>Веб-розробка</li>
                 </ul>
             </div>
 
@@ -204,9 +206,9 @@ var getUkrContent = function () {
 
                 <div class="gallery-label">
 
-                    <label id='gallery' for="branding" class="branding active">Брендування </label>
-                    <label id='gallery' for="web" class="web">Фото та Ретуш</label>
-                    <label id='gallery' for="design" class="design">Веб-Розробка та Дизайн</label>
+                    <label id='gallery' for="branding" class="branding active">Branding</label>
+                    <label id='gallery' for="web" class="web">Photo & Retouch</label>
+                    <label id='gallery' for="design" class="design">Digital</label>
                 </div>
             </div>
             <!--  flex-container -->
@@ -216,7 +218,7 @@ var getUkrContent = function () {
                 <div class="tab-item tab-branding content1" id="lazulite">
                     <div class="tabs-contentc1">
                         <div class="tabs-content-h4">
-                            <h4>Брендування</h4>
+                            <h4>Branding</h4>
                         </div>
                         <div class="tabs-content-h1">
                             <h1>Lazulit </h1>

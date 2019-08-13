@@ -130,6 +130,7 @@ var getEnContent = function () {
                     <li>Family photo session </li>
                     <li>Photo session of important events</li>
                     <li>Subjects photo session </li>
+                    <li>high-end image retouching</li>
                
                 </ul>
             </div>
@@ -138,7 +139,7 @@ var getEnContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>03.</h3>
-                    <h1>Web-Development & Design</h1>
+                    <h1>Digital</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -151,7 +152,7 @@ var getEnContent = function () {
                     <li>Full cycle solutions</li>
                     <li>Web Design and UI/UX Design</li>
                     <li>Prototyping </li>
-                    <li>Individual projects </li>
+                    <li>Web development </li>
                 </ul>
             </div>
 
@@ -213,7 +214,7 @@ var getEnContent = function () {
 
                     <label id='gallery' for="branding" class="branding active">Branding</label>
                     <label id='gallery' for="web" class="web">Photo & Retouch</label>
-                    <label id='gallery' for="design" class="design">Web-Development & Design</label>
+                    <label id='gallery' for="design" class="design">Digital</label>
                 </div>
             </div>
             <!--  flex-container -->

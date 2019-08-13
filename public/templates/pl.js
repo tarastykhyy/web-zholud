@@ -116,7 +116,7 @@ var getPlContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>02.</h3>
-                    <h1>Photo i Retouch</h1>
+                    <h1>Photo & Retouch</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -129,6 +129,7 @@ var getPlContent = function () {
                     <li>Rodzinna sesja zdjęciowa</li>
                     <li> Sesja ważnych wydarzeń</li>
                     <li>Sesja productu do katalogu </li>
+                    <li>high-end retuszowania zdjęć </li>
                     
                 </ul>
             </div>
@@ -137,7 +138,7 @@ var getPlContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>03.</h3>
-                    <h1>Web-Development i Projektowanie</h1>
+                    <h1>Digital</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -146,10 +147,13 @@ var getPlContent = function () {
                     </div>
                 </div>
                 <ul class="service">
-                    <li>Сstworzenie prototypuw UI/UX</li>
+                    <li>Business site i Landing Page</li>
                     <li>  Gotowy decyzje "full cycle" </li>
-                    <li> Indywidualne projekty</li>
-                    <li>Adaptacyjny designe</li>
+                    <li>Сstworzenie prototypuw UI/UX</li>
+                    <li>Prototyping </li>
+                    <li> Web development </li>
+                   
+
                 </ul>
             </div>
 
@@ -211,8 +215,8 @@ var getPlContent = function () {
                 <div class="gallery-label">
 
                     <label id='gallery' for="branding" class="branding active">Branding </label>
-                    <label id='gallery' for="web" class="web">Photo and Retouch</label>
-                    <label id='gallery' for="design" class="design">Web-Development i Projektowanie</label>
+                    <label id='gallery' for="web" class="web">Photo & Retouch</label>
+                    <label id='gallery' for="design" class="design">Digital</label>
                 </div>
             </div>
             <!--  flex-container -->

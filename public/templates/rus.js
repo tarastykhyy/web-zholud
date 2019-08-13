@@ -97,7 +97,7 @@ var getRuContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>01.</h3>
-                    <h1>Брендинг</h1>
+                    <h1>Branding</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -117,7 +117,7 @@ var getRuContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>02.</h3>
-                    <h1>Фото и Ретушь</h1>
+                    <h1>Photo & Retouch</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -130,6 +130,7 @@ var getRuContent = function () {
                     <li>Семейная фотосъемка</li>
                     <li>Фотосъемка важных событий</li>
                     <li>Предметная фотосъемка</li>
+                    <li>high-end ретушь изображений</li>
                    
                 </ul>
             </div>
@@ -138,7 +139,7 @@ var getRuContent = function () {
                  data-wow-iteration="1">
                 <div class="service">
                     <h3>03.</h3>
-                    <h1>Веб-разработка и Дизайн</h1>
+                    <h1>Digital</h1>
                 </div>
                 <div class="service">
                     <div class="p">
@@ -152,7 +153,7 @@ var getRuContent = function () {
                     <li>Готовые решения "Full cycle" </li>
                     <li>Веб-дизайн и UI / UX-дизайн</li>
                     <li>Прототипирование</li>
-                    <li> Индивидуальные проекты </ li>
+                    <li> Веб-разработка </ li>
                 </ul>
             </div>
 
@@ -210,9 +211,9 @@ var getRuContent = function () {
 
                 <div class="gallery-label">
 
-                    <label id='gallery' for="branding" class="branding active">Брендинг </label>
-                    <label id='gallery' for="web" class="web">Фото и Ретушь</label>
-                    <label id='gallery' for="design" class="design">Веб-Разработка и Дизайн</label>
+                    <label id='gallery' for="branding" class="branding active">Branding </label>
+                    <label id='gallery' for="web" class="web">Photo & Retouchь</label>
+                    <label id='gallery' for="design" class="design">Digital</label>
                 </div>
             </div>
             <!--  flex-container -->
