@@ -212,7 +212,7 @@ var getRuContent = function () {
                 <div class="gallery-label">
 
                     <label id='gallery' for="branding" class="branding active">Branding </label>
-                    <label id='gallery' for="web" class="web">Photo & Retouchь</label>
+                    <label id='gallery' for="web" class="web">Photo & Retouch</label>
                     <label id='gallery' for="design" class="design">Digital</label>
                 </div>
             </div>

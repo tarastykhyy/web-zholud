@@ -218,7 +218,7 @@ var getUkrContent = function () {
                 <div class="tab-item tab-branding content1" id="lazulite">
                     <div class="tabs-contentc1">
                         <div class="tabs-content-h4">
-                            <h4>Branding</h4>
+                            <h4>Брендинг</h4>
                         </div>
                         <div class="tabs-content-h1">
                             <h1>Lazulit </h1>
