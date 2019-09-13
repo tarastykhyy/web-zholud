@@ -1576,6 +1576,7 @@ p {
   padding-left: var(--padding-element-left);
   padding-bottom: 20px;
   font-family: PT Root UI_Web;
+  width: 70%;
 }
 
 .request {
