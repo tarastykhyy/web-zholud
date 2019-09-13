@@ -2,7 +2,7 @@
 
 :root {
   --font-size-h1: 40px;
-  --font-size-h2: 68px;
+  --font-size-h2: 80px;
   --font-size-h3: 48px;
   --font-size-h4: 20px;
   --padding-element-left: 80px;
@@ -828,14 +828,14 @@ section div label {
   color: #fff;
   line-height: 125%;
   font-family: PT Root UI_Web;
-  width: 50%;
+  width: 70%;
   height: 35%;
 }
 
 .discript-h4>h4 {
   margin-top: 40px;
   font-size: var(--font-size-h4);
-  color: #fff;
+  color: #e4e4e7;
   text-align: left;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
