@@ -2,7 +2,7 @@
 
 :root {
   --font-size-h1: 40px;
-  --font-size-h2: 48px;
+  --font-size-h2: 68px;
   --font-size-h3: 48px;
   --font-size-h4: 20px;
   --padding-element-left: 80px;
@@ -1572,7 +1572,7 @@ p {
 
 .discript7>h1 {
   color: #ffffff;
-  font-size: var(--font-size-h1);
+  font-size: var(--font-size-h2);
   padding-left: var(--padding-element-left);
   padding-bottom: 20px;
   font-family: PT Root UI_Web;

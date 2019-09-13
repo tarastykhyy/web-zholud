@@ -72,8 +72,8 @@ var languagesOnHeader = [
     {
         lang: 'ua',
         data: {
-            descriptionHeaderText: 'Простота — це найвищий ступінь мистецтва.',
-            descriptionSubHeaderText: 'Створіть дизайн для свого бізнесу під ключ разом з нами',
+            descriptionHeaderText: 'Створіть дизайн для свого бізнесу під ключ разом з нами.',
+            descriptionSubHeaderText: 'Простота — це найвищий ступінь мистецтва',
             priceButtonText: 'Дізнатися вартість',
             orderButtonText: 'Замовити послугу',
             modalMenu: {
@@ -87,8 +87,8 @@ var languagesOnHeader = [
     {
         lang: 'en',
         data: {
-            descriptionHeaderText: 'Simplicity — highest level of art.',
-            descriptionSubHeaderText: 'Create a design for your business on a turn-key basis with us',
+            descriptionHeaderText: 'Create a design for your business on a turn-key basis with us.',
+            descriptionSubHeaderText: 'Simplicity — highest level of art',
             priceButtonText: 'Get price',
             orderButtonText: 'Order Services',
             modalMenu: {
@@ -102,8 +102,8 @@ var languagesOnHeader = [
     {
         lang: 'pl',
         data: {
-            descriptionHeaderText: 'Prostota — najwyższy poziom sztuki.',
-            descriptionSubHeaderText: 'Stwórz z nami projekt dla swojej firmy pod klucz',
+            descriptionHeaderText: 'Stwórz z nami projekt dla swojej firmy pod klucz.',
+            descriptionSubHeaderText: 'Prostota — najwyższy poziom sztuki',
             priceButtonText: 'Sprawdź cenę',
             orderButtonText: 'Zamów oferte',
             modalMenu: {
@@ -117,8 +117,8 @@ var languagesOnHeader = [
     {
         lang: 'ru',
         data: {
-            descriptionHeaderText: 'Простота — высшая ступень искусства.',
-            descriptionSubHeaderText: 'Создайте дизайн для своего бизнеса под ключ вместе с нами',
+            descriptionHeaderText: 'Создайте дизайн для своего бизнеса под ключ вместе с нами.',
+            descriptionSubHeaderText: 'Простота — высшая ступень искусства',
             priceButtonText: 'Узнать стоимость',
             orderButtonText: 'Заказать услугу',
             modalMenu: {
