@@ -167,7 +167,7 @@ var getRuContent = function () {
     <div id="block7">
         <div class="discript7">
             <h4>Прямо сейчас</h4>
-            <h1>Получите скидку — 10%  на вторую услугу гарантировано!</h1>
+            <h1>Получите скидку<mark><strong> — 10%</strong></mark>  на вторую услугу гарантировано!</h1>
             <input onclick="show('block')" type="button" value="Оформить заявку" class="request">
         </div>
     </div>

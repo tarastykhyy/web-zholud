@@ -167,7 +167,7 @@ var getPlContent = function () {
     <div id="block7">
         <div class="discript7">
             <h4>W tej chwili</h4>
-            <h1>Zamawiając u nas wykonanie strony, otrzymasz 10% rabatu na wykonanie drugiej oferty! </h1>
+            <h1>Zamawiając u nas wykonanie strony, otrzymasz <mark><strong> — 10%</strong></mark> rabatu na wykonanie drugiej oferty! </h1>
             <input onclick="show('block')" type="button" value="Złóż wniosek" class="request">
         </div>
     </div>
