@@ -27,9 +27,10 @@ a {
   text-decoration: none;
 }
 
-/* mark{
-  color: #fce205;
-} */
+ mark{
+  background-color:#fce205;
+  color: #fff;
+} 
 
 /* Шрифти */
 
