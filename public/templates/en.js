@@ -166,7 +166,7 @@ var getEnContent = function () {
     <div id="block7">
         <div class="discript7">
             <h4>Right now</h4>
-            <h1>Get a discount — 10% <br> for the other service is guaranteed!</h1>
+            <h1>Get a discount — <mark>10%</mark> for the other service is guaranteed!</h1>
             <input onclick="show('block')" type="button" value="Place an order" class="request">
         </div>
     </div>
