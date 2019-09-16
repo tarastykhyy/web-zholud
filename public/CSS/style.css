@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+mark{
+  color: #fce205;
+}
+
 /* Шрифти */
 
 @font-face {
