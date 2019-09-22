@@ -744,7 +744,7 @@ section div label {
 .menu {
   position: absolute;
   top: 70px;
-  width: 40px;
+  width: 48px;
   cursor: pointer;
   opacity: 0;
   -webkit-transform-style: preserve-3d;
@@ -776,7 +776,6 @@ section div label {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  /* background: #161619; */
   border: 1px solid #fff;
   font-family: PT Root UI_Web;
   font-size: 14px;
