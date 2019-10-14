@@ -771,6 +771,8 @@ section div label {
 }
 
 .menu li {
+  display: flex;
+  justify-content: center;
   padding: 10px 10px;
   color: #e8f8ff;
   -webkit-transition: all 0.3s;
