@@ -783,7 +783,7 @@ section div label {
 
 .menu li:hover {
   background-color: #fce205;
-  border: 2px solid #fce205;
+  border: 1px solid #fce205;
   font-family: PT Root UI_Web;
   font-size: 14px;
   color: #161619; 
