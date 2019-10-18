@@ -439,11 +439,8 @@ section div label {
 }
 
 .right-header {
-  -webkit-box-sizing: inherit;
   box-sizing: inherit;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 .logo {
@@ -609,15 +606,14 @@ section div label {
 
 .wrapper {
   top: 34px;
-  left: 280px;
-  width: 100px;
+  width: 40px;
   background-color: rgba(0, 0, 0, .0);
   cursor: pointer;
   color: white;
   height: 40px;
   margin: 0px;
   position: absolute;
-  transform: scale(-1, 1);
+
 }
 
 #check-menu {
@@ -629,7 +625,7 @@ section div label {
   position: absolute;
   top: 8px;
   right: 10px;
-  width: 4px;
+  width: 30px;
   height: 3px;
   background-color: #fff;
   -webkit-transition: .5s all;
@@ -637,12 +633,6 @@ section div label {
   transition: .5s all;
 }
 
-/* бургер при hover */
-.wrapper:hover .burger-line {
-  right: 10px;
-  width: 30px;
-
-}
 
 .second {
   top: 18px;

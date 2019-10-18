@@ -49,9 +49,7 @@
     font-size: 10px;
   }
 
-  .wrapper {
-    left: 270px;
-  }
+  
 
 
   .list option:hover {
@@ -83,7 +81,7 @@
   }
 
   .dropholder {
-    right: 200px;
+    right: 160px;
   }
 
   /* модал меню */
@@ -427,23 +425,10 @@
     font-size: 10px;
   }
 
-  .wrapper {
-    left: 160px;
-    transform: scale(-1, 1);
-  }
 
-  .burger-line {
-    right: 10px;
-    width: 4px;
+ 
 
-  }
-
-  /* бургер при hover */
-  .wrapper:hover .burger-line {
-    right: 10px;
-    width: 30px;
-
-  }
+  
 
   .list option:hover {
     color: #fce205;
@@ -506,7 +491,7 @@
   }
 
   .dropholder {
-    right: 160px;
+    right: 140px;
   }
 
   /* модал меню */
@@ -941,14 +926,38 @@
     font-size: 10px;
   }
 
+/* Burger menu*/
   .wrapper {
-    left: 150px;
-    transform: scale(-1, 1);
+    top: 34px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, .0);
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    margin: 0px;
+    position: absolute;
+  
   }
 
   .burger-line {
+    position: absolute;
+    top: 8px;
     right: 10px;
-    width: 3px;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+  }
+  
+  
+  .second {
+    top: 18px;
+  }
+  
+  .fourth {
+    top: 28px;
   }
 
 
@@ -974,7 +983,7 @@
   }
 
   .dropholder {
-    right: 100px;
+    right: 80px;
   }
 
   .dropdown>h5 {
