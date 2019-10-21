@@ -612,6 +612,8 @@ section div label {
   height: 40px;
   margin: 0px;
   position: absolute;
+  /* transform: scale(-1, 1); */
+
 
 }
 
@@ -625,20 +627,31 @@ section div label {
   top: 8px;
   right: 10px;
   width: 30px;
-  height: 2px;
+  height: 3px;
   background-color: #fce205;
-  /* -webkit-transition: .5s all;
+  -webkit-transition: .5s all;
   -o-transition: .5s all;
-  transition: .5s all; */
+  transition: .5s all;
+}
+
+/* бургер при hover */
+.wrapper:hover .burger-line {
+  /* right: 10px; */
+  width: 30px;
+
 }
 
 
 .second {
   top: 18px;
+  height: 2px;
+  width: 20px;
 }
 
 .fourth {
   top: 28px;
+  height: 1px;
+  width: 10px;
 }
 
 
@@ -680,7 +693,7 @@ section div label {
   width: 133px;
   height: 0px;
   top: 22px;
-  right: 220px;
+  right: 200px;
   font-size: 14px;
   font-family: PT Root UI_Web;
   color: #fff;
@@ -1136,7 +1149,7 @@ iframe  {
 .em input.has_value {
 
   border-bottom: 2px solid #161619;
-  font-size: 20px;
+  font-size: var(--font-size-h4);
 
 }
 
