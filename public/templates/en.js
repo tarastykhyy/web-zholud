@@ -144,7 +144,8 @@ var getEnContent = function () {
                 <div class="service">
                     <div class="p">
                         <p>In order to meet the needs of our clients, flexible web development gives us the
-                        ability to create websites of any complexity and functionality.</p>
+                        ability to create websites of any complexity and functionality.
+                        </p>
                     </div>
                 </div>
                 <ul class="service">
