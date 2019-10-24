@@ -243,7 +243,7 @@ section div label {
   font-family: PT Root UI_Web;
   font-size: 18px;
   padding: 14px 60px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .send input[type="button"]:hover {
@@ -1547,7 +1547,7 @@ p {
   text-align: center;
   font-size: var(--font-size-h4);
   font-family: PT Root UI_Web;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border: none;
 }
 
