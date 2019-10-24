@@ -674,7 +674,7 @@ section div label {
   color: #fff;
   border: 1px solid #fff;
   /* box-shadow: 0 8px 16px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.19); */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: PT Root UI_Web;
   position: absolute;
 
@@ -872,7 +872,7 @@ section div label {
   margin-bottom: 260px;
   font-family: PT Root UI_Web;
   border: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .btn-price>#price:hover {
@@ -1313,7 +1313,7 @@ section div label {
   font-family: PT Root UI_Web;
   font-size: var(--font-size-h4);
   padding: 14px 60px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .send input[type="button"]:hover {
