@@ -74,8 +74,8 @@ var languagesOnHeader = [
         data: {
             descriptionHeaderText: 'Створіть дизайн для свого бізнесу під ключ разом з нами.',
             descriptionSubHeaderText: 'Простота — це найвищий ступінь мистецтва',
-            priceButtonText: 'Дізнатися вартість',
-            orderButtonText: 'Замовити послугу',
+            priceButtonText: 'Дізнатися Вартість',
+            orderButtonText: 'Замовити Послугу',
             modalMenu: {
                 menuMain: 'Головна',
                 menuServices: 'Послуги',
@@ -89,7 +89,7 @@ var languagesOnHeader = [
         data: {
             descriptionHeaderText: 'Create a design for your business on a turn-key basis with us.',
             descriptionSubHeaderText: 'Simplicity — highest level of art',
-            priceButtonText: 'Get price',
+            priceButtonText: 'Get Price',
             orderButtonText: 'Order Services',
             modalMenu: {
                 menuMain: 'Home',
@@ -104,8 +104,8 @@ var languagesOnHeader = [
         data: {
             descriptionHeaderText: 'Stwórz z nami projekt dla swojej firmy pod klucz.',
             descriptionSubHeaderText: 'Prostota — najwyższy poziom sztuki',
-            priceButtonText: 'Sprawdź cenę',
-            orderButtonText: 'Zamów oferte',
+            priceButtonText: 'Sprawdź Cenę',
+            orderButtonText: 'Zamów Oferte',
             modalMenu: {
                 menuMain: 'Start',
                 menuServices: 'Oferta',
@@ -119,8 +119,8 @@ var languagesOnHeader = [
         data: {
             descriptionHeaderText: 'Создайте дизайн для своего бизнеса под ключ вместе с нами.',
             descriptionSubHeaderText: 'Простота — высшая ступень искусства',
-            priceButtonText: 'Узнать стоимость',
-            orderButtonText: 'Заказать услугу',
+            priceButtonText: 'Узнать Стоимость',
+            orderButtonText: 'Заказать Услугу',
             modalMenu: {
                 menuMain: 'Главная',
                 menuServices: 'Услуги',
