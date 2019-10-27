@@ -161,7 +161,7 @@ var getUkrContent = function () {
         <div class="discript7">
             <h4>Прямо зараз</h4>
             <h1>Отримайте знижку — <mark><strong> 10%</strong></mark> на другу послугу гарантовано!</h1>
-            <input onclick="show('block')" type="button" value="Оформити заявку" class="request">
+            <input onclick="show('block')" type="button" value="Оформити Заявку" class="request">
         </div>
     </div>
     <div id="block8">
