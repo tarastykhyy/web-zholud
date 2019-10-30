@@ -456,14 +456,13 @@ section div label {
 .modalmenu {
   width: 100%;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 20%;
   color: #080808;
 }
 
 .numMenu a {
   text-decoration: none;
   color: #080808;
-  /* padding: 0 0 0 400px; */
 }
 
 .numMenu {
@@ -530,7 +529,7 @@ section div label {
   padding: 0 40px;
 }
 
-.boxis {
+/* .boxis {
   background: #fafb30;
   width: 100%;
   height: 100vh;
@@ -543,7 +542,7 @@ section div label {
   -ms-flex-direction: column;
   flex-direction: column;
 
-}
+} */
 
 #filterMenu {
   background: #fafb30;
