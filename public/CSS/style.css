@@ -314,7 +314,39 @@ section div label {
 
 }
 
-.fas {
+
+.rigthmenu .close-button{
+  position: absolute;
+  top: 36px;
+}
+  /* .close-button{
+    top: 34px;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    cursor: pointer; 
+  } */
+.close-button>span {
+  position: absolute;
+  top: 13px;
+  left: -6px;
+  display: block;
+  height: 3px;
+  width: 30px;
+  background-color: #080808;
+  transition: all .3s ease-in-out;
+}
+.close-button>span:first-of-type {
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close-button>span:last-of-type {
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/*.fas {
   color: #161619;
   font-size: 40px;
   cursor: pointer;
@@ -322,7 +354,7 @@ section div label {
   top: 34px;
 }
 
-/* .fas:hover {
+ .fas:hover {
 
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
@@ -454,9 +486,10 @@ section div label {
 }
 
 .modalmenu {
+  padding-left: 43%;
   width: 100%;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 8%;
   color: #080808;
 }
 
@@ -466,16 +499,9 @@ section div label {
 }
 
 .numMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   width: 100%;
   height: 100px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -502,15 +528,13 @@ section div label {
 }
 
 .social-modal {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  justify-content: left;
+  text-align: left;
   width: 100%;
   height: 50px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding-top: 140px;
+  padding-left: 40%;
+  padding-top: 8%;
 }
 
 .social-modal .fab:hover {
@@ -596,7 +620,7 @@ section div label {
 
 .wrapper {
   top: 34px;
-  width: 40px;
+  width: 36px;
   background-color: rgba(0, 0, 0, .0);
   cursor: pointer;
   height: 40px;
@@ -796,21 +820,13 @@ section div label {
 /* end header */
 
 .discript {
-  -ms-flex-negative: 0;
   flex-shrink: 0;
-  -ms-flex-preferred-size: auto;
   flex-basis: auto;
-  margin: auto;
+  margin: 16% auto;
   height: 80%;
   width: 80%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: left;
-  -ms-flex-pack: left;
   justify-content: left;
-  -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
 
