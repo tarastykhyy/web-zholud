@@ -329,7 +329,7 @@ section div label {
 .close-button>span {
   position: absolute;
   top: 13px;
-  left: -6px;
+  /* left: -6px; */
   display: block;
   height: 3px;
   width: 30px;
