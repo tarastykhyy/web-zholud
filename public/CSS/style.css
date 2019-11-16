@@ -1019,9 +1019,8 @@ iframe {
 .discript-forms>h4 {
   font-size: var(--font-size-h4);
   color: #161619;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  box-sizing: border-box;
+s  box-sizing: border-box;
+  line-height: 160%;
   width: 70%;
   text-align: center;
   font-family: Gilroy-Regular;
