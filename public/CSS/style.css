@@ -430,7 +430,7 @@ section div label {
 
 .logo img {
   height: 80%;
-  width: 80%;
+  width: 68%;
   position: relative;
 }
 
@@ -2034,16 +2034,17 @@ label.active {
 }
 
 .logos-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-transform: uppercase;
   position: absolute;
   padding-left: var(--padding-element-left);
   padding-top: 150px;
-  width: 15%;
+ 
 }
 
+.logos-info img {
+  height: 80%;
+  width: 80%;
+  position: relative;
+}
 .email-info h3 {
   font-size: var(--font-size-h4);
   width: 20%;
@@ -2059,7 +2060,7 @@ label.active {
 
 .fab {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .social-info {
