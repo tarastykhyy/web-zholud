@@ -299,7 +299,8 @@ section div label {
 
 .leftLogo img {
   position: absolute;
-  top: 24px;
+  top: 30px;
+  width: 10%;
 }
 
 .rigth {
@@ -2042,7 +2043,7 @@ label.active {
 
 .logos-info img {
   height: 80%;
-  width: 80%;
+  width: 68%;
   position: relative;
 }
 .email-info h3 {
