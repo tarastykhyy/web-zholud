@@ -303,39 +303,19 @@ section div label {
 }
 
 .rigth {
-  width: 50%;
+  /* width: 50%; */
   padding-top: 55px;
-  padding-right: 170px;
+  position: absolute;
+  right: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 
 }
 
-
-.rigthmenu .close-button{
+.rigth .close-button{
   position: absolute;
   top: 36px;
-}
- 
-.close-button>span {
-  position: absolute;
-  top: 13px;
-  left: -3px;
-  display: block;
-  height: 3px;
-  width: 30px;
-  background-color: #080808;
-  transition: all .3s ease-in-out;
-}
-.close-button>span:first-of-type {
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.close-button>span:last-of-type {
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
 }
 
 
@@ -578,6 +558,32 @@ section div label {
   display: flex;
 
 }
+
+.rigthmenu .close-button{
+  position: absolute;
+  top: 36px;
+}
+ 
+.close-button>span {
+  position: absolute;
+  top: 13px;
+  left: -3px;
+  display: block;
+  height: 3px;
+  width: 30px;
+  background-color: #080808;
+  transition: all .3s ease-in-out;
+}
+.close-button>span:first-of-type {
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close-button>span:last-of-type {
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
 
 
 /* Кінець модального меню */
