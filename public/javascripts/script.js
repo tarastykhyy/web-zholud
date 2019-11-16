@@ -120,33 +120,7 @@ var nameForm = form.querySelector('.nameForm');
 var calass = form.querySelector('.calass');
 var filde = form.querySelectorAll('.filde');
 
-//генерує дів з назвою  2"помилка"
-/*var generateError = function (text) {
-    var error = document.createElement('div');
-    error.className = 'error';
-    //  error.style.color='red';
-    error.innerHTML = text;
-    return error;
-};*/
-//видаляє клас еррор з завпорвненого поля 
-/*var removeValidation = function () {
-    var errors = form.querySelectorAll('.error');
-    for (var i = 0; i < errors.length; i++) {
-        errors[i].remove()
-    }
-};*/
-//перевірка чи всі поля заповнені
-/*var checkFildePresents = function () {
-    for (var i = 0; i < filde.length; i++) {
-        if (!filde[i].value) {
-            console.log('filde si bv', filde[i]);
-            var error = generateError('не ведені дані');
 
-            form[i].parentElement.insertBefore(error, filde[i]);
-
-        }
-    }
-};*/
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();

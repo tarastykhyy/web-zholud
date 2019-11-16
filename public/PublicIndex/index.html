@@ -102,7 +102,12 @@
 					<div class="leftLogo">
 						<img src="../Img/logo-dark.png" alt="logo">
 					</div>
-					<div class="rigth"><i class="fas fa-times" onclick="show('none')"></i></div>
+					<div class="rigth">
+						<span class="close-button" onclick="show('none')">
+						<span></span>
+						<span></span>
+						</span>
+					</div>
 				</div>
 
 				<div class="Modaldiscript-forms">
@@ -159,28 +164,26 @@
 						<!-- Кінець випадаючого меню -->
 					</div>
 					<div class="right-header">
-							<div class="wrapper" onclick="menu('block')">
-									<input type="checkbox" id="check-menu">
-									<label class='checkbox-label' for="check-menu"></label>
-									<div class="burger-line first"></div>
-									<div class="burger-line second"></div>
-									<div class="burger-line fourth"></div>
-								</div>
 						<div class="dropholder">
-							<div class="dropdown">
+							<div class="dropdown">	
 							</div>
 							<ul id="ul" class="menu">
-								<li onclick="initPage('ua')">Ua</li>
-								<li onclick="initPage('pl')">Pl</li>
-								<li onclick="initPage('en')">En</li>
-								<li onclick="initPage('ru')">Ru</li>
+								<li onclick="initPage('ua')">ua</li>
+								<li onclick="initPage('pl')">pl</li>
+								<li onclick="initPage('en')">en</li>
+								<li onclick="initPage('ru')">ru</li>
 
 							</ul>
 						</div>
 						<!-- </div>				 -->
-						<span class="orderButton">
-
-						</span>
+						<span class="orderButton"> </span>
+						<div class="wrapper" onclick="menu('block')">
+							<input type="checkbox" id="check-menu">
+							<label class='checkbox-label' for="check-menu"></label>
+							<div class="burger-line first"></div>
+							<div class="burger-line second"></div>
+							<div class="burger-line fourth"></div>
+						</div>
 					</div>
 				</div>
 				<!-- Кінець хедеру -->

@@ -90,7 +90,7 @@ var languagesOnHeader = [
             descriptionHeaderText: 'Create a design for your business on a turn-key basis with us.',
             descriptionSubHeaderText: 'Simplicity — highest level of art',
             priceButtonText: 'Get Price',
-            orderButtonText: 'Order Services',
+            orderButtonText: 'Contact Us',
             modalMenu: {
                 menuMain: 'Home',
                 menuServices: 'Services',
