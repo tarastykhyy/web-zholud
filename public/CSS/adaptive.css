@@ -1028,7 +1028,7 @@
   textarea:focus::placeholder {
     color: #323238;
     font-size: 16px;
-    font-family: Gilroy-Bold;
+    font-family: Gilroy-Medium;
 
   }
 
@@ -1080,7 +1080,7 @@
   border: 2px solid #161619;
   color: #161619;
   cursor: pointer;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   text-transform: uppercase;
   font-size: 12px;
   padding: 14px 30px;

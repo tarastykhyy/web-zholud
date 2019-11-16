@@ -40,8 +40,8 @@ mark {
 }
 
 @font-face {
-  font-family: Gilroy-Bold;
-  src: url(../Font/Gilroy/Gilroy-Bold.woff);
+  font-family: Gilroy-Medium;
+  src: url(../Font/Gilroy/Gilroy-Medium.woff);
 }
 
 
@@ -74,7 +74,7 @@ mark {
   padding: 0;
   border: none;
   background: none;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 20px;
   color: #161619;
   outline: none;
@@ -92,7 +92,7 @@ mark {
   border: none;
   border-bottom: 2px solid #161619;
   background: none;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 20px;
   color: #161619;
   outline: none;
@@ -136,7 +136,7 @@ mark {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 20px;
   line-height: 24px;
   color: #161619;
@@ -151,7 +151,7 @@ mark {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 20px;
   line-height: 24px;
   color: #161619;
@@ -215,7 +215,7 @@ section div label {
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 
 }
 
@@ -238,7 +238,7 @@ section div label {
   border: 2px solid #161619;
   color: #161619;
   cursor: pointer;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 18px;
   padding: 14px 60px;
   /* text-transform: uppercase; */
@@ -356,7 +356,7 @@ section div label {
   font-size: var(--font-size-h1);
   color: #161619;
   text-align: center;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 .Modaldiscript-forms>h4 {
@@ -491,12 +491,12 @@ section div label {
 
 .modalmenu .numMenu>.smoll {
   font-size: var(--font-size-h4);
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Medium";
 }
 
 .modalmenu .numMenu>h3 {
   font-size: var(--font-size-h3);
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Medium";
 }
 
 .smoll {
@@ -640,7 +640,7 @@ section div label {
   color: #fafb30;
   border: 2px solid #fafb30;
 
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 18px;
 }
 
@@ -652,7 +652,7 @@ section div label {
   color: #dfdf29;
   border: 1px solid #fafb30;
   background-color: rgba(0, 0, 0, .1);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   position: absolute;
 
 }
@@ -668,7 +668,7 @@ section div label {
   height: 0px;
   top: 22px;
   right: 80px;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -754,14 +754,14 @@ section div label {
   -o-transition: all 0.2s;
   transition: all 0.2s;
   border: 1px solid #fff;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 14px;
 }
 
 .menu li:hover {
   background-color: #fafb30;
   border: 1px solid #fafb30;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 14px;
   color: #161619;
   -webkit-transition: all 200ms linear 0s;
@@ -801,7 +801,7 @@ section div label {
   text-align: left;
   color: #fff;
   line-height: 125%;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   width: 70%;
   height: 35%;
 }
@@ -836,7 +836,7 @@ section div label {
   font-size: var(--font-size-h4);
   margin-top: 50px;
   margin-bottom: 260px;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   /* text-transform: uppercase; */
 }
 
@@ -872,7 +872,7 @@ section div label {
   font-size: var(--font-size-h4);
   padding-top: 185px;
   padding-left: var(--padding-element-left);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   text-transform: uppercase;
 }
 
@@ -880,7 +880,7 @@ section div label {
   color: #ffffff;
   font-size: var(--font-size-h1);
   padding-left: var(--padding-element-left);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 .box2discript2 h4 {
@@ -888,7 +888,7 @@ section div label {
   font-size: var(--font-size-h4);
   padding-top: 126px;
   padding-left: var(--padding-element-left);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   text-transform: uppercase;
 }
 
@@ -896,7 +896,7 @@ section div label {
   color: #ffffff;
   font-size: var(--font-size-h1);
   padding-left: var(--padding-element-left);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   margin-bottom: 62px;
   width: 80%;
 }
@@ -971,7 +971,7 @@ iframe {
   font-size: var(--font-size-h4);
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 .inline-list .numb {
@@ -1013,7 +1013,7 @@ iframe {
   font-size: var(--font-size-h1);
   color: #161619;
   text-align: center;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 .discript-forms>h4 {
@@ -1065,7 +1065,7 @@ iframe {
   padding: 0;
   border: none;
   background: none;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 20px;
   color: #161619;
   outline: none;
@@ -1086,7 +1086,7 @@ iframe {
   border: none;
   border-bottom: 1px solid #161619;
   background: none;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 20px;
   color: #161619;
   outline: none;
@@ -1137,7 +1137,7 @@ transition-timing-function: ease;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: 20px;
   line-height: 24px;
   color: #161619;
@@ -1152,7 +1152,7 @@ transition-timing-function: ease;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: var(--font-size-h4);
   line-height: 24px;
   color: #161619;
@@ -1195,7 +1195,7 @@ textarea:focus {
   color: #161619;
   border: 2px solid #161619;
   font-size: var(--font-size-h4);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 
@@ -1203,7 +1203,7 @@ textarea:focus {
 textarea:focus::placeholder {
   color: #161619;
   font-size: var(--font-size-h4);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 
 }
 
@@ -1211,7 +1211,7 @@ textarea:focus::placeholder {
 textarea::placeholder {
   color: #161619;
   font-size: var(--font-size-h4);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 .area {
@@ -1251,7 +1251,7 @@ section div label {
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 
 }
 
@@ -1276,7 +1276,7 @@ section div label {
   background-color: #161619;
   border: 1px solid #161619;
   cursor: pointer;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: var(--font-size-h4);
   padding: 14px 60px;
   /* text-transform: uppercase; */
@@ -1322,7 +1322,7 @@ section div label {
 .inline-list5 li {
   width: 450px;
   margin: 0 115px 0 115px;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   font-size: var(--font-size-h4);
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -1394,14 +1394,14 @@ section div label {
   margin-top: -28px;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 .service>h1 {
   color: #ffffff;
   font-size: var(--font-size-h1);
   margin-top: 12px;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 .service li {
@@ -1437,7 +1437,7 @@ p {
   color: #fafb30;
   font-size: var(--font-size-h4);
   padding-left: var(--padding-element-left);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   text-transform: uppercase;
 }
 
@@ -1445,7 +1445,7 @@ p {
   color: #fff;
   font-size: var(--font-size-h1);
   padding-left: var(--padding-element-left);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 /* end block6 */
@@ -1486,7 +1486,7 @@ p {
   padding-top: 185px;
   padding-left: var(--padding-element-left);
   font-size: var(--font-size-h4);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   ;
   text-transform: uppercase;
   line-height: 1;
@@ -1498,7 +1498,7 @@ p {
   font-size: var(--font-size-h2);
   padding-left: var(--padding-element-left);
   padding-bottom: 20px;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   width: 70%;
 }
 
@@ -1509,7 +1509,7 @@ p {
   color: #080808;
   text-align: center;
   font-size: var(--font-size-h4);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   /* text-transform: uppercase; */
   border: none;
 }
@@ -1574,7 +1574,7 @@ p {
   font-size: var(--font-size-h1);
   color: #fff;
   text-align: center;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 .discript-forms8>h4 {
@@ -1656,7 +1656,7 @@ p {
   color: #fafb30;
   padding-left: var(--padding-element-left);
   font-size: var(--font-size-h4);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
   text-transform: uppercase;
 }
 
@@ -1666,7 +1666,7 @@ p {
   color: #fff;
   font-size: var(--font-size-h1);
   padding-left: var(--padding-element-left);
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 /*start Шрифти в tabs-content*/
@@ -1687,7 +1687,7 @@ p {
   font-size: var(--font-size-h1);
   padding-left: var(--padding-element-left);
   text-transform: uppercase;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy-Medium;
 }
 
 
