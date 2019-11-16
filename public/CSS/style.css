@@ -1505,6 +1505,7 @@ p {
   padding: 14px 40px;
   margin: 0 80px;
   background: #fafb30;
+  border: 1px solid #fafb30;
   color: #080808;
   text-align: center;
   font-size: var(--font-size-h4);
@@ -1514,10 +1515,9 @@ p {
 }
 
 .request:hover {
-  -webkit-box-shadow: 0 4px 8px 0 #fafb30, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  box-shadow: 0 4px 8px 0 #fafb30, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-transition: all 300ms linear 0s;
-  -o-transition: all 300ms linear 0s;
+  color: #fafb30;
+  border: 1px solid #fafb30;
+  background-color: rgba(0, 0, 0, .1);
   transition: all 300ms linear 0s;
 }
 
