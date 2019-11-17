@@ -1,5 +1,5 @@
 $(function() {
-    $.scrollSpeed(300, 550);
+    $.scrollSpeed(400, 1000);
 });
 // Plugin: jQuery.scrollSpeed
 // Source: github.com/nathco/jQuery.scrollSpeed
@@ -14,7 +14,7 @@ $(function() {
             $window = $(window),
             $body = $('html, body'),
             option = easing || 'default',
-            root = 0,
+            root = $document.scrollTop(),
             scroll = false,
             scrollY,
             scrollX,
