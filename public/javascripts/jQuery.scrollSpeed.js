@@ -1,5 +1,5 @@
 $(function() {
-    $.scrollSpeed(400, 1000);
+    $.scrollSpeed(100, 800);
 });
 // Plugin: jQuery.scrollSpeed
 // Source: github.com/nathco/jQuery.scrollSpeed
