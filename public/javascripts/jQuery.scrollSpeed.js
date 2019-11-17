@@ -14,7 +14,7 @@ $(function() {
             $window = $(window),
             $body = $('html, body'),
             option = easing || 'default',
-            root = $document.scrollTop(),
+            root = 0,
             scroll = false,
             scrollY,
             scrollX,
