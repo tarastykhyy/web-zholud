@@ -36,6 +36,13 @@
     z-index: 2;
 
   }
+  .wrapper{
+    right: 60px;
+  }
+
+  .dropholder {
+    right: 64px;
+  }
 
   .black {
     background-color: rgb(0, 0, 0);
@@ -66,10 +73,13 @@
 
   .btn-phone {
     font-size: 14px;
-    right: 60px;
+    right: 228px;
   }
 
-
+  .rigthmenu ,
+  .rigth {
+    right: 96px;
+  }
   /* block 1 */
 
   .discript-h2>h2 {
@@ -78,10 +88,6 @@
 
   .discript-h4>h4 {
     font-size: 22px;
-  }
-
-  .dropholder {
-    right: 160px;
   }
 
   /* модал меню */
@@ -181,6 +187,7 @@
 
   .discript-forms>h4 {
     font-size: 24px;
+    width: 60%;
   }
 
   .send input[type="submit"] {
@@ -373,7 +380,7 @@
   }
 
   .social-info {
-    right: 10%;
+    right: 38px;
   }
 }
 
