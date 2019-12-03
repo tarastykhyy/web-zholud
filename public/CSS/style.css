@@ -300,7 +300,7 @@ section div label {
 .leftLogo img {
   position: absolute;
   top: 30px;
-  width: 8%;
+  width: 6%;
 }
 
 .rigth {
@@ -314,10 +314,6 @@ section div label {
 
 }
 
-.rigth .close-button{
-  position: absolute;
-  top: 36px;
-}
 
 
 
@@ -378,22 +374,21 @@ section div label {
 }
 
 .header {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-preferred-size: 30%;
   flex-basis: 30%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
+  height: 100px;
+  position: fixed;
+  z-index: 2;
+}
+
+.black {
+ 
+  background-color: rgb(0, 0, 0,0.9);
+ 
 }
 
 .left-header,
@@ -431,7 +426,7 @@ section div label {
 
 .logo img {
   height: 80%;
-  width: 68%;
+  width: 50%;
   position: relative;
 }
 
@@ -560,7 +555,8 @@ section div label {
 
 }
 
-.rigthmenu .close-button{
+.rigthmenu .close-button,
+.rigth .close-button{
   position: absolute;
   top: 36px;
 }
@@ -714,15 +710,27 @@ section div label {
   position: relative;
 }
 
-.dropdown:after {
+.dropdown::before{
   content: "▾";
+  display: inline-block;
+  font-size: 18px;
+  /* transform: rotate(280deg); */
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+.dropdown::after {
+  content: "";
+  display: inline-block;
+  transform: rotate(180deg);
   font-size: 18px;
   color: rgba(255, 255, 255, 0.8);
   position: absolute;
   right: 20px;
   top: 18px;
-  display: block;
 }
+
 
 
 .menu {
@@ -1028,7 +1036,7 @@ iframe {
 .discript-forms>h4 {
   font-size: var(--font-size-h4);
   color: #161619;
-s  box-sizing: border-box;
+ box-sizing: border-box;
   line-height: 160%;
   width: 60%;
   text-align: center;
@@ -2044,7 +2052,7 @@ label.active {
 
 .logos-info img {
   height: 80%;
-  width: 68%;
+  width: 50%;
   position: relative;
 }
 .email-info h3 {
