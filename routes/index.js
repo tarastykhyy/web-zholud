@@ -4,10 +4,22 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
   auth: {
     user: 'server.zholud@gmail.com',
     pass: 'Sravpes2019'
+  }
+});
+
+var reserveTransporter = nodemailer.createTransport({
+  host: 'smtp.ukr.net',
+  port: 465,
+  secure: true,
+  auth: {
+    user: 'lamis@ukr.net',
+    pass: 'T30a06r1989as'
   }
 });
 
@@ -26,8 +38,14 @@ router.post('/sendEmail', function (req, res, next) {
 
   transporter.sendMail(mailOptions, function(error, info) {
     if (error) {
-      console.log(error);
-      res.status(500).send('Cannot send email!');
+      mailOptions.from = 'lamis@ukr.net';
+      reserveTransporter.sendMail(mailOptions, function (error, info) {
+        if(error) {
+          res.status(500).send('Cannot send email!');
+        } else {
+          res.sendStatus(200);
+        }
+      })
     } else {
       console.log('Email sent: ' + info.response);
       res.sendStatus(200);

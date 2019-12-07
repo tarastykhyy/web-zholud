@@ -1,16 +1,18 @@
 
 
 jQuery(document).ready(function() {
+    var video = $('video');
+
     // Attach event handler 
-    $('video').on('click', function(event) {
+    video.on('click', function(event) {
       event.preventDefault();
       $('video')[0].play();
     });
   
     // Trigger click event
-    $('video').trigger('click');
-  
+    video.trigger('click');
   });
+
 var initPage = function (language) {
     setLanguage(language);
     initInputs();

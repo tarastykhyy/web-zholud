@@ -163,6 +163,7 @@ var sendDataToServer = function() {
             $(':input').removeClass('has_value');
         })
         .fail(function(error) {
+            $('.fail-email').css('display', 'flex');
             console.log(error);
         });
 };

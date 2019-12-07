@@ -2098,3 +2098,10 @@ label.active {
 }
 
 /* end block10 */
+
+.fail-email {
+  color: #ff0003;
+  display: none;
+  padding-bottom: 10px;
+  justify-content: center
+}
