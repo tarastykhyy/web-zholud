@@ -23,15 +23,15 @@ var getEnContent = function () {
 
             <div class="inline-list">
 
-                <div class="numb data-aos="fade-up" data-aos-easing="ease-out-quart">
+                <div class="numb" data-aos="fade-up" data-aos-easing="ease-out-quart">
                     <h3>01.</h3>
                     <p>We form the visual uniqueness of your brand</p>
                 </div>
-                <div class="numb data-aos="fade-up" data-aos-easing="ease-out-quart" >
+                <div class="numb" data-aos="fade-up" data-aos-easing="ease-out-quart" >
                     <h3>02.</h3>
                     <p>We are raising the level of your business</p>
                 </div>
-                <div class="numb data-aos="fade-up" data-aos-easing="ease-out-quart">
+                <div class="numb" data-aos="fade-up" data-aos-easing="ease-out-quart">
                     <h3>03.</h3>
                     <p>We create your overall corporate identity</p>
                 </div>
