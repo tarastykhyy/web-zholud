@@ -357,7 +357,7 @@ section div label {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 900px;
+  height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -726,7 +726,7 @@ section div label {
   transform: rotate(180deg);
   font-size: 18px;
   color: rgba(255, 255, 255, 0.8);
-  position: absolute;
+  position: relative;
   right: 20px;
   top: 18px;
 }
@@ -962,7 +962,7 @@ iframe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 810px;
+  height: 600px;
   width: 100%;
   background-color: #090909;
   -webkit-box-orient: vertical;
@@ -980,7 +980,7 @@ iframe {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  margin-top: 4%;
+  margin-top: 8%;
 }
 
 .inline-list h3 {
@@ -2098,3 +2098,10 @@ label.active {
 }
 
 /* end block10 */
+
+.fail-email {
+  color: #ff0003;
+  display: none;
+  padding-bottom: 10px;
+  justify-content: center
+}

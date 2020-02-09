@@ -1,40 +1,37 @@
 var getEnContent = function () {
     var content = `
     <div id="block2">
-        <div class="box2discript1">
+        <div class="box2discript1" data-aos="fade-up" data-aos-easing="ease-out-quart">
             <h4>We are sure</h4>
             <h1>A good product is not accidental.</h1>
         </div>
-        <div class="box2discript2">
+        <div class="box2discript2" data-aos="fade-up" data-aos-easing="ease-out-quart">
             <h4>Our company</h4>
             <h1>Creative studio with great experience and<br> serious approach to your business.</h1>
         </div>
 
-        <div class="video-container">
+        <div class="video-container" data-aos="fade-up" data-aos-easing="ease-out-quart">
         <iframe class="video-screen"  src="https://www.youtube.com/embed/Itg33gK-1tY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           
        </div>
 
     </div>
     <div id="block3">
-        <div class="box2discript1">
+        <div class="box2discript1" data-aos="fade-up" data-aos-easing="ease-out-quart">
             <h4>We offer</h4>
             <h1>Effective services for your business.</h1>
 
             <div class="inline-list">
 
-                <div class="numb wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
-                     data-wow-iteration="1">
+                <div data-aos="fade-up" data-aos-easing="ease-out-quart">
                     <h3>01.</h3>
                     <p>We form the visual uniqueness of your brand</p>
                 </div>
-                <div class="numb wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
-                     data-wow-iteration="1">
+                <div data-aos="fade-up" data-aos-easing="ease-out-quart" >
                     <h3>02.</h3>
                     <p>We are raising the level of your business</p>
                 </div>
-                <div class="numb wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
-                     data-wow-iteration="1">
+                <div data-aos="fade-up" data-aos-easing="ease-out-quart">
                     <h3>03.</h3>
                     <p>We create your overall corporate identity</p>
                 </div>
@@ -43,7 +40,7 @@ var getEnContent = function () {
         </div>
     </div>
     <div id="block4">
-        <div class="fokyspokys">
+        <div class="fokyspokys" data-aos="fade-up" data-aos-easing="ease-out-quart">
             <div class="discript-forms">
                 <h1>Let us create <br> the best product for you</h1>
                 <h4> Leave your contacts, we will contact you.</h4>
@@ -61,23 +58,20 @@ var getEnContent = function () {
     </div>
 
     <div id="block5">
-        <div class="box2discript1">
+        <div class="box2discript1" data-aos="fade-up" data-aos-easing="ease-out-quart">
             <h4>Our approach</h4>
             <h1>We carefully take care of our clients.</h1>
             <div class="inline-list">
 
-                <div class='numb wow zoomIn' data-wow-duration="2s" data-wow-offset="100"
-                     data-wow-iteration="1">
+                <div class='numb'  data-aos="fade-up" data-aos-easing="ease-out-quart">
                     <h3>01.</h3>
                     <p>We deside task and listen your wishes</p>
                 </div>
-                <div class='numb wow zoomIn' data-wow-duration="2s" data-wow-offset="100"
-                     data-wow-iteration="1">
+                <div class='numb'  data-aos="fade-up" data-aos-easing="ease-out-quart">
                     <h3>02.</h3>
                     <p>We work diligently with every client</p>
                 </div>
-                <div class='numb wow zoomIn' data-wow-duration="2s" data-wow-offset="100"
-                     data-wow-iteration="1">
+                <div class='numb'  data-aos="fade-up" data-aos-easing="ease-out-quart">
                     <h3>03.</h3>
                     <p>We don't divide our clients into "important" and "unimportant"</p>
                 </div>
@@ -86,15 +80,14 @@ var getEnContent = function () {
         </div>
     </div>
     <div id="poslygu" class="block6">
-        <div class="discriptblock6">
+        <div class="discriptblock6" data-aos="fade-up" data-aos-easing="ease-out-quart">
             <h4>Our services</h4>
             <h1>We specialize.</h1>
         </div>
 
         <div class="containerBlock6">
 
-            <div class="service-list wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
-                 data-wow-iteration="1">
+            <div class="service-list "  data-aos="fade-up" data-aos-easing="ease-out-quart">
                 <div class="service">
                     <h3>01.</h3>
                     <h1>Branding</h1>
@@ -113,8 +106,7 @@ var getEnContent = function () {
                     <li>Rebranding</li>
                 </ul>
             </div>
-            <div class="service-list wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
-                 data-wow-iteration="1">
+            <div class="service-list"  data-aos="fade-up" data-aos-easing="ease-out-quart">
                 <div class="service">
                     <h3>02.</h3>
                     <h1>Photo & Retouch<h1>
@@ -135,8 +127,7 @@ var getEnContent = function () {
                 </ul>
             </div>
 
-            <div class="service-list wow zoomIn" data-wow-duration="2s" data-wow-offset="100"
-                 data-wow-iteration="1">
+            <div class="service-list"  data-aos="fade-up" data-aos-easing="ease-out-quart">
                 <div class="service">
                     <h3>03.</h3>
                     <h1>Digital</h1>
@@ -165,14 +156,14 @@ var getEnContent = function () {
     </div>
 
     <div id="block7">
-        <div class="discript7">
+        <div class="discript7" data-aos="fade-up" data-aos-easing="ease-out-quart">
             <h4>Right now</h4>
             <h1>Get a discount —  <mark><strong> 10%</strong></mark> for the other service is guaranteed!</h1>
             <input onclick="show('block')" type="button" value="Place an Order" class="request">
         </div>
     </div>
     <div id="block8">
-        <div class="fokyspokys">
+        <div class="fokyspokys" data-aos="fade-up" data-aos-easing="ease-out-quart">
 
 
             <div class="discript-forms">
@@ -200,7 +191,7 @@ var getEnContent = function () {
             <input type="radio" id="design" name="tabs">
 
             <div id="project" class="gallery-tab">
-                <div class="discript9">
+                <div class="discript9" data-aos="fade-up" data-aos-easing="ease-out-quart">
                     <div class="discript9-h4">
                         <h4>Our reputation</h4>
                     </div>
@@ -211,7 +202,7 @@ var getEnContent = function () {
 
 
 
-                <div class="gallery-label">
+                <div class="gallery-label"data-aos="fade-up" data-aos-easing="ease-out-quart">
 
                     <label id='gallery' for="branding" class="branding active">Branding</label>
                     <label id='gallery' for="web" class="web">Photo & Retouch</label>
@@ -437,6 +428,9 @@ var getEnContent = function () {
             </div>
         </div>
     </div>
+    <script>
+        AOS.init();
+    </script>
 `;
 
     return content;
