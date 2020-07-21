@@ -1,208 +1,342 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, maximum-scale=1.0">
-	<title>Zholud.creative</title>
+	<title>zholud.agency</title>
 
 	<!-- images -->
 	<link rel="shortcut icon" type="image/png" href="../Img/Zholud_favicon.png" />
 
-	<!-- libs -->
-	<script src="../lib/jquery-3.3.1.js"></script>
-	<script src="../lib/jquery.tmpl.min.js" type="text/javascript"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script src="../lib/AOS.js"></script>
-	
 
-	<!-- templates
-	<link rel="import" href="templates/ukr.html" /> -->
-	<script src="../templates/ukr.js"></script>
-	<script src="../templates/en.js"></script>
-	<script src="../templates/pl.js"></script>
-	<script src="../templates/rus.js"></script>
-	<script id="sendForm" type="text/x-custom-template">
-		<form class="form-identity formValid" name="forms" autocomplete="off">
-			<h4 class="fail-email">Email is not sent, please try again later</h4>
-			<div class="em emeil">
-				<input class="emailForm filde required" type="email" name="email"  id="email_input" placeholder="">
-				<label for="email_input">
-					<span>${emailText}</span>
-				</label>
-			</div>
-
-			<div class="em name">
-				<input class="nameForm filde required" type="text" name="name" id="name_input">
-				<label for="name_input">
-					<span>${nameText}</span>
-				</label>
-			</div>
-
-			<div class="input_block">
-				<textarea class="calass filde required" type="text" name="text" id="phone_input"
-						  placeholder="${messageText}" maxlength="800"></textarea>
-			</div>
-			<div class="send">
-				<input type="button" value="${buttonText}" onclick="sendDataToServer()" class="btn-send">
-			</div>
-		</form>
-	</script>
-	<script id="modalHeader" type="text/x-custom-template">
-		<h1>${headerText}</h1>
-		<h4>${subHeaderText}</h4>
-	</script>
-	<script id="modalmenuText" type="text/x-custom-template">
-		<div onclick="noMenu('none')" class="numMenu"><h3 class="smoll">01.</h3><h3><a href="#main">${menuMain}</a></h3></div>
-		<div onclick="noMenu('none')" class="numMenu"><h3 class="smoll">02.</h3><h3><a href="#poslygu">${menuServices}</a></h3></div>
-		<div onclick="noMenu('none')" class="numMenu"><h3 class="smoll">03.</h3><h3><a href="#project">${menuProjects}</a></h3></div>
-		<div onclick="noMenu('none')" class="numMenu"><h3 class="smoll">04.</h3><h3><a href="#contact">${menuContacts}</a></h3></div>
-	</script>
-	<script id="description" type="text/x-custom-template">
-		<div class="discript-h2">
-			<h2>${descriptionHeaderText}</h2>
-		</div>
-		<div class="discript-h4">
-			<h4>${descriptionSubHeaderText}</h4>
-		</div>
-		<div class="btn-price">
-			<input onclick="show('block')" id="price" type="button" value="${priceButtonText}">
-		</div>
-	</script>
-	<script id="orderButton" type="text/x-custom-template">
-		<input onclick="show('block')" class="btn-phone " type="button" value="${orderButtonText}">
-	</script>
-
- 	<!-- custom scripts -->
-	<script src="../javascripts/script.js"></script>
-	<script src="../javascripts/form.js"></script>
-
-
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
 
 	<!-- css -->
 	<link type="text/css" rel="stylesheet" href="../CSS/style.css">
-	<link rel="stylesheet" rel="stylesheet" href="../CSS/adaptive.css">
+	<!-- <link rel="stylesheet" rel="stylesheet" href="../CSS/adaptive.css"> -->
+	<link rel="stylesheet" href="../CSS/menu.css" />
+	<link rel="stylesheet" href="../CSS/form.css" />
+	<link rel="stylesheet" href="../CSS/cursor_pointer.css" />
+	<link rel="stylesheet" href="../CSS/slice.css" />
+	<link rel="stylesheet" href="../CSS/animate_text.css" />
 	<link rel="stylesheet" href="../CSS/animate.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-		  integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="stylesheet" href="../CSS/normalize.css">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	
 
-	<script>
-		// $(function () {
-		// 	new AOS.init();
-		// 	//setLanguage('en');
-		// 	initPage('en');
-		// })
-	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="../javascripts/pace.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
 </head>
 
 <body>
-	<div class="container-fluid" >
-		<div class="row">
+	<div id="preloader">
+		<div class="text_load">zhÓlud agency</div>
+	</div>
 
-			<div id="filter" onclick="show('none')"></div>
-			<div id="modalForm">
+	<div class="cursor">
+	</div>
+	<div class="cursor-follower">
+	</div>
 
-				<div class="modalHeder">
-					<div class="leftLogo">
-						<img src="../Img/logo-dark.png" alt="logo">
+	<div id="modalForm">
+
+
+		<span class="close-button" onclick="show('none')">
+			<a class="link">Close</a>
+		</span>
+
+		<div class="Modaldiscript-forms">
+			<div class="Modaldiscript_text">
+				<h5>Contacts</h5>
+				<a class="link" href="mailto:office.zholud@gmail.com">office.zholud@gmail.com</a>
+			</div>
+			<div class="Modal_boxs">
+				<div class="Modaldiscript_text">
+					<h5>Get in touch.</h5>
+					<p>Let’s create the best products with Our Team! </p>
+				</div>
+				<section>
+					<div class="form">
+						<form class="form-identity formValid" name="forms" autocomplete="off">
+							<h4 class="fail-email">Email is not sent, please try again later</h4>
+							<div class="em emeil"> <input class="emailForm filde required" type="email" name="email"
+									id="email_input" placeholder=""> <label for="email_input"> <span>Your email</span>
+								</label> </div>
+							<div class="em name"> <input class="nameForm filde required" type="text" name="name"
+									id="name_input"> <label for="name_input"> <span>Your name</span> </label> </div>
+							<div class="input_block"> <textarea class="calass filde required" type="text" name="text"
+									id="phone_input"
+									placeholder="A few sentences about the product,  the main goal , and our role in this project."
+									maxlength="800"></textarea> </div>
+							<div class="send"> <input type="button" value="Send" onclick="sendDataToServer()"
+									class="btn-send">
+							</div>
+						</form>
 					</div>
-					<div class="rigth">
-						<span class="close-button" onclick="show('none')">
-						<span></span>
-						<span></span>
+				</section>
+			</div>
+		</div>
+		<div class="about-content_copyright">
+			<div class="about-content_footer">
+				<div class="about-content_title">
+					<div id="copyright_form"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="header">
+		<div class="overlay" id="overlay">
+			<a class="link">Close</a>
+			<div class="about-content">
+				<div class="about-content_main-screen">
+					<div class="about-content--one">
+						<h3 class="about-content--one_title "> About us</h3>
+						<h5 class="about-content--one_large "> We is a digital design agency that
+							crafts immersive digital experiences and fine amazing products for your
+							bussiness in a
+							world.</h5>
+						<span class="intro__scroll">
+							<span class="intro__scroll-move">
+								<svg enable-background="new -53 5 92 92" height="40" viewBox="-53 5 92 92" width="40"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="m10.6 62-15.9 15.8v-43.3h-11v43.3l-15.9-16-7.8 7.8 25.4 25.3c1.1 1.1 2.4 1.6 3.9 1.6 1.4 0 2.8-.6 3.9-1.6l25.3-25.2z"
+										fill="#fff" /></svg>
+							</span>
+							<h4>Keep scrolling</h4>
 						</span>
 					</div>
 				</div>
-
-				<div class="Modaldiscript-forms" >
+				<div class="desk_img">
+					<img src="../Img/desk.png" alt="">
 				</div>
-				<div class="Modal_boxs">
-					<section>
-						<div class="form">
-						</div>
-					</section>
-				</div>
-			</div>
+				<div class="about-content_history">
+					<div class="about-content--two">
+						<h5 class="about-content--two_title"> Our story</h5>
+						<div class="about-content--two_large">
+							<p> Zholud was created by Tykhyy Taras, a Ukraine entrepreneur
+								who has work designer with 2015 years.</p>
 
-			<div id="main" class="conteiner-one">
-				<div class="header">
-					<div class="left-header">
-						<div class="logo">
-							<img src="../Img/logo.png" alt="logo">
-						</div>
-						
-						<!-- Початок випадаючого меню -->
-
-						<div id="filterMenu"></div>
-						<div id="modalMenu">
-
-							<div class="modalHeder">
-								<div class="leftLogo">
-									<img src="../Img/logo-dark.png" alt="logo">
-								</div>
-								<div class="rigthmenu">
-									<span class="close-button" onclick="menu('none')">
-									<span></span>
-									<span></span>
-									</span>
-								</div>
+							<p> Zholud was born in 2019 from the ambition to create a agency capable of providing
+								creative services specialized in digital products for both internal projects as well as
+								IT Outsourcing .</p>
+							<p> Now a digital design agency work with lovely clients from all over the world.
+							</p>
+							<img src="../Img/Founder.jpg" alt="">
+							<div class="text-wrap">
+								<p class="heading-4--bold">Tykhyy Taras</p>
+								<h4 class="paragraph">Founder</h4>
 							</div>
-
-							<div class="boxis">
-								<div class="modalmenu">
-
-								</div>
-
-								<div class="social-modal">
-
-
-									<a href="https://www.youtube.com/channel/UCefst45UCrmZRhZ1WpJXzIA"><i class="fab fabi fa-youtube"></i></a>
-									<a href="https://www.facebook.com/Zholud.Creative/"> <i class="fab fabi fa-facebook-f"></i></a>
-									<a href="https://www.behance.net/tarastykhyy"><i class="fab fabi fa-behance"></i></a>
-									<a href="https://www.instagram.com/zholud.creative/"><i class="fab fabi fa-instagram"></i></a>
-
-								</div>
-							</div>
-
-						</div>
-						<!-- Кінець випадаючого меню -->
-					</div>
-					<div class="right-header">
-						<div class="dropholder">
-							<div class="dropdown">	
-							</div>
-							<ul id="ul" class="menu">
-								<li onclick="initPage('ua')">ua</li>
-								<li onclick="initPage('pl')">pl</li>
-								<li onclick="initPage('en')">en</li>
-								<li onclick="initPage('ru')">ru</li>
-
-							</ul>
-						</div>
-						<!-- </div>				 -->
-						<span class="orderButton" > </span>
-						<div class="wrapper" onclick="menu('block')">
-							<input type="checkbox" id="check-menu">
-							<label class='checkbox-label' for="check-menu"></label>
-							<div class="burger-line first"></div>
-							<div class="burger-line second"></div>
-							<div class="burger-line fourth"></div>
 						</div>
 					</div>
 				</div>
-				<!-- Кінець хедеру -->
-				<div class="discript">
+				<div class="about-content_services">
+					<div class="about-content--three">
+						<h5 class="about-content--three_title"> What we do?
+							<p>Our Amazing Services</p>
+						</h5>
+						<div class="about-content--three_large">
+							<div class="content-services-item">
+								<h3 class="content-title--simple">Design</h3>
+								<ul class="content-list">
+									<li class="content-services-item__label">Websites Design </li>
+									<li class="content-services-item__label">Prototyping</li>
+									<li class="content-services-item__label">Branding</li>
+								</ul>
+							</div>
+
+							<div class="content-services-item">
+								<h3 class="content-title--simple">Development</h3>
+								<ul class="content-list">
+									<li class="content-services-item__label">Corporate Web</li>
+									<li class="content-services-item__label">Landing Pages </li>
+									<li class="content-services-item__label">Advanced Web Motion</li>
+								</ul>
+							</div>
+
+							<div class="content-services-item">
+								<h3 class="content-title--simple">Strategy</h3>
+								<ul class="content-list">
+									<li class="content-services-item__label">User and Competitor Research</li>
+									<li class="content-services-item__label">Ideation and Product Strategy</li>
+									<li class="content-services-item__label">Usability Audit </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="about-content_we">
+					<div class="about-content--four">
+						<div class="about-content--four_title">
+							<h3 class="">We are sure that</h3>
+						</div>
+						<div class="about-content--four_large">
+							<h5 class="">Good product</h5>
+							<div id="slides">
+								<div class="slide showing">
+									<h5 class="slide_text">— is a simple.</h5>
+									<h5 class="slide_text">— is a perfect.</h5>
+									<h5 class="slide_text">— is a innovative.</h5>
+								</div>
+							</div>
+						</div>
+					</div>
 
 				</div>
+				<div class="about-content_copyright">
+					<div class="about-content_footer">
+						<div class="about-content_title">
+							<div id="copyright_about"></div>
+						</div>
+					</div>
+				</div>
 			</div>
-		<div id="content">
 		</div>
+
+
+		<div class="logo">
+			<svg class="header-logo__svg" width="100" height="25" enable-background="new 0 0 200 50"
+				viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+				<g fill="#fff">
+					<path d="m31 17v7.5l-17.3 11.1h17.3v7.5h-30.7v-7.5l17.3-11.1h-17.3v-7.5z" />
+					<path
+						d="m56.5 16.5c8.7 0 13.1 3.9 13.1 11.7v14.9h-9v-11.3c0-2.6-.5-4.5-1.6-5.7s-3-1.8-5.6-1.8c-2 0-4 .4-6 1.3s-3.6 1.9-4.7 3.1v14.4h-9.2v-35.2h9.1v13.1c4-3 8.6-4.5 13.9-4.5z" />
+					<path
+						d="m91.5 43.7c-6.7 0-11.6-1.3-14.7-4-3.1-2.6-4.7-6.6-4.7-12 0-5.3 1.6-9.3 4.7-11.9s8-3.9 14.7-3.9 11.6 1.3 14.7 3.9 4.7 6.6 4.7 11.9-1.6 9.3-4.7 12c-3.2 2.7-8.1 4-14.7 4zm-7.7-10.2c1.4 1.3 4 1.9 7.5 1.9 3.6 0 6.1-.6 7.5-1.9s2.2-3.2 2.2-5.8c0-2.5-.7-4.4-2.2-5.7-1.4-1.3-4-1.9-7.5-1.9-3.6 0-6.1.6-7.5 1.9s-2.2 3.2-2.2 5.7c.1 2.6.8 4.5 2.2 5.8zm-1-30 17.2-3.5v5.6l-17.2 3.5z" />
+					<path d="m113.1 7.9h9.1v35.4h-9.1z" />
+					<path
+						d="m152 17h9.1v26.3h-9.1v-4c-4 3-8.6 4.5-13.9 4.5-8.7 0-13.1-3.9-13.1-11.7v-15h9v11.2c0 2.6.5 4.5 1.6 5.7s3 1.8 5.6 1.8c2 0 4-.4 6-1.3s3.6-1.9 4.7-3.1z" />
+					<path
+						d="m190.2 7.9h9.1v35.4h-9.1v-4c-2.7 2.9-6.7 4.3-12 4.3-2 0-3.9-.2-5.6-.7s-3.3-1.2-4.7-2.2c-1.5-1-2.6-2.4-3.4-4.2s-1.2-3.9-1.2-6.4c0-2 .3-3.8.8-5.4.6-1.6 1.3-2.9 2.2-3.9s2-1.9 3.4-2.5c1.3-.7 2.7-1.1 4.1-1.4s2.9-.4 4.5-.4c5.2 0 9.2 1.4 12 4.2v-12.8zm-8.9 28.2c3 0 5.2-.5 6.7-1.4s2.2-2.5 2.2-4.6c0-2.2-.7-3.7-2.2-4.6s-3.7-1.4-6.7-1.4-5.2.5-6.7 1.4-2.2 2.5-2.2 4.6c0 2.2.7 3.7 2.2 4.6 1.4.9 3.7 1.4 6.7 1.4z" />
+				</g>
+			</svg>
+		</div>
+
+
+		<div class="wrapper" id="toggle">
+			<a class="link">About</a>
+		</div>
+
+	</div>
+	<section class='c-slider'>
+		<div class='c-slider-init'>
+
+			<div class='c-slide' style='background-image:url("../Img/leosprint.jpg")'>
+				<div class='c-slide-content'>
+					<div class='c-wrap '>
+						<h2 class='c-slide__title'>
+							2020
+							<span class='c-slide__title--large text-stroke'>Leosprint</span>
+						</h2>
+					</div>
+					<div class='c-wrap c-wrap--small'>
+						<div class='c-slide__info'>
+							<p class='c-slide__body link'><a target="_blank" href='https://www.behance.net/gallery/94880365/Leosprint'>View Case Study</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class='c-slide' style='background-image:url("../Img/edificem.jpg")'>
+				<div class='c-slide-content'>
+					<div class='c-wrap '>
+						<h2 class='c-slide__title'>
+							2019
+							<span class='c-slide__title--large text-stroke'>Edificem</span>
+						</h2>
+					</div>
+					<div class='c-wrap c-wrap--small'>
+						<div class='c-slide__info'>
+							<p class='c-slide__body link'><a target="_blank" href='https://www.behance.net/gallery/79169195/Edificem-company'>View Case Study</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class='c-slide' style='background-image:url("../Img/Bitbox.jpg")'>
+				<div class='c-slide-content'>
+					<div class='c-wrap '>
+						<h2 class='c-slide__title'>
+							2019
+							<span class='c-slide__title--large text-stroke'>Bitbox</span>
+						</h2>
+					</div>
+					<div class='c-wrap c-wrap--small'>
+						<div class='c-slide__info'>
+							<p class='c-slide__body link'><a target="_blank" href='https://www.behance.net/gallery/79658827/Landing-page-BitBox' >View Case Study</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class='c-slide' style='background-image:url("../Img/cobrit.jpg")'>
+				<div class='c-slide-content'>
+					<div class='c-wrap '>
+						<h2 class='c-slide__title'>
+							2017
+							<span class='c-slide__title--large text-stroke'>Cobrit</span>
+						</h2>
+					</div>
+					<div class='c-wrap c-wrap--small'>
+						<div class='c-slide__info'>
+							<p class='c-slide__body link'><a target="_blank" href='https://www.behance.net/gallery/58470665/Design-logo-COBRIT'>View Case Study</a> </p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class='c-slide' style='background-image:url("../Img/marta_smilka.jpg")'>
+				<div class='c-slide-content'>
+					<div class='c-wrap '>
+						<h2 class='c-slide__title'>
+							2017
+							<span class='c-slide__title--large text-stroke'>Marta Smilka</span>
+						</h2>
+					</div>
+					<div class='c-wrap c-wrap--small'>
+						<div class='c-slide__info'>
+							<p class='c-slide__body link'><a target="_blank" href='https://www.behance.net/gallery/53959135/Design-logo-photographer-Marta-Smilka'>View Case Study</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<div class="footer">
+		<div>
+			<input class="btn-price link" onclick="show('block')" id="price" type="button" value="Sey Hello!"> </div>
+		<div class='c-socials'>
+			<ul class='c-socials__list'>
+				<li class='c-socials__list-item link'><a href='https://www.facebook.com/zholud.agency' title=''
+						target="_blank">Facebook</a></li>
+				<li class='c-socials__list-item link'><a href='https://www.behance.net/tarastykhyy' title=''
+						target="_blank">Behance</a></li>
+				<li class='c-socials__list-item link'><a href='https://www.instagram.com/zholud.agency' title='' target="_blank" >Instagram</a></li>
+			</ul>
 		</div>
 	</div>
+
+
+	<!-- libs -->
+
+	<!-- <script src="../lib/jquery-3.3.1.js"></script> -->
+	<!-- <script src="../lib/jquery.tmpl.min.js" type="text/javascript"></script> -->
+	<script src="https://rawgit.com/cfoehrdes/slick/master/slick/slick.js"></script>
+	<!-- custom scripts -->
+	<script src="../javascripts/load_bar.js"></script>
+	<script src="../javascripts/slice.js"></script>
+	<script src="../javascripts/animate_text.js"></script>
+	<script src="../javascripts/script.js"></script>
+	<script src="../javascripts/cursor_pointer.js"></script>
+	<script src="../javascripts/form.js"></script>
+	<script src="../javascripts/menu.js"></script>
+
 </body>
 
 </html>

@@ -1,24 +1,7 @@
-
-
-jQuery(document).ready(function() {
-    var video = $('video');
-
-    // Attach event handler 
-    video.on('click', function(event) {
-      event.preventDefault();
-      $('video')[0].play();
-    });
-  
-    // Trigger click event
-    video.trigger('click');
-  });
-
 var initPage = function (language) {
-    setLanguage(language);
+
     initInputs();
     initShowMenu();
-    initGallery();
-    initScroll();
 };
 
 var initInputs = function () {
@@ -54,47 +37,8 @@ var initInputs = function () {
     });
 };
 
-var initShowMenu = function () {
-    $(".dropdown").click(function () {
-        $(".menu").toggleClass("showMenu");
-
-        $(".dropdown").onclick(function () {
-            $(".menu").toggleClass("showMenu");
-        });
-    });
-};
-
-var initGallery = function () {
-    $('.gallery-label').on('click', '#gallery', function () {
-        $(this).addClass('active').siblings().removeClass('active');
-
-    });
-};
-
-var initScroll = function () {
-    $(window).on('scroll', function () {
-        if ($(window).scrollTop()) {
-            $('.header').addClass('black');
-
-        } else {
-            $('.header').removeClass('black');
-        }
-    });
-};
-
 var show = function (state) {
     document.getElementById('modalForm').style.display = state;
-    document.getElementById('filter').style.display = state;
-};
-
-var menu = function (state) {
-    document.getElementById('modalMenu').style.display = state;
-    document.getElementById('filterMenu').style.display = state;
-};
-
-var noMenu = function (state) {
-    document.getElementById('modalMenu').style.display = state;
-    document.getElementById('filterMenu').style.display = state;
 };
 
 
@@ -129,9 +73,9 @@ form.addEventListener('submit', function (event) {
     removeValidation();
     checkFildePresents();
 });
-  function animate(){
-        document.getElementById('#lazulite').style.webkitTransitionDuration='1s';
-        document.getElementById('#lazulite').style.backgroundSize="200% 200%";
-    };
 
 
+$(document).ready(function () {
+    $('#copyright_form').append(`<h4>© ${new Date().getFullYear()} | zholud — best of the best.</h4>`)
+    $('#copyright_about').append(`<h4>© ${new Date().getFullYear()} | zholud — best of the best.</h4>`)
+  });

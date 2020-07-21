@@ -1,0 +1,318 @@
+
+  section div {
+    position: relative;
+  }
+  
+  section div input {
+    background: transparent;
+    border: none;
+    color:  var(--black);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    outline: none;
+  }
+  
+  section div label {
+    color:  var(--black);
+    font-size: 22px;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    font-family: R;
+  }
+
+  
+  
+.form {
+  padding-left: 2rem;
+    width: 38vw;
+    /* height: 340px; */
+  }
+  
+  .em {
+    display: inline;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: R;
+    font-size: var( --font-size-h4);
+    color:  var(--black);
+    outline: none;
+  }
+  
+  
+  
+  /* Style from input_blocks */
+  
+  .em input {
+    display: inline;
+    width: 38vw;
+    height: 50px;
+    border: none;
+    border-bottom: 0.1em solid  var(--black);
+    background: none;
+    font-family: R;
+    font-size: var( --font-size-h4);
+    color:  var(--black);
+    outline: none;
+  }
+
+  /* input pleaseholder */
+  .em label {
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: -13px;
+    left: 0;
+}
+  
+  /* style focus input_block */
+  .input_block input:focus,
+  .em input:focus {
+    border-bottom: 0.2em solid  var(--black);
+  }
+  
+  
+  .input_block input.has_value,
+  .em input.has_value {
+    border-bottom: 0.1em solid  var(--black);
+    font-size: var( --font-size-h4);
+  
+  }
+  
+  /* Style for input focus */
+  .input_block label {
+    display: block;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:  var(--black);
+  }
+  
+  
+  
+  
+  .input_block label span,
+  .em label span {
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: R;
+    font-size: var( --font-size-h4);
+    line-height: 24px;
+    color:  var(--black);
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+  .input_block label span, .em label span {
+    display: block;
+    height: 24px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: R;
+    font-size: var( --font-size-h4);
+    line-height: 24px;
+    color:  var(--black);
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+  /* style input fonts */
+  .em label span {
+    display: inline;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: R;
+    font-size: var( --font-size-h4);
+    line-height: 24px;
+    color:  var(--grey);
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+  
+  /* focus input placeholder*/
+  .input_block input:focus+label span,
+  .em input:focus+label span {
+    color:  var(--black);
+    font-size: var( --font-size-a);
+    text-transform: uppercase;
+    top: -10px;
+  }
+  
+  /* value */
+  .has_value+label span {
+    color:  var(--black);
+    font-size: var( --font-size-a);
+    text-transform: uppercase;
+    top: -10px;
+  }
+  
+  
+  .area {
+    color:  var(--black);
+    border: 2px solid  var(--black);
+    line-height: 32px;
+  }
+  
+  .error {
+    width: 50%;
+    display: inline;
+    position: absolute;
+    display: flex;
+    display: inline;
+    color: red;
+  }
+  
+  textarea {
+    margin-top: 2rem;
+    width: 38vw;
+    height: 24vh;
+    border: 0.1em solid  var(--black);
+    color:  var(--black);
+    background: none;
+    font-size: var(--font-size-h4) !important;
+    font-family: R!important;
+    padding: 10px;
+    resize: none !important;
+    outline:  var(--black);
+  }
+  
+  textarea:focus {
+    color:  var(--black);
+    border: 0.2em solid  var(--black);
+    font-size: var(--font-size-h4);
+    font-family: R;
+  }
+  
+  
+  
+  textarea:focus::placeholder {
+    color:  var(--black);
+    font-size: var(--font-size-h4);
+    font-family: R;
+  
+  }
+  
+  
+  textarea::placeholder {
+    color:  var(--grey);
+    font-size: var(--font-size-h4);
+    font-family: R;
+  }
+  
+  .area {
+    color:  var(--black);
+    border: 2px solid  var(--black);
+    line-height: 32px;
+  }
+  
+  /* send-btn */
+  .send {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 2rem;
+    left: 2rem;
+  }
+  
+  .send input[type="button"] {
+
+    color: var(--yellow);
+    background-color:  var(--black);
+    border: 0.2em solid  var(--black);
+    cursor: pointer;
+    font-family: M;
+    font-size: var(--font-size-h4);
+    padding: 16px 60px;
+    text-transform: uppercase;
+  }
+  
+  .send input[type="button"]:hover {
+    background-color:var(--white);
+    border: 0.2em solid  var(--black);
+    color:  var(--black);
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+  }
+
+  .fail-email {
+    color: #ff0003;
+    display: none;
+    padding-bottom: 10px;
+    justify-content: center
+  }
+
+  .has_error {
+    border-color: red !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  textarea {
+    height: 24vh;
+
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .em input {
+    width: 50vw;
+  }
+  
+  .form {
+    width: 50vw;
+    /* height: 340px; */
+  }
+
+  textarea {
+    width: 50vw;
+    height: 18vw;
+
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .em input {
+    width: 70vw;
+  }
+  
+  .form {
+     padding-left: 0rem;
+    width: 70vw;
+    /* height: 340px; */
+  }
+
+  textarea {
+    width: 70vw;
+    height: 18vh;
+    margin-top: 1rem;
+  }
+  .send {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 2rem;
+    left: 0rem;
+  }
+  
+  .send input[type="button"] {
+    justify-content: center;
+    padding: 14px 60px;
+  
+  }
+}
