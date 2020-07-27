@@ -5,28 +5,28 @@
     overflow-x: hidden;
   }
 
-  #conteiner-one {
+  #conteiner_one {
     margin: 0px;
     padding: 0px;
   }
 
-  .conteiner-one {
+  .conteiner_one {
     height: 700px;
   }
 
-  .discript {
+  .main_title{
     position: relative;
     top: 5%;
     height: 60%;
     width: 80%;
   }
 
-  #conteiner-one .discript h1 {
+  #conteiner_one .main_titleh1 {
     font-size: 52px;
     line-height: 160%;
   }
 
-  #conteiner-one .discript h4 {
+  #conteiner_one .main_titleh4 {
     font-size: 22px;
   }
 
@@ -60,7 +60,7 @@
 
 
   .list option:hover {
-    color: #fafb30;
+    color: var(--yellow);
     font-size: 12px;
   }
 
@@ -229,7 +229,7 @@
     font-size: 16px;
   }
 
-  .service-list,
+  .service_list,
   .inline-list {
     position: relative;
     left: -40px;
@@ -391,17 +391,17 @@
     overflow-x: hidden;
   }
 
-  #conteiner-one {
+  #conteiner_one {
     margin: 0px;
     padding: 0px;
   }
 
-  #conteiner-one .discript h1 {
+  #conteiner_one .main_titleh1 {
     font-size: 32px;
     line-height: 160%;
   }
 
-  #conteiner-one .discript h4 {
+  #conteiner_one .main_titleh4 {
     font-size: 18px;
   }
 
@@ -440,7 +440,7 @@
   
 
   .list option:hover {
-    color: #fafb30;
+    color: var(--yellow);
     font-size: 12px;
   }
 
@@ -502,7 +502,7 @@
   .dropholder {
     right: 110px;
   }
-  .discript {
+  .main_title{
     position: relative;
     flex-basis: auto;
     margin: 20% auto;
@@ -600,8 +600,8 @@
 
   .send input[type="button"] {
 
-    border: 2px solid #161619;
-    color: #161619;
+    border: 2px solid  var(--black);
+    color:  var(--black);
     cursor: pointer;
     text-transform: uppercase;
     font-size: 16px;
@@ -652,7 +652,7 @@
   }
 
   .service h3 {
-    color: #fafb30;
+    color: var(--yellow);
     font-size: 20px;
 
   }
@@ -661,7 +661,7 @@
     font-size: 14px;
   }
 
-  .service-list,
+  .service_list,
   .inline-list {
     position: relative;
     left: -40px;
@@ -846,21 +846,21 @@
 
 
   /* block 1 */
-  #conteiner-one {
+  #conteiner_one {
     margin: 0px;
     padding: 0px;
   }
 
-  #conteiner-one .discript h1 {
+  #conteiner_one .main_titleh1 {
     font-size: 32px;
     line-height: 160%;
   }
 
-  .conteiner-one {
+  .conteiner_one {
     height: 500px;
   }
 
-  .discript {
+  .main_title{
     position: relative;
     flex-basis: auto;
     margin: 18% auto;
@@ -941,7 +941,7 @@
     width: 30px;
     background-color: rgba(0, 0, 0, .0);
     cursor: pointer;
-    color: white;
+      color: var(--white);
     height: 40px;
     margin: 0px;
     position: absolute;
@@ -961,7 +961,7 @@
 
 
   .list option:hover {
-    color: #fafb30;
+    color: var(--yellow);
     font-size: 12px;
   }
 
@@ -1084,8 +1084,8 @@
  
   .send input[type="button"] {
 
-  border: 2px solid #161619;
-  color: #161619;
+  border: 2px solid  var(--black);
+  color:  var(--black);
   cursor: pointer;
   font-family: Gilroy-Medium;
   text-transform: uppercase;
@@ -1277,7 +1277,7 @@
     flex-direction: column;
   }
 
-  .containerBlock6 {
+  .main_services {
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -1319,7 +1319,7 @@
   }
 
   .service h3 {
-    color: #fafb30;
+    color: var(--yellow);
     font-size: 20px;
     margin-top: 0px;
 
@@ -1330,7 +1330,7 @@
     list-style: inside;
   }
 
-  .service-list,
+  .service_list,
   .inline-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
