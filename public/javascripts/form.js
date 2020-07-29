@@ -29,6 +29,7 @@ var sendDataToServer = function() {
         .done(function() {
             forms.trigger('reset');
             $(':input').removeClass('has_value');
+            $('.message-sending-success').css('display', 'flex');
         })
         .fail(function(error) {
             $('.fail-email').css('display', 'flex');

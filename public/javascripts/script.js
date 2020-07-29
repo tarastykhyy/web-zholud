@@ -1,7 +1,5 @@
-var initPage = function (language) {
-
+var initPage = function () {
     initInputs();
-    initShowMenu();
 };
 
 var initInputs = function () {
@@ -41,7 +39,6 @@ var show = function (state) {
     document.getElementById('modalForm').style.display = state;
 };
 
-
 var disableSendButtons = function () {
     $('.btn-send').each(function() {
         $(this).addClass('disabled');
@@ -60,22 +57,15 @@ var validateEmail = function (email) {
 };
 
 var form = document.querySelector('.formValid');
-var btn_send = form.querySelector('.btn-send');
-var emailForm = form.querySelector('.emailForm');
-var nameForm = form.querySelector('.nameForm');
-var calass = form.querySelector('.calass');
-var filde = form.querySelectorAll('.filde');
-
-
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
-    removeValidation();
-    checkFildePresents();
 });
 
 
 $(document).ready(function () {
+    initPage();
+
     $('#copyright_form').append(`<h4>© ${new Date().getFullYear()} | zholud — best of the best.</h4>`)
     $('#copyright_about').append(`<h4>© ${new Date().getFullYear()} | zholud — best of the best.</h4>`)
   });

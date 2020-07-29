@@ -2,7 +2,6 @@
 $(function () {
    AOS.init();
   //setLanguage('en');
-  initPage('en');
 })
 AOS.init({
   // Global settings:

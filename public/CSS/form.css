@@ -251,7 +251,21 @@
     transition: all 300ms linear 0s;
   }
 
-  .fail-email {
+  .message-sending-fail {
+    color: #ff0003;
+    display: none;
+    padding-bottom: 10px;
+    justify-content: center
+  }
+
+  .message-sending-success {
+    color: #55c564;
+    display: none;
+    padding-bottom: 10px;
+    justify-content: center
+  }
+
+  .incorrect-email {
     color: #ff0003;
     display: none;
     padding-bottom: 10px;
@@ -259,7 +273,7 @@
   }
 
   .has_error {
-    border-color: red !important;
+    border-bottom: 0.2em solid red !important;
 }
 
 @media only screen and (max-width: 1300px) {
