@@ -32,13 +32,13 @@
   
   
 .form {
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
     width: 38vw;
     /* height: 340px; */
   }
   
   .em {
-    display: inline;
+    /* display: inline; */
     padding: 0;
     border: none;
     background: none;
@@ -221,15 +221,21 @@
     line-height: 32px;
   }
   
-  /* send-btn */
+ 
   .send {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    top: 2rem;
-    left: 2rem;
+    top: 4rem;
+    /* left: 2rem; */
   }
-  
+  .send h4 {
+    width: 16vw;
+    color:var(--grey);
+    font-size: var( --font-size-h4);
+    font-family: R !important;
+  }
+   /* send-btn */
   .send input[type="button"] {
 
     color: var(--yellow);
@@ -237,6 +243,7 @@
     border: 0.2em solid  var(--black);
     cursor: pointer;
     font-family: M;
+    margin-bottom: 0px;
     font-size: var(--font-size-h4);
     padding: 16px 60px;
     text-transform: uppercase;
@@ -298,6 +305,9 @@
     height: 18vw;
 
   }
+  .send h4{
+    width: 24vw;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -318,10 +328,13 @@
   }
   .send {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     top: 2rem;
     left: 0rem;
+  }
+  .send h4{
+    width: 40vw;
   }
   
   .send input[type="button"] {
@@ -329,4 +342,27 @@
     padding: 14px 60px;
   
   }
+}
+
+@media only screen and (max-width: 450px){
+  .send {
+    height: 6em ;
+    width: 70vw;
+    display: flex;
+     flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    top: 1rem;
+    left: 0rem;
+  }
+  .send h4{
+    width: 100%;
+  }
+
+  .send input[type="button"] {
+    justify-content: center;
+    padding: 14px 100px;
+  
+  }
+
 }
