@@ -104,7 +104,8 @@ font-family: M;
     background-color:var(--white);
   }
   .about-content_main-screen, .about-content_services,.about-content_we,.desk_img {
-    height:  literal("-webkit-calc(4/4*100vh)");
+    height: 100vh;
+    height: -webkit-calc(4/4*100vh);
     height: -moz-calc(4/4*100vh);
     height: calc(4/4*100vh);
   }
