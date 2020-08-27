@@ -63,6 +63,7 @@
     font-size: var( --font-size-h4);
     color:  var(--black);
     outline: none;
+    -webkit-appearance: none;
   }
 
   /* input pleaseholder */
@@ -247,6 +248,7 @@
     font-size: var(--font-size-h4);
     padding: 16px 60px;
     text-transform: uppercase;
+    -webkit-appearance: none;
   }
   
   .send input[type="button"]:hover {
