@@ -105,14 +105,17 @@ font-family: M;
   }
   .about-content_main-screen, .about-content_services,.about-content_we,.desk_img {
     height: 100vh;
+    height:  -webkit-fill-available;
   }
 
   .about-content_history{
     height:200vh;
+    height:  -webkit-fill-available;
   }
 
   .about-content_copyright{
     height:12vh;
+    height:  -webkit-fill-available;
     bottom: 0;
   }
 
@@ -400,13 +403,16 @@ margin-bottom:15%;
 @media only screen and (max-width: 370px) {
   .about-content_services{
       height: 125vh;
+      height:  -webkit-fill-available;
     }
     .about-content_history{
       height: 150vh;
+      height:  -webkit-fill-available;
     }
     .desk_img img {
       min-height: -webkit-fill-available;
       height: 100vh;
+      height:  -webkit-fill-available;
       max-width: none;
   }
   .about-content--two_large img {
