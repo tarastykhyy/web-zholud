@@ -89,6 +89,7 @@ font-family: M;
     width: 100%;
     height: 100vh;
     align-items: center;
+    min-height: -webkit-fill-available;
     /* padding-top: 4%; */
   }
   .about-content_main-screen, .about-content_history,.about-content_services,.about-content_we, .about-content_copyright{
@@ -106,6 +107,7 @@ font-family: M;
   }
   .about-content_main-screen, .about-content_services,.about-content_we{
     min-height: 100vh;
+    min-height: -webkit-fill-available;
   }
   .desk_img {
     /* height: 100%; */
