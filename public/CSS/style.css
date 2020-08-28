@@ -14,7 +14,8 @@
 
   --fontWeigh: 300;
   --main_lineHeight: 1.4;
-  --main_letterSpacing: 10px;
+  --main_letterSpacing: .181vw;
+
 
   /* Colors */
   --yellow: hsl(60, 96%, 59%);
@@ -85,6 +86,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-rendering: optimizeLegibility;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -199,6 +204,7 @@ mark {
   display: none;
   width: 100%;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background-color: var(--white);
 }
 
@@ -365,10 +371,24 @@ transition: all 300ms linear 0s;
 }
 
 @media only screen and (max-width: 1300px) {
-
+  #modalForm {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .Modaldiscript-forms {
+    margin: 10vw 0;
+  }
 }
 @media only screen and (max-width: 1100px) {
 
+  .Modaldiscript-forms {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0vw 0;
+  }
 }
 @media only screen and (max-width: 800px) {
   #modalForm {
@@ -380,9 +400,6 @@ transition: all 300ms linear 0s;
     height: 25px;
   }
 
-  .Modaldiscript-forms {
-    padding-top: 2rem;
-}
 .Modaldiscript_text {
   padding: 1rem 0;
 }
@@ -396,7 +413,19 @@ transition: all 300ms linear 0s;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 10vw 0;
   }
-    
+  .em{
+    margin: 1rem 0;
+  }
+  }
+  @media only screen and (max-width: 370px) {
+    .Modaldiscript-forms {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20vw 0;
+    }
   }

@@ -326,7 +326,7 @@
   textarea {
     width: 70vw;
     height: 18vh;
-    margin-top: 1rem;
+    margin: 1rem 0;
   }
   .send {
     display: flex;
@@ -364,7 +364,7 @@
   .send input[type="button"] {
     justify-content: center;
     padding: 14px 100px;
-  
+    margin: 1rem 0;
   }
 
 }
