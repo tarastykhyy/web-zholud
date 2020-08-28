@@ -105,13 +105,13 @@ font-family: M;
     background-color:var(--white);
   }
   .about-content_main-screen, .about-content_services,.about-content_we{
-    min-height: 100%;
+    min-height: 100vh;
   }
   .desk_img {
     /* height: 100%; */
   }
   .about-content_history{
-  min-height:200%;
+  min-height:200vh;
   }
 
   .about-content_copyright{
