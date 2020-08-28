@@ -105,7 +105,7 @@ font-family: M;
     background-color:var(--white);
   }
   .about-content_main-screen, .about-content_services,.about-content_we{
-    min-height: 100vh;
+    height: 100%;
   }
   .desk_img {
     /* height: 100%; */
