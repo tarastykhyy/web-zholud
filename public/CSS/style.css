@@ -95,7 +95,7 @@
 body {
   background: black;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: 100%;
   /* position: relative; */
   min-height: -webkit-fill-available;
 }
