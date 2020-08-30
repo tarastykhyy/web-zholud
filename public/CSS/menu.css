@@ -87,7 +87,7 @@ font-family: M;
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     align-items: center;
     min-height: -webkit-fill-available;
     /* padding-top: 4%; */
@@ -106,7 +106,7 @@ font-family: M;
     background-color:var(--white);
   }
   .about-content_main-screen, .about-content_services,.about-content_we{
-    min-height: 100%;
+    height: 100%;
   }
   .desk_img {
     /* height: 100%; */
@@ -389,6 +389,10 @@ margin-bottom:15%;
 
 }
 @media only screen and (max-width: 800px) {
+
+  .about-content_main-screen, .about-content_services,.about-content_we{
+    height: 800px;
+  }
   .about-content--one, .about-content_footer {
     margin: 40vh auto;
 }
