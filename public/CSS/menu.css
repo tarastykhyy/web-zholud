@@ -389,17 +389,17 @@ margin-bottom:15%;
  @media all and (max-width: 800px) {
 
   .about-content{
-    min-height: 100%;
+    min-height: 800px;
   }
 
   .about-content_main-screen, .about-content_services,.about-content_we{
-    min-height: 100%;
+    min-height: 800px;
   }
   .about-content--one, .about-content_footer {
     margin: 40vh auto;
 }
 .about-content_services{
-    max-height: 100%;
+    max-height: 800px;
   }
   .about-content_history{
     min-height: 180%;
