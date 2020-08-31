@@ -389,7 +389,7 @@ margin-bottom:15%;
     min-height: 100%;
   }
 
-  .about-content_main-screen, .about-content_services,.about-content_we{
+  .about-content_main-screen,.about-content_we{
     min-height: 667px;
   }
   .about-content--one {
@@ -397,6 +397,9 @@ margin-bottom:15%;
     display: flex;
     flex-direction: column;
     margin: 5vw 0;
+  }
+  .about-content_services{
+    min-height: 1200px;
   }
 .about-content_footer {
     margin: 0vw auto;
