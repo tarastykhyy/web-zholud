@@ -341,7 +341,7 @@
 
   textarea {
     width: 70vw;
-    height: 18vh;
+    height: 20vh;
     margin: 1rem 0;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -357,6 +357,7 @@
   }
   .send h4{
     width: 40vw;
+    bottom: 0px;
   }
   
   .btn-send{
