@@ -428,6 +428,13 @@ margin-bottom:15%;
     flex-direction: column;
     margin: 10vw 0;
 }
+
+.about-content--three_large {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .about-content--four {
   width: 76%;
   display: flex;
