@@ -386,7 +386,7 @@ margin-bottom:15%;
 }
 
 } */
- @media screen and (max-device-width: 800px) {
+ @media all and (max-width: 800px) {
   .about-content{
     min-height: 100%;
   }
