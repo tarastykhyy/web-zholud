@@ -227,6 +227,7 @@
     justify-content: space-between;
     align-items: center;
     top: 4rem;
+    align-items: center;
     /* left: 2rem; */
   }
   .send h4 {
