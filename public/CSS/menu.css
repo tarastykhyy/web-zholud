@@ -85,7 +85,6 @@ font-family: M;
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    min-height: calc(var(--vh, 1vh) * 100);
     align-items: center;
     min-height: -webkit-fill-available;
     /* padding-top: 4%; */
@@ -389,20 +388,26 @@ margin-bottom:15%;
  @media all and (max-width: 800px) {
 
   .about-content{
-    min-height: 800px;
+    min-height: 100%;
   }
 
   .about-content_main-screen, .about-content_services,.about-content_we{
-    min-height: 800px;
+    min-height: 667px;
+  }
+  .about-content--one {
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw 0;
   }
 .about-content_footer {
-    margin: 40vw auto;
+    margin: 0vw auto;
 }
 .about-content_services{
-    max-height: 800px;
+    min-height: 667px;
   }
   .about-content_history{
-    min-height: 1440px;
+    min-height: 1200px;
   }
   .desk_img img {
     height: 800px;
