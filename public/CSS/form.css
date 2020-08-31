@@ -377,7 +377,7 @@
     border-radius: 0;
   }
   .send input {
-    top: 20px;
+    top: 20px !important;
     align-items: center;
     justify-content: center;
     -webkit-appearance: none;
