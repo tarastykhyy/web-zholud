@@ -240,8 +240,10 @@
     justify-content: center;
   }
    /* send-btn */
-  .send input[type="submit"] {
-
+  .send input[type="button"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--yellow);
     background-color:  var(--black);
     border: 0.2em solid  var(--black);
@@ -255,7 +257,7 @@
     border-radius: 0;
   }
   
-  .send input[type="submit"]:hover {
+  .send input[type="button"]:hover {
     background-color:var(--white);
     border: 0.2em solid  var(--black);
     color:  var(--black);
@@ -349,7 +351,9 @@
     width: 40vw;
   }
   
-  .send input[type="submit"] {
+  .send input[type="button"] {
+    display: flex;
+    align-items: center;
     justify-content: center;
     padding: 14px 60px;
     -webkit-appearance: none;
@@ -372,8 +376,10 @@
     width: 100%;
   }
 
-  .send input[type="submit"] {
- 
+  .send input[type="button"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px 30vw;
     margin: 2em 0;
     -webkit-appearance: none;
