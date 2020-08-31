@@ -240,7 +240,7 @@
     justify-content: center;
   }
    /* send-btn */
-  .send input[type="button"] {
+  .btn-send{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,7 +257,7 @@
     border-radius: 0;
   }
   
-  .send input[type="button"]:hover {
+  .btn-send:hover {
     background-color:var(--white);
     border: 0.2em solid  var(--black);
     color:  var(--black);
@@ -351,7 +351,7 @@
     width: 40vw;
   }
   
-  .send input[type="button"] {
+  .btn-send{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -376,7 +376,7 @@
     width: 100%;
   }
 
-  .send input[type="button"] {
+  .btn-send{
     display: flex;
     align-items: center;
     justify-content: center;
