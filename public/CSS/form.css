@@ -254,6 +254,8 @@
     padding: 16px 60px;
     text-transform: uppercase;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 0;
   }
   
@@ -295,6 +297,8 @@
   textarea {
     height: 24vh;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 0;
 
   }
@@ -324,6 +328,8 @@
   .em input {
     width: 70vw;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 0;
   }
   
@@ -338,6 +344,8 @@
     height: 18vh;
     margin: 1rem 0;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 0;
   }
   .send {
@@ -357,6 +365,8 @@
     justify-content: center;
     padding: 14px 60px;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 0;
   }
 }
@@ -383,6 +393,8 @@
     padding: 20px 30vw;
     margin: 2em 0;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 0;
   }
 
