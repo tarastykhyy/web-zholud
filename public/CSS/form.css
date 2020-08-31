@@ -377,6 +377,7 @@
     border-radius: 0;
   }
   #SendBtn {
+    text-align: center;
     font-size: var(--font-size-h4);
     align-items: center;
     justify-content: center;
