@@ -234,6 +234,9 @@
     color:var(--black);
     font-size: var( --font-size-h4);
     font-family: R !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
    /* send-btn */
   .send input[type="button"] {
@@ -369,9 +372,7 @@
   }
 
   .send input[type="button"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ 
     padding: 20px 30vw;
     margin: 2em 0;
     -webkit-appearance: none;
