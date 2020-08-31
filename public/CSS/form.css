@@ -240,7 +240,7 @@
     justify-content: center;
   }
    /* send-btn */
-  .send input[type="button"] {
+  .send input[type="submit"] {
 
     color: var(--yellow);
     background-color:  var(--black);
@@ -255,7 +255,7 @@
     border-radius: 0;
   }
   
-  .send input[type="button"]:hover {
+  .send input[type="submit"]:hover {
     background-color:var(--white);
     border: 0.2em solid  var(--black);
     color:  var(--black);
@@ -349,7 +349,7 @@
     width: 40vw;
   }
   
-  .send input[type="button"] {
+  .send input[type="submit"] {
     justify-content: center;
     padding: 14px 60px;
     -webkit-appearance: none;
@@ -372,7 +372,7 @@
     width: 100%;
   }
 
-  .send input[type="button"] {
+  .send input[type="submit"] {
  
     padding: 20px 30vw;
     margin: 2em 0;
