@@ -395,8 +395,8 @@ margin-bottom:15%;
   .about-content_main-screen, .about-content_services,.about-content_we{
     min-height: 800px;
   }
-  .about-content--one, .about-content_footer {
-    margin: 40vh auto;
+.about-content_footer {
+    margin: 40vw auto;
 }
 .about-content_services{
     max-height: 800px;
@@ -437,6 +437,9 @@ margin-bottom:15%;
 .founder {
   max-width: 100%;
 }
+.about-content_copyright {
+  min-height: 100px;
+  bottom: 0;
 
 } 
 
