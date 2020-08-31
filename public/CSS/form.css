@@ -376,6 +376,14 @@
     appearance: none;
     border-radius: 0;
   }
+  .send input {
+    top: 20px;
+    align-items: center;
+    justify-content: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+   }
 }
 
 @media only screen and (max-width: 450px){
