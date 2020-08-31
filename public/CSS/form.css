@@ -241,9 +241,6 @@
   }
    /* send-btn */
   .btn-send{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--yellow);
     background-color:  var(--black);
     border: 0.2em solid  var(--black);
@@ -292,6 +289,11 @@
   .has_error {
     border-bottom: 0.2em solid red !important;
 }
+.send input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
 
 @media only screen and (max-width: 1300px) {
   textarea {
@@ -357,7 +359,6 @@
   }
   .send h4{
     width: 40vw;
-    bottom: 0px;
   }
   
   .btn-send{
