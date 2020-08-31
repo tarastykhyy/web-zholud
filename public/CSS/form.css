@@ -63,7 +63,6 @@
     font-size: var( --font-size-h4);
     color:  var(--black);
     outline: none;
-    -webkit-appearance: none;
   }
 
   /* input pleaseholder */
@@ -289,6 +288,8 @@
 @media only screen and (max-width: 1300px) {
   textarea {
     height: 24vh;
+    -webkit-appearance: none;
+    border-radius: 0;
 
   }
 }
@@ -330,6 +331,8 @@
     width: 70vw;
     height: 18vh;
     margin: 1rem 0;
+    -webkit-appearance: none;
+    border-radius: 0;
   }
   .send {
     display: flex;
@@ -345,13 +348,14 @@
   .send input[type="button"] {
     justify-content: center;
     padding: 14px 60px;
-  
+    -webkit-appearance: none;
+    border-radius: 0;
   }
 }
 
 @media only screen and (max-width: 450px){
   .send {
-    height: 6em ;
+    height: 100px ;
     width: 70vw;
     display: flex;
      flex-direction:column;
@@ -368,6 +372,8 @@
     justify-content: center;
     padding: 14px 100px;
     margin: 1rem 0;
+    -webkit-appearance: none;
+    border-radius: 0;
   }
 
 }
