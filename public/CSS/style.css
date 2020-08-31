@@ -50,7 +50,7 @@
     --font-size-a: 12px;
   }  
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 734px) {
 
   :root {
 
@@ -392,7 +392,7 @@ transition: all 300ms linear 0s;
     margin: 0vw 0;
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 734px) {
   #modalForm {
     overflow-x: hidden;
     overflow-y: auto;

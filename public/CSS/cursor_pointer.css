@@ -59,7 +59,7 @@
   }
   
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 734px) {
  .cursor,  .cursor-follower{
    display: none;
  }

@@ -232,7 +232,7 @@
   }
   .send h4 {
     width: 16vw;
-    color:var(--grey);
+    color:var(--black);
     font-size: var( --font-size-h4);
     font-family: R !important;
   }
@@ -249,6 +249,7 @@
     padding: 16px 60px;
     text-transform: uppercase;
     -webkit-appearance: none;
+    border-radius: 0;
   }
   
   .send input[type="button"]:hover {
@@ -312,9 +313,11 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 734px) {
   .em input {
     width: 70vw;
+    -webkit-appearance: none;
+    border-radius: 0;
   }
   
   .form {
