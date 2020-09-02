@@ -226,11 +226,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: 4rem;
     align-items: center;
     /* left: 2rem; */
   }
   .send h4 {
+    top: 4rem;
     width: 16vw;
     color:var(--black);
     font-size: var( --font-size-h4);
