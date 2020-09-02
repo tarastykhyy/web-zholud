@@ -333,7 +333,7 @@
   .form {
      padding-left: 0rem;
     width: 70vw;
-    /* height: 340px; */
+    height: 100%;
   }
 
   textarea {
@@ -381,7 +381,7 @@
 
 @media only screen and (max-width: 450px){
   .send {
-    height: 100px ;
+    height: 100% ;
     max-width: 70vw;
     display: flex;
      flex-direction:column;
