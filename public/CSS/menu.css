@@ -386,12 +386,12 @@ margin-bottom:15%;
  @media all and (max-width: 734px) {
 
   .about-content{
-    max-height: 100%;
+    min-height: 100%;
   }
 
   .about-content_main-screen,.about-content_we{
     height: 100%;
-    max-height: 667px;
+    min-height: 667px;
   }
   .about-content--one {
     width: 76%;
@@ -401,22 +401,22 @@ margin-bottom:15%;
   }
   .about-content_services{
     height: 100%;
-    max-height: 1200px;
+    min-height: 1200px;
   }
 .about-content_footer {
     margin: 0vw auto;
 }
 .about-content_services{
   height: 100%;
-  max-height: 667px;
+  min-height: 667px;
   }
   .about-content_history{
     height: 100%;
-    max-height: 1200px;
+    min-height: 1200px;
   }
   .desk_img img {
     height: 100%;
-    max-height: 800px;
+    min-height: 800px;
     max-width: none;
 }
 .about-content--two_large img {
@@ -459,7 +459,7 @@ margin-bottom:15%;
 }
 .about-content_copyright {
   height: 100%;
-  max-height: 100px;
+  min-height: 100px;
   bottom: 0;
 
 } 
@@ -467,18 +467,18 @@ margin-bottom:15%;
  @media only screen and (max-width: 370px) {
   .about-content_services{
     height: 100%;
-      max-height: 710px;
+    min-height: 710px;
     }
     .about-content_history{
       height: 100%;
-      max-height: 852px;
+      min-height: 852px;
     }
     .about-content_main-screen, .about-content_services, .about-content_we {
-      max-height: 568px;
+      min-height: 568px;
       height: 100%;
   }
   .desk_img img {
-    max-height: 658px;
+    min-height: 658px;
     height: 100%;
 
 }
