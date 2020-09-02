@@ -247,7 +247,6 @@
     background-color:  var(--black);
     border: 4px solid  var(--black);
     cursor: pointer;
-    margin-bottom: 0px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -366,7 +365,6 @@
     border-radius: 0;
   }
   .btn-send[value="Send"]{
-    padding-top: 20px;
     font-size: var(--font-size-h4);
     text-transform: uppercase;
     font-family: M;
@@ -398,14 +396,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2em 0;
+    margin: 4em 0;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     border-radius: 0;
   }
   .btn-send[value="Send"]{
-    padding-top: 20px;
     font-size: var(--font-size-h4);
     text-transform: uppercase;
     font-family: M;
