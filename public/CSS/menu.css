@@ -339,7 +339,7 @@ margin-bottom:2em;
 }
 
 .about-content--four_title,.about-content--four_large{
-
+  margin: .5em 0;
   flex-basis: 100%;
   height: auto;  
 }
@@ -363,16 +363,22 @@ margin-bottom:2em;
 
 
 @media only screen and (max-width: 1300px) {
-
+  .about-content_services{
+    min-height: 1300px;
+    }
+    
+    .about-content_history{
+      min-height:1300px;
+    }
 }
  @media only screen and (max-width: 1100px) {
   
   .about-content_services{
-  height: 200%;
+  min-height: 1100px;
   }
   
   .about-content_history{
-    height:200%;
+    min-height:1100px;
   }
   .about-content--four {
     width: 76%;
