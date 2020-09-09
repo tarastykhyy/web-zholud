@@ -58,18 +58,18 @@
     display: inline-block;
   }
   
-  @media only screen and (max-width: 1300px) {
+  @media only all and (max-width: 1300px) {
     .cursor,  .cursor-follower{
       display: none;
     }
      }
 
-  @media only screen and (max-width: 1100px) {
+  @media only all and (max-width: 1100px) {
     .cursor,  .cursor-follower{
       display: none;
     }
      }
-  @media only screen and (max-width: 734px) {
+  @media only all and (max-width: 734px) {
  .cursor,  .cursor-follower{
    display: none;
  }

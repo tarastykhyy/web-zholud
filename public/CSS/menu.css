@@ -361,7 +361,7 @@ margin-bottom:2em;
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only all and (max-width: 1300px) {
   .about-content_services{
     min-height: min-content;
     }
@@ -370,7 +370,7 @@ margin-bottom:2em;
       min-height:min-content;
     }
 }
- @media only screen and (max-width: 1100px) {
+ @media only all and (max-width: 1100px) {
   
   .about-content_services{
   min-height: min-content;
@@ -397,7 +397,7 @@ margin-bottom:2em;
 }
 
 } 
- @media only screen and (max-width: 734px) {
+ @media only all and (max-width: 734px) {
 
   .about-content_main-screen,.about-content_we{
     min-height:min-content;
@@ -469,7 +469,7 @@ margin-bottom:2em;
 
 } 
  }
- @media only screen and (max-width: 370px) {
+ @media only all and (max-width: 370px) {
   .about-content_services{
     min-height: min-content;
     }

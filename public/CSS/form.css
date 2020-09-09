@@ -289,7 +289,7 @@
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only all and (max-width: 1300px) {
   textarea {
     height: 24vh;
     -webkit-appearance: none;
@@ -300,7 +300,7 @@
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only all and (max-width: 1100px) {
   .em input {
     width: 50vw;
   }
@@ -320,7 +320,7 @@
   }
 }
 
-@media only screen and (max-width: 734px) {
+@media only all and (max-width: 734px) {
   .em input {
     width: 70vw;
     -webkit-appearance: none;
@@ -381,7 +381,7 @@
 
 }
 
-@media only screen and (max-width: 450px){
+@media only all and (max-width: 450px){
   .send {
     height: 100% ;
     max-width: 70vw;
