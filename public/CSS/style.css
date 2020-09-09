@@ -214,8 +214,7 @@ mark {
   z-index: 150;
   display: none;
   width: 100%;
-  min-height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  min-height: 100%;
   background-color: var(--white);
 }
 
@@ -246,7 +245,7 @@ mark {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 90vh;
+  min-height: 90%;
 }
 
 .Modaldiscript_text {
