@@ -63,6 +63,8 @@
     font-size: var( --font-size-h4);
     color:  var(--black);
     outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
 
   /* input pleaseholder */
@@ -192,6 +194,8 @@
     padding: 10px;
     resize: none !important;
     outline:  var(--black);
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
   
   textarea:focus {
