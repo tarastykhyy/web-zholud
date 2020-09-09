@@ -171,7 +171,7 @@ mark {
 
 #preloader{
   width:100%;
-  min-height:100vh;
+  height:100vh;
   z-index: 1000;
   background:var(--black);
   overflow:hidden;
