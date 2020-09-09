@@ -245,7 +245,7 @@ mark {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 90%;
+  min-height: 90%;
 }
 
 .Modaldiscript_text {
