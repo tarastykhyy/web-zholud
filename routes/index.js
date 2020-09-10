@@ -31,8 +31,8 @@ router.get('/', function(req, res, next) {
 router.post('/sendEmail', function (req, res, next) {
   var mailOptions = {
     from: 'server.zholud@gmail.com',
-    to: 'davemitchael@gmail.com',
-    //to: 'office.zholud@gmail.com',
+    //to: 'davemitchael@gmail.com',
+    to: 'office.zholud@gmail.com',
     subject: 'Order',
     text: `${req.body.name} \n ${req.body.text} \n ${req.body.email}`
   };
@@ -42,7 +42,7 @@ router.post('/sendEmail', function (req, res, next) {
       mailOptions.from = 'lamis@ukr.net';
       reserveTransporter.sendMail(mailOptions, function (error, info) {
         if(error) {
-          res.status(500).send('Cannot send email!');
+          res.status(500).send(error);
         } else {
           res.status(200).send('Sent from reserve email server');
         }
