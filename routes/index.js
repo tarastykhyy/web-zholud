@@ -40,13 +40,14 @@ router.post('/sendEmail', function (req, res, next) {
   transporter.sendMail(mailOptions, function(error, info) {
     if (error) {
       mailOptions.from = 'lamis@ukr.net';
-      reserveTransporter.sendMail(mailOptions, function (error, info) {
+      res.status(500).send(error);
+     /* reserveTransporter.sendMail(mailOptions, function (error, info) {
         if(error) {
           res.status(500).send(error);
         } else {
           res.status(200).send('Sent from reserve email server');
         }
-      })
+      })*/
     } else {
       console.log('Email sent: ' + info.response);
       res.status(200).send('Sent from main email server');
