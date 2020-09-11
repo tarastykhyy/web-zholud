@@ -1,13 +1,23 @@
 var express = require('express');
 var router = express.Router();
+var fs = require('fs');
+var nodemailer = require('nodemailer');
+
 const SimpleNodeLogger = require('simple-node-logger'),
     opts = {
       logFilePath:'./logs/log.log',
       timestampFormat:'YYYY-MM-DD HH:mm:ss.SSS'
-    },
-    log = SimpleNodeLogger.createSimpleLogger( opts );
+    };
+let log = null;
 
-var nodemailer = require('nodemailer');
+var logDir = './logs';
+
+if (!fs.existsSync(logDir)) {
+  fs.mkdirSync(logDir);
+  log = SimpleNodeLogger.createSimpleLogger(opts);
+} else {
+  log = SimpleNodeLogger.createSimpleLogger(opts);
+}
 
 var transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
