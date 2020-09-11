@@ -1,5 +1,11 @@
 var express = require('express');
 var router = express.Router();
+const SimpleNodeLogger = require('simple-node-logger'),
+    opts = {
+      logFilePath:'./logs/log.log',
+      timestampFormat:'YYYY-MM-DD HH:mm:ss.SSS'
+    },
+    log = SimpleNodeLogger.createSimpleLogger( opts );
 
 var nodemailer = require('nodemailer');
 
@@ -9,7 +15,7 @@ var transporter = nodemailer.createTransport({
   secure: true,
   auth: {
     user: 'server.zholud@gmail.com',
-    pass: 'Sravpes2019'
+    pass: 'cahvzhouxhpupfxi'
   }
 });
 
@@ -31,7 +37,6 @@ router.get('/', function(req, res, next) {
 router.post('/sendEmail', function (req, res, next) {
   var mailOptions = {
     from: 'server.zholud@gmail.com',
-    //to: 'davemitchael@gmail.com',
     to: 'office.zholud@gmail.com',
     subject: 'Order',
     text: `${req.body.name} \n ${req.body.text} \n ${req.body.email}`
@@ -40,16 +45,19 @@ router.post('/sendEmail', function (req, res, next) {
   transporter.sendMail(mailOptions, function(error, info) {
     if (error) {
       mailOptions.from = 'lamis@ukr.net';
-      res.status(500).send(error);
-     /* reserveTransporter.sendMail(mailOptions, function (error, info) {
+
+      log.error(`Main transporter: ${JSON.stringify(error)}`);
+
+      reserveTransporter.sendMail(mailOptions, function (error, info) {
         if(error) {
+          log.error(`Reserve transporter: ${JSON.stringify(error)}`);
+
           res.status(500).send(error);
         } else {
           res.status(200).send('Sent from reserve email server');
         }
-      })*/
+      })
     } else {
-      console.log('Email sent: ' + info.response);
       res.status(200).send('Sent from main email server');
     }
   });
