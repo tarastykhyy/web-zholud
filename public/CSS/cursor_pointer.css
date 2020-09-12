@@ -81,7 +81,7 @@
     display: inline-block;
   }
   
-  @media only all and (max-width: 1300px) {
+  @media only all and (max-width: 1366px) {
     .cursor,  .cursor-follower{
       display: none;
     }

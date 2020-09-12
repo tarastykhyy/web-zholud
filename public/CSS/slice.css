@@ -172,7 +172,7 @@ font-family:B;
       -ms-transform: scale(1);
           transform: scale(1);
 }
-@media only all and (max-width: 1300px) {
+@media only all and (max-width: 1366px) {
   .c-slide-content {
     max-width: 80vw;
 }
