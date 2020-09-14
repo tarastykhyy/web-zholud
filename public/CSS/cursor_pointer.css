@@ -1,6 +1,6 @@
 
 .cursor {
-  mix-blend-mode: exclusion;
+  mix-blend-mode: normal;
     position: absolute;
     color: var(--white);
     width: 0.4em;
@@ -37,7 +37,7 @@
     background-color: rgba(0, 0, 0, .0);
     border-color: var(--white); 
     border-style: solid;
-    border-width: 0.5px;
+    border-width: 0.4px;
     width: 1.4em;
     height: 1.4em;
     border-radius: 100%;
@@ -60,7 +60,7 @@
   .cursor-follower.active {
    border-color: var(--white); 
     border-style: solid;
-    border-width: 0.5px;
+    border-width: 0.4px;
     background-color: rgba(0, 0, 0, .0);
     opacity: 0.7;
     -webkit-transform: scale(3);
