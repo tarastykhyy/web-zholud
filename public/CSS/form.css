@@ -307,7 +307,7 @@
     /* left: 2rem; */
   }
   .send h4 {
-    width: 16vw;
+    width: 20vw;
     color:var(--black);
     font-size: var( --font-size-h4);
     font-family: R !important;
@@ -404,7 +404,7 @@
 
   }
   .send h4 {
-    width: 20vw;
+    width: 24vw;
   }
 }
 
@@ -428,7 +428,7 @@
 
   }
   .send h4{
-    width: 24vw;
+    width: 30vw;
   }
 }
 
