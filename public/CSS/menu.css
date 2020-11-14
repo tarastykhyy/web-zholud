@@ -265,7 +265,7 @@
     line-height: var(--main_lineHeight);
     letter-spacing: var(--main_letterSpacing);
     display: inherit;
-    max-width: 80%;
+    max-width: 90%;
     margin: 2em 0;
 }
 
@@ -671,7 +671,7 @@ text-transform: uppercase;
         flex-wrap: nowrap;
       margin-top: 2em;
   }
-  
+
   .about-content--four {
     width: 76%;
     display: -webkit-box;
