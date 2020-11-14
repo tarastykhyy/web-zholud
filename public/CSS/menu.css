@@ -642,7 +642,7 @@ text-transform: uppercase;
     .about-content--one_title {
       margin-bottom: 2em;
   }
-    .about-content--two h5, .about-content--three h5 {
+    .about-content--two h5{
       margin-bottom: 2em;
   }
     .about-content--two, .about-content--three {
