@@ -19,7 +19,7 @@
 
   /* Colors */
   --yellow: hsl(60, 96%, 59%);
-  --grey: hsl(0, 0%, 60%);
+  --grey: hsl(240, 2%, 44%);
   --black: hsl(0, 0%, 0%);
   --white: white;
 }
@@ -113,19 +113,25 @@ mark {
 
 
 @font-face {
-   font-family: R; 
-   src: url(../Font/Poppinsregular.woff);
+   font-family: R;
+    src: url(../Font/Poppinsregular.woff) format('woff');
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
   font-family:B;
-  src: url(../Font/Druk\ Wide\ Web\ Super\ Regular.woff);
+  src: url(../Font/Druk\ Wide\ Web\ Super\ Regular.woff) format('woff2');
+    font-style: normal;
+    font-display: swap;
 }
 
 
 @font-face {
   font-family:M;
-  src: url(../Font/Poppinsbold.woff);
+  src: url(../Font/Poppinsbold.woff) format('woff2');
+    font-style: normal;
+    font-display: swap;
 }
 
 
