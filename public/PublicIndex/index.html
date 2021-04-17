@@ -2,348 +2,145 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, maximum-scale=1.0">
 	<title>zholud.agency</title>
+	<meta charset="UTF-8">
 
 	<!-- images -->
 	<link rel="shortcut icon" type="image/png" href="../Img/Zholud_favicon.ico" />
 
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
-
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<!-- css -->
 	<link type="text/css" rel="stylesheet" href="../CSS/normalize.css">
-	<link type="text/css" rel="stylesheet" href="../CSS/style.css">
-	<link rel="stylesheet" href="../CSS/menu.css" />
-	<link rel="stylesheet" href="../CSS/form.css" />
-	<link rel="stylesheet" href="../CSS/cursor_pointer.css" />
-	<link rel="stylesheet" href="../CSS/slice.css" />
-	<link rel="stylesheet" href="../CSS/animate_text.css" />
-	<link rel="stylesheet" href="../CSS/animate.css" />
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="../CSS/style.css">
+	<link rel="stylesheet" href="../CSS/animate.css" />
+	<link rel="stylesheet" href="../CSS/slider.css" />
+	
 	<script src="../javascripts/pace.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
 
 <body>
 	<div id="preloader">
 		<div class="text_load">
-			<div class="text_load_title"><h2>Hello there</h2>
-				</div>
-				<div class="home__title__emoji">
-					<img src="../Img/emoji-waving-hand.png" class="home__title__emoji__icon">
-				</div>
-
-		</div>
-	</div>
-
-	<div class="cursor">
-	</div>
-	<div class="cursor-follower">
-	</div>
-
-	<div id="modalForm">
-
-
-		<span class="close-button" onclick="show('none')">
-			<a class="link">Close</a>
-		</span>
-
-		<div class="Modaldiscript-forms">
-			<div class="Modal_text">
-				<h5>Hire us.</h5>
-				<a class="link" href="mailto:office.zholud@gmail.com">office.zholud@gmail.com</a>
+			<div class="text_load_title">
+				<h2>Hello there</h2>
 			</div>
-			<div class="Modal_boxs">
-				<div class="Modaldiscript_text">
-					<h5>Get in touch.</h5>
-					<p>Let’s create the best products with Our Team! </p>
-				</div>
-				<section>
-					<div class="form">
-						<form class="form-identity formValid" name="forms" autocomplete="off">
-							<h4 class="message-sending-success">Message sent successfully. We will contact you soon</h4>
-							<h4 class="message-sending-fail">Message is not sent, please try again later</h4>
-							<h4 class="incorrect-email">Email is not correct, please try again later</h4>
-							<div class="em emeil"> <input class="emailForm filde required" type="email" name="email"
-									id="email_input" placeholder=""> <label for="email_input"> <span>Your email</span>
-								</label> </div>
-							<div class="em name"> <input class="nameForm filde required" type="text" name="name"
-									id="name_input"> <label for="name_input"> <span>Your name</span> </label> </div>
-							<div class="input_block"> <textarea class="calass filde required" type="text" name="text"
-									id="phone_input"
-									placeholder="A few sentences about the product,  the main goal , and our role in this project."
-									maxlength="800"></textarea>
-							</div>
-							<div class="send">
-								<h4>By clicking on the button I agree to the processing personal data</h4>
-								<input type="button" value="Send" onclick="sendDataToServer()" class="btn-send">
-							</div>
-						</form>
-					</div>
-				</section>
+			<div class="home__title__emoji">
+				<img src="../Img/emoji-waving-hand.png" class="home__title__emoji__icon" alt="">
 			</div>
-		</div>
-		<div class="about-content_copyright">
-			<div class="about-content_footer">
-				<div class="about-content_title">
-					<div id="copyright_form"></div>
-				</div>
-			</div>
+
 		</div>
 	</div>
 
 	<div class="header">
-		<div class="overlay" id="overlay">
-			<a class="link">Close</a>
-			<div class="about-content">
-				<div class="about-content_main-screen">
-					<div class="about-content--one">
-						<p class="about-content--one_title "> About us</p>
-						<h5 class="about-content--one_large "> We are a <br>digital design agency.</h5>
-						<p class="about-content--one_large_title"> At zholud, ideas and talents are brought together.We crafts immersive digital experiences and fine amazing products for your
-							business in a
-							world. But above all, we are creatives! We firmly believe that the best ideas come from our direct communication with clients: thinking, daring and innovating together to better distinguish your brand.</p>
-						<span class="intro__scroll">
-							<span class="intro__scroll-move">
-								<svg enable-background="new -53 5 92 92" height="40" viewBox="-53 5 92 92" width="40"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="m10.6 62-15.9 15.8v-43.3h-11v43.3l-15.9-16-7.8 7.8 25.4 25.3c1.1 1.1 2.4 1.6 3.9 1.6 1.4 0 2.8-.6 3.9-1.6l25.3-25.2z"
-										fill="#fff" /></svg>
-							</span>
-							<p>Keep scrolling</p>
-						</span>
-					</div>
-				</div>
-				<div class="desk_img">
-					<img src="../Img/desk.jpg" alt="desk_img">
-				</div>
-				<div class="about-content_history">
-					<div class="about-content--two">
-						<h5 class="about-content--two_title"> Our story.</h5>
-						<div class="about-content--two_large">
-							<p> Zholud was created by Tykhyy Taras, a Ukraine entrepreneur
-								who has work designer with 2015 years.</p>
-
-							<p> Zholud was born in 2019 from the ambition to create a agency capable of providing
-								creative services specialized in digital products for both internal projects as well as
-								IT Outsourcing .</p>
-							<p> Now a digital design agency work with lovely clients from all over the world.
-							</p>
-							<div class="founder">
-								<img src="../Img/Founder.jpg" alt="founder_img">
-								<div class="text-wrap">
-									<p class="heading-4--bold">TYKHYY TARAS</p>
-									<a class="paragraph link" href="https://www.linkedin.com/in/tykhyy-taras/"
-										target="_blank">LinkedIn</a>
-								</div>
-								<h4 class="text_founder">Founder</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="about-content_services">
-					<div class="about-content--three">
-						<h5 class="about-content--three_title">
-							<p>What we do?</p>
-							Our Amazing Services.
-						</h5>
-						<p class="about-content--three_large_title">We're experts in create brands, high-quality and fine motion web apps, use up-to-date technologies, and effective corporate strategy.</p>
-						<div class="about-content--three_large">
-							<div class="content-services-item">
-								<h5 class="content-title--simple">Design</h5>
-								<ul class="content-list">
-									<li class="content-services-item__label">Websites Design </li>
-									<li class="content-services-item__label">Prototyping</li>
-									<li class="content-services-item__label">Branding</li>
-								</ul>
-							</div>
-
-							<div class="content-services-item">
-								<h5 class="content-title--simple">Development</h5>
-								<ul class="content-list">
-									<li class="content-services-item__label">Corporate Web</li>
-									<li class="content-services-item__label">Landing Pages </li>
-									<li class="content-services-item__label">Advanced Web Motion</li>
-								</ul>
-							</div>
-
-							<div class="content-services-item">
-								<h5 class="content-title--simple">Strategy</h5>
-								<ul class="content-list">
-									<li class="content-services-item__label">User and Competitor Research</li>
-									<li class="content-services-item__label">Ideation and Product Strategy</li>
-									<li class="content-services-item__label">Usability Audit </li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="about-content_we">
-					<div class="about-content--four">
-						<div class="about-content--four_title">
-							<p class="">We are sure that</p>
-						</div>
-						<div class="about-content--four_large">
-							<h5 class="">Good product</h5>
-							<div id="slides">
-								<div class="slide showing">
-									<h5 class="slide_text">is a simple.</h5>
-									<h5 class="slide_text">is a perfect.</h5>
-									<h5 class="slide_text">is a innovative.</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-				<div class="about-content_copyright">
-					<div class="about-content_footer">
-						<div class="about-content_title">
-							<div id="copyright_about"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
 		<div class="logo">
-			<svg class="header-logo__svg" width="100" height="25" enable-background="new 0 0 200 50"
-				viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
-				<g fill="#fff">
+			<svg class="header-logo__svg" width="100" height="25" enable-background="new 0 0 200 50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+				<g fill="#F2F2F2">
 					<path d="m31 17v7.5l-17.3 11.1h17.3v7.5h-30.7v-7.5l17.3-11.1h-17.3v-7.5z" />
-					<path
-						d="m56.5 16.5c8.7 0 13.1 3.9 13.1 11.7v14.9h-9v-11.3c0-2.6-.5-4.5-1.6-5.7s-3-1.8-5.6-1.8c-2 0-4 .4-6 1.3s-3.6 1.9-4.7 3.1v14.4h-9.2v-35.2h9.1v13.1c4-3 8.6-4.5 13.9-4.5z" />
-					<path
-						d="m91.5 43.7c-6.7 0-11.6-1.3-14.7-4-3.1-2.6-4.7-6.6-4.7-12 0-5.3 1.6-9.3 4.7-11.9s8-3.9 14.7-3.9 11.6 1.3 14.7 3.9 4.7 6.6 4.7 11.9-1.6 9.3-4.7 12c-3.2 2.7-8.1 4-14.7 4zm-7.7-10.2c1.4 1.3 4 1.9 7.5 1.9 3.6 0 6.1-.6 7.5-1.9s2.2-3.2 2.2-5.8c0-2.5-.7-4.4-2.2-5.7-1.4-1.3-4-1.9-7.5-1.9-3.6 0-6.1.6-7.5 1.9s-2.2 3.2-2.2 5.7c.1 2.6.8 4.5 2.2 5.8zm-1-30 17.2-3.5v5.6l-17.2 3.5z" />
+					<path d="m56.5 16.5c8.7 0 13.1 3.9 13.1 11.7v14.9h-9v-11.3c0-2.6-.5-4.5-1.6-5.7s-3-1.8-5.6-1.8c-2 0-4 .4-6 1.3s-3.6 1.9-4.7 3.1v14.4h-9.2v-35.2h9.1v13.1c4-3 8.6-4.5 13.9-4.5z" />
+					<path d="m91.5 43.7c-6.7 0-11.6-1.3-14.7-4-3.1-2.6-4.7-6.6-4.7-12 0-5.3 1.6-9.3 4.7-11.9s8-3.9 14.7-3.9 11.6 1.3 14.7 3.9 4.7 6.6 4.7 11.9-1.6 9.3-4.7 12c-3.2 2.7-8.1 4-14.7 4zm-7.7-10.2c1.4 1.3 4 1.9 7.5 1.9 3.6 0 6.1-.6 7.5-1.9s2.2-3.2 2.2-5.8c0-2.5-.7-4.4-2.2-5.7-1.4-1.3-4-1.9-7.5-1.9-3.6 0-6.1.6-7.5 1.9s-2.2 3.2-2.2 5.7c.1 2.6.8 4.5 2.2 5.8zm-1-30 17.2-3.5v5.6l-17.2 3.5z" />
 					<path d="m113.1 7.9h9.1v35.4h-9.1z" />
-					<path
-						d="m152 17h9.1v26.3h-9.1v-4c-4 3-8.6 4.5-13.9 4.5-8.7 0-13.1-3.9-13.1-11.7v-15h9v11.2c0 2.6.5 4.5 1.6 5.7s3 1.8 5.6 1.8c2 0 4-.4 6-1.3s3.6-1.9 4.7-3.1z" />
-					<path
-						d="m190.2 7.9h9.1v35.4h-9.1v-4c-2.7 2.9-6.7 4.3-12 4.3-2 0-3.9-.2-5.6-.7s-3.3-1.2-4.7-2.2c-1.5-1-2.6-2.4-3.4-4.2s-1.2-3.9-1.2-6.4c0-2 .3-3.8.8-5.4.6-1.6 1.3-2.9 2.2-3.9s2-1.9 3.4-2.5c1.3-.7 2.7-1.1 4.1-1.4s2.9-.4 4.5-.4c5.2 0 9.2 1.4 12 4.2v-12.8zm-8.9 28.2c3 0 5.2-.5 6.7-1.4s2.2-2.5 2.2-4.6c0-2.2-.7-3.7-2.2-4.6s-3.7-1.4-6.7-1.4-5.2.5-6.7 1.4-2.2 2.5-2.2 4.6c0 2.2.7 3.7 2.2 4.6 1.4.9 3.7 1.4 6.7 1.4z" />
+					<path d="m152 17h9.1v26.3h-9.1v-4c-4 3-8.6 4.5-13.9 4.5-8.7 0-13.1-3.9-13.1-11.7v-15h9v11.2c0 2.6.5 4.5 1.6 5.7s3 1.8 5.6 1.8c2 0 4-.4 6-1.3s3.6-1.9 4.7-3.1z" />
+					<path d="m190.2 7.9h9.1v35.4h-9.1v-4c-2.7 2.9-6.7 4.3-12 4.3-2 0-3.9-.2-5.6-.7s-3.3-1.2-4.7-2.2c-1.5-1-2.6-2.4-3.4-4.2s-1.2-3.9-1.2-6.4c0-2 .3-3.8.8-5.4.6-1.6 1.3-2.9 2.2-3.9s2-1.9 3.4-2.5c1.3-.7 2.7-1.1 4.1-1.4s2.9-.4 4.5-.4c5.2 0 9.2 1.4 12 4.2v-12.8zm-8.9 28.2c3 0 5.2-.5 6.7-1.4s2.2-2.5 2.2-4.6c0-2.2-.7-3.7-2.2-4.6s-3.7-1.4-6.7-1.4-5.2.5-6.7 1.4-2.2 2.5-2.2 4.6c0 2.2.7 3.7 2.2 4.6 1.4.9 3.7 1.4 6.7 1.4z" />
 				</g>
 			</svg>
 		</div>
-
-
-		<div class="wrapper" id="toggle">
-			<a class="link">About</a>
+		<div class="wrapper">
+			<a class="link link--ersa" href="../PublicIndex/html/about.html">About
+			</a>
 		</div>
-
 	</div>
-	<section class='c-slider'>
-		<div class='c-slider-init'>
 
-			<div class='c-slide' style='background-image:url("../Img/leosprint.jpg")'>
-				<div class='c-slide-content'>
-					<div class='c-wrap '>
-						<h2 class='c-slide__title'>
-							2020
-							<span class='c-slide__title--large '>Leosprint</span>
-						</h2>
+	<div class="row small-up-1">
+		<div class="slider-text">
+			<div class="swiper-container slider-2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="body-text">
+							<p>2020 </p>
+							<h1>Leosprint</h1>
+							<a class="link link--ersa" target="_blank" href='https://www.behance.net/gallery/94880365/Leosprint'>View Case</a>
+						</div>
 					</div>
-					<div class='c-wrap c-wrap--small'>
-						<div class='c-slide__info'>
-							<p class='c-slide__body link'><a target="_blank"
-									href='https://www.behance.net/gallery/94880365/Leosprint'>View Case Study</a></p>
+					<div class="swiper-slide">
+						<div class="body-text">
+							<p>2019 </p>
+							<h1>BitBox</h1>
+							<a class="link link--ersa" target="_blank" href='https://www.behance.net/gallery/79658827/Landing-page-BitBox'>View Case</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="body-text">
+							<p>2019 </p>
+							<h1>Edificem</h1>
+							<a class="link link--ersa" target="_blank" href='https://www.behance.net/gallery/79169195/Edificem-company'>View Case</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="body-text">
+							<p>2017 </p>
+							<h1>Cobrit</h1>
+							<a class="link link--ersa" target="_blank" href='https://www.behance.net/gallery/58470665/Design-logo-COBRIT'>View Case</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="body-text">
+							<p>2017 </p>
+							<h1>Marta Smilka</h1>
+							<a class="link link--ersa" target="_blank" href='https://www.behance.net/gallery/53959135/Design-logo-photographer-Marta-Smilka'>View Case</a>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			<div class='c-slide' style='background-image:url("../Img/edificem.jpg")'>
-				<div class='c-slide-content'>
-					<div class='c-wrap '>
-						<h2 class='c-slide__title'>
-							2019
-							<span class='c-slide__title--large '>Edificem</span>
-						</h2>
-					</div>
-					<div class='c-wrap c-wrap--small'>
-						<div class='c-slide__info'>
-							<p class='c-slide__body link'><a target="_blank"
-									href='https://www.behance.net/gallery/79169195/Edificem-company'>View Case Study</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class='c-slide' style='background-image:url("../Img/BitBox.jpg")'>
-				<div class='c-slide-content'>
-					<div class='c-wrap '>
-						<h2 class='c-slide__title'>
-							2019
-							<span class='c-slide__title--large '>Bitbox</span>
-						</h2>
-					</div>
-					<div class='c-wrap c-wrap--small'>
-						<div class='c-slide__info'>
-							<p class='c-slide__body link'><a target="_blank"
-									href='https://www.behance.net/gallery/79658827/Landing-page-BitBox'>View Case
-									Study</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class='c-slide' style='background-image:url("../Img/cobrit.jpg")'>
-				<div class='c-slide-content'>
-					<div class='c-wrap '>
-						<h2 class='c-slide__title'>
-							2017
-							<span class='c-slide__title--large '>Cobrit</span>
-						</h2>
-					</div>
-					<div class='c-wrap c-wrap--small'>
-						<div class='c-slide__info'>
-							<p class='c-slide__body link'><a target="_blank"
-									href='https://www.behance.net/gallery/58470665/Design-logo-COBRIT'>View Case
-									Study</a> </p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class='c-slide' style='background-image:url("../Img/marta_smilka.jpg")'>
-				<div class='c-slide-content'>
-					<div class='c-wrap '>
-						<h2 class='c-slide__title'>
-							2017
-							<span class='c-slide__title--large '>Marta Smilka</span>
-						</h2>
-					</div>
-					<div class='c-wrap c-wrap--small'>
-						<div class='c-slide__info'>
-							<p class='c-slide__body link'><a target="_blank"
-									href='https://www.behance.net/gallery/53959135/Design-logo-photographer-Marta-Smilka'>View
-									Case Study</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-
 		</div>
-	</section>
+		<div class="slider-img">
+			<div class="swiper-container slider-1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="/public/Img/Leosprint.png" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/Img/BitBox.png" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/Img/Edificem.png" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/Img/cobrit.png" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/Img/marta_smilka.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="swiper-pagination"></div>
+	<div class="slider-button">
+		<div class="swiper-button-prev">Prev</div>
+		<div class="swiper-button-next">Next</div>
+	</div>
+
+
 	<div class="footer">
-		<div>
-			<input class="btn-price link" onclick="show('block')" id="price" type="button" value="Say Hello!"> </div>
+		<div class="btn-price">
+			<a class="link link--ersa" href="/public/PublicIndex/html/form.html">Say Hello!
+			</a>
+		</div>
+
 		<div class='c-socials'>
 			<ul class='c-socials__list'>
-				<li class='c-socials__list-item link'><a href='https://www.facebook.com/zholud.agency' title=''
-						target="_blank">Facebook</a></li>
-				<li class='c-socials__list-item link'><a href='https://www.behance.net/tarastykhyy' title=''
-						target="_blank">Behance</a></li>
-				<li class='c-socials__list-item link'><a href='https://www.instagram.com/zholud.agency' title=''
-						target="_blank">Instagram</a></li>
+				<li class='c-socials__list-item '><a href='https://www.facebook.com/zholud.agency' title='' target="_blank">Facebook</a></li>
+				<li class='c-socials__list-item '><a href='https://www.behance.net/tarastykhyy' title='' target="_blank">Behance</a></li>
+				<li class='c-socials__list-item '><a href='https://www.instagram.com/zholud.agency' title='' target="_blank">Instagram</a></li>
 			</ul>
 		</div>
 	</div>
@@ -351,17 +148,12 @@
 
 	<!-- libs -->
 
-	<!-- <script src="../lib/jquery-3.3.1.js"></script> -->
-	<!-- <script src="../lib/jquery.tmpl.min.js" type="text/javascript"></script> -->
-	<script src="https://rawgit.com/cfoehrdes/slick/master/slick/slick.js"></script>
 	<!-- custom scripts -->
 	<script src="../javascripts/load_bar.js"></script>
-	<script src="../javascripts/slice.js"></script>
-	<script src="../javascripts/animate_text.js"></script>
 	<script src="../javascripts/script.js"></script>
-	<script src="../javascripts/cursor_pointer.js"></script>
-	<script src="../javascripts/form.js"></script>
-	<script src="../javascripts/menu.js"></script>
+	<script src="/public/javascripts/slider.js"></script>
+
+
 
 </body>
 
