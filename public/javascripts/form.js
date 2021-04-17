@@ -1,7 +1,7 @@
 
 
 var sendDataToServer = function() {
-    var forms = $('.form.form-identity.formValid');
+    var forms = $('.form-identity.formValid');
     var data = {};
 
     $('.required').each(function (i, el) {
