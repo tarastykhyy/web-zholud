@@ -2,6 +2,7 @@ var initPage = function () {
     initInputs();
 };
 
+
 var initInputs = function () {
     var inputs = $(':input');
 
@@ -61,11 +62,5 @@ var form = document.querySelector('.formValid');
 form.addEventListener('submit', function (event) {
     event.preventDefault();
 });
+initPage();
 
-
-$(document).ready(function () {
-    initPage();
-
-    $('#copyright_form').append(`<h4>© ${new Date().getFullYear()} zholud agency. All Rights Reserved.</h4>`)
-    $('#copyright_about').append(`<h4>© ${new Date().getFullYear()} zholud agency. All Rights Reserved.</h4>`)
-  });

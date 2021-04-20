@@ -41,7 +41,7 @@ var reserveTransporter = nodemailer.createTransport({
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'ZHOLUD' });
+  res.render('index', { title: 'zholud.agency' }); //?
 });
 
 router.post('/sendEmail', function (req, res, next) {
