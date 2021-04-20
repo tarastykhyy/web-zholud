@@ -121,7 +121,6 @@ a {
 }
 
 .desk_img {
-background-image: url("../../Img/desk.jpg");
 opacity: 1;
 background-position: center bottom;
 width: 100%;
@@ -478,7 +477,6 @@ background-repeat: no-repeat;
 
 @media only all and (max-width: 1366px) {
   .desk_img {
-    background-image: url("../../Img/desk.jpg");
     opacity: 1;
     background-position: center bottom;
     width: 100%;
@@ -509,7 +507,6 @@ background-repeat: no-repeat;
 @media only all and (max-width: 1100px) {
 
 .desk_img {
-  background-image: url("../../Img/desk.jpg");
   opacity: 1;
   background-position: center bottom;
   width: 100%;
@@ -585,7 +582,6 @@ background-repeat: no-repeat;
 
 @media only all and (max-width: 734px) {
 .desk_img {
-  background-image: url("../../Img/desk.jpg");
   opacity: 1;
   background-position: center bottom;
   width: 100%;
@@ -716,7 +712,6 @@ background-repeat: no-repeat;
 
 @media only all and (max-width: 370px) {
   .desk_img {
-    background-image: url("../../Img/desk.jpg");
     opacity: 1;
     background-position: center bottom;
     width: 100%;
