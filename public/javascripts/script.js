@@ -58,7 +58,6 @@ var validateEmail = function (email) {
 };
 
 var form = document.querySelector('.formValid');
-
 form.addEventListener('submit', function (event) {
     event.preventDefault();
 });
