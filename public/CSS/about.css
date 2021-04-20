@@ -121,7 +121,7 @@ a {
 }
 
 .desk_img {
-background-image: url("/public/Img/desk.jpg");
+background-image: url("../../Img/desk.jpg");
 opacity: 1;
 background-position: center bottom;
 
