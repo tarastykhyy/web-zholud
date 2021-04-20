@@ -10,6 +10,10 @@ var swiper = new Swiper('.slider-1', {
      autoplay: {
             delay: 8000,
     },
+    lazyLoading: true,
+    lazy: {
+        loadPrevNext: true,
+      },
     pagination: {
         el: '.swiper-pagination',
         type: 'fraction',
