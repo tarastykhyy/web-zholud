@@ -2,6 +2,12 @@ var initPage = function () {
     initInputs();
 };
 
+var form = document.querySelector('.formValid');
+var btn_send = form.querySelector('.btn-send');
+var emailForm = form.querySelector('.emailForm');
+var nameForm = form.querySelector('.nameForm');
+var calass = form.querySelector('.calass');
+var filde = form.querySelectorAll('.filde');
 
 var initInputs = function () {
     var inputs = $(':input');
@@ -60,6 +66,8 @@ var validateEmail = function (email) {
 var form = document.querySelector('.formValid');
 form.addEventListener('submit', function (event) {
     event.preventDefault();
+    removeValidation();
+    checkFildePresents();
 });
 initPage();
 
